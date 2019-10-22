@@ -1,0 +1,21 @@
+[ {
+  "uid" : "7586594480711fb9",
+  "name" : "tc_行程.test_2_手动添加行程跳转到关注行程页",
+  "time" : {
+    "start" : 1571386997780,
+    "stop" : 1571387046771,
+    "duration" : 48991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "205a5a009c1185f2",
+  "name" : "tc_行程.test_1_添加行程弹出选择框",
+  "time" : {
+    "start" : 1571386953310,
+    "stop" : 1571386997770,
+    "duration" : 44460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

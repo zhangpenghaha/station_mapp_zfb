@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "tc_行程.test_1_添加行程弹出选择框",
+    "uid" : "205a5a009c1185f2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571386953310,
+      "stop" : 1571386997770,
+      "duration" : 44460
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_2_手动添加行程跳转到关注行程页",
+    "uid" : "7586594480711fb9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571386997780,
+      "stop" : 1571387046771,
+      "duration" : 48991
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

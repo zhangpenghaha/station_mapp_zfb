@@ -1,0 +1,139 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571386953310" stop="1571387046771">
+  <name>testCase.test_20_行程</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571386953310" status="passed" stop="1571386997770">
+      <name>tc_行程.test_1_添加行程弹出选择框</name>
+      <attachments>
+        <attachment source="e37ee468-36a1-4a08-b8c6-dd227ebd490a-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="ee2126da-92e3-4810-80f8-0901552f328e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9372-MainThread"/>
+        <label name="host" value="PC-20180524AQFC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571386955316" status="passed" stop="1571386967486">
+          <name>点击行程</name>
+          <title>点击行程</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571386967486" status="passed" stop="1571386976819">
+          <name>点击添加行程</name>
+          <title>点击添加行程</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571386976819" status="passed" stop="1571386977548">
+          <name>获取添加行程_手动添加文本</name>
+          <title>获取添加行程_手动添加文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571386977549" status="passed" stop="1571386986370">
+          <name>点击取消</name>
+          <title>点击取消</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571386986370" status="passed" stop="1571386997769">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments>
+            <attachment source="847009c2-acbc-4735-a846-b4cf52889fd4-attachment.png" title="截图" type="image/png"/>
+          </attachments>
+          <steps>
+            <step start="1571386987451" status="passed" stop="1571386987679">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571386987679" status="passed" stop="1571386997769">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571386997780" status="passed" stop="1571387046771">
+      <name>tc_行程.test_2_手动添加行程跳转到关注行程页</name>
+      <attachments>
+        <attachment source="9dcf860c-61a7-439b-8f40-e73d5da631c7-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9372-MainThread"/>
+        <label name="host" value="PC-20180524AQFC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571386997783" status="passed" stop="1571387007285">
+          <name>点击行程</name>
+          <title>点击行程</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571387007286" status="passed" stop="1571387016011">
+          <name>点击添加行程</name>
+          <title>点击添加行程</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571387016011" status="passed" stop="1571387024590">
+          <name>点击行程_手动添加行程</name>
+          <title>点击行程_手动添加行程</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571387024590" status="passed" stop="1571387026751">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571387026751" status="passed" stop="1571387046770">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments>
+            <attachment source="f25952c2-e41b-424d-9376-17caf4520a23-attachment.png" title="截图" type="image/png"/>
+          </attachments>
+          <steps>
+            <step start="1571387027699" status="passed" stop="1571387027841">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571387027841" status="passed" stop="1571387036908">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571387036908" status="passed" stop="1571387037139">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571387037139" status="passed" stop="1571387046770">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

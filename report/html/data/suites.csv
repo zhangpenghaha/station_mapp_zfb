@@ -1,0 +1,3 @@
+"Status","Name","Duration in ms","Description"
+"passed","testCase.test_20_行程.tc_行程.test_2_手动添加行程跳转到关注行程页","48991",""
+"passed","testCase.test_20_行程.tc_行程.test_1_添加行程弹出选择框","44460",""
