@@ -12,14 +12,11 @@ class page_站内商业(page_首页):
     image_站内商业_大图 = loc_id("intoM1")
 
     "站内商业赛选按钮"
-    # btn_站内商业_所有楼层=loc_child_IDtoC_Number("screen","android.view.View",0)
-    # btn_站内商业_全部分类=loc_child_IDtoC_Number("screen","android.view.View",5)
-    # btn_站内商业_智能排序=loc_child_IDtoC_Number("screen","android.view.View",8)
-    # btn_站内商业_进站前后=loc_child_IDtoC_Number("screen","android.view.View",11)
-    btn_站内商业_所有楼层 = loc_text("所有楼层")
-    btn_站内商业_全部分类 = loc_text("全部分类")
-    btn_站内商业_智能排序 = loc_text("智能排序")
-    btn_站内商业_进站前后 = loc_text("进站前后")
+
+    btn_站内商业_所有楼层 = loc_id("ATshop2")
+    btn_站内商业_全部分类 = loc_id("ATshop3")
+    btn_站内商业_智能排序 = loc_id("ATshop4")
+    btn_站内商业_进站前后 = loc_id("ATshop5")
 
 
     "站内商业赛选按钮,展开后"
@@ -39,12 +36,12 @@ class page_站内商业(page_首页):
 
     # btn_站内商业_筛选展开_美食=loc_child_IDtoC_Number("screen","android.view.View",17)
     btn_站内商业_筛选展开_美食 = loc_text("美食")
-    # btn_站内商业_筛选展开_百货超市=loc_child_IDtoC_Number("screen","android.view.View",19)
+
     btn_站内商业_筛选展开_百货超市 = loc_text("百货超市")
     "店铺列表"
-    # btn_站内商业_店铺列表_便民超市=loc_child_TtoT("wx8d75e764f0c4bf1c:pages/playStation/pages/index/index.html:VISIBLE","便民超市")
+
     btn_站内商业_店铺列表_便民超市 = loc_text("便民超市")
-    # btn_站内商业_店铺列表_平价自选商店=loc_child_TtoT("wx8d75e764f0c4bf1c:pages/playStation/pages/index/index.html:VISIBLE","平价自选商店")
+
     btn_站内商业_店铺列表_平价自选商店 = loc_text("平价自选商店")
     "提示"
     tip_站内商业_无搜索结果=loc_text("暂无相关商家")

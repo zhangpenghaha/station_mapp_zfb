@@ -13,12 +13,6 @@ class page_我的资料(page_个人中心):
     text_我的资料_月 = loc_id_instance("android:id/numberpicker_input", 1)
     text_我的资料_日 = loc_id_instance("android:id/numberpicker_input", 2)
 
-    # btn_我的资料_上年 = loc_child_CtoC_Number("com.tencent.mm.ui.widget.picker.YADatePicker", "android.widget.Button", 0)
-    # btn_我的资料_下年 = loc_child_CtoC_Number("com.tencent.mm.ui.widget.picker.YADatePicker", "android.widget.Button", 1)
-    # btn_我的资料_上月 = loc_child_CtoC_Number("com.tencent.mm.ui.widget.picker.YADatePicker", "android.widget.Button", 2)
-    # btn_我的资料_下月 = loc_child_CtoC_Number("com.tencent.mm.ui.widget.picker.YADatePicker", "android.widget.Button", 3)
-    # btn_我的资料_上日 = loc_child_CtoC_Number("com.tencent.mm.ui.widget.picker.YADatePicker", "android.widget.Button", 4)
-    # btn_我的资料_下日 = loc_child_CtoC_Number("com.tencent.mm.ui.widget.picker.YADatePicker", "android.widget.Button", 5)
     btn_我的资料_上年 = loc_child_CtoC_Number("android.widget.DatePicker", "android.widget.Button", 0)
     btn_我的资料_下年 = loc_child_CtoC_Number("android.widget.DatePicker", "android.widget.Button", 1)
     btn_我的资料_上月 = loc_child_CtoC_Number("android.widget.DatePicker", "android.widget.Button", 2)

@@ -1,0 +1,163 @@
+{
+  "uid" : "12adbce7d456d797",
+  "name" : "tc_个人中心.test_202_个人中心跳转",
+  "fullName" : "testCase.test_30_个人中心.tc_个人中心.test_202_个人中心跳转",
+  "historyId" : "86820cd9ab944f6fd8adca19aa26ea63",
+  "time" : {
+    "start" : 1571903413961,
+    "stop" : 1571903448316,
+    "duration" : 34355
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击我的",
+      "time" : {
+        "start" : 1571903415970,
+        "stop" : 1571903422829,
+        "duration" : 6859
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "获取toast提示",
+      "time" : {
+        "start" : 1571903422830,
+        "stop" : 1571903423037,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "返回到我的",
+      "time" : {
+        "start" : 1571903423877,
+        "stop" : 1571903448316,
+        "duration" : 24439
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1571903423877,
+          "stop" : 1571903444196,
+          "duration" : 20319
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击我的",
+        "time" : {
+          "start" : 1571903444196,
+          "stop" : 1571903448316,
+          "duration" : 4120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d85f9ac80c003bb6",
+      "name" : "截图",
+      "source" : "d85f9ac80c003bb6.png",
+      "type" : "image/png",
+      "size" : 197887
+    }, {
+      "uid" : "b613f9485e688e2",
+      "name" : "Captured log setup",
+      "source" : "b613f9485e688e2.txt",
+      "type" : "text/plain",
+      "size" : 115
+    }, {
+      "uid" : "99a8aabd6df6e58a",
+      "name" : "Captured log call",
+      "source" : "99a8aabd6df6e58a.txt",
+      "type" : "text/plain",
+      "size" : 633
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "13852-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_30_个人中心"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_30_个人中心"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_个人中心.test_202_个人中心跳转"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_30_个人中心"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12adbce7d456d797.json",
+  "parameterValues" : [ ]
+}

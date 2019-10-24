@@ -9,13 +9,14 @@ class page_添加行程(page_行程):
 
     btn_添加行程_车次查询 = loc_text("车次查询")
 
-    btn_车次号输入框 = loc_text("例如：G9")
+    btn_车次号输入框 = loc_id("ATadd1")
 
     btn_添加行程_站站查询 = loc_text("站站查询")
 
     btn_添加行程_出发地 = loc_text("出发地")
 
     btn_添加行程_目的地 = loc_text("目的地")
+    btn_扫火车票 = loc_id("ATadd2")
 
     btn_今天 = loc_text("今天")
 

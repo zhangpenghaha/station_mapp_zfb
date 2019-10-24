@@ -85,54 +85,55 @@ class tc_车站大屏详情(st_首页):
         a=dr.click_勾选高铁动车()
         self.myEq("暂无相关数据",a,"检查勾选结果")
 
-    # def test_013_清空搜索框(self):
-    #     dr = page_车站大屏(self.driver)
-    #     a=dr.click_清空("GY362")
-    #     self.myEq(0,a,"检查清空按钮")
+    def test_013_清空搜索框(self):
+        dr = page_车站大屏(self.driver)
+        a=dr.click_清空("GY362")
+        self.myEq(0,a,"检查清空按钮")
 
-    # def test_014_车站大屏_点击车次进入结果页(self):
-    #     dr = page_车站大屏(self.driver)
-    #     a=dr.click_车次号("K823")
-    #     self.myEq("请选择出发站和到达站",a,"检查点击车次进入结果页")
+    def test_014_车站大屏_点击车次进入结果页(self):
+        dr = page_车站大屏(self.driver)
+        a=dr.click_车次号("K823")
+        self.myEq("请选择出发站和到达站",a,"检查点击车次进入结果页")
 
-    # def test_015_检查勾选起始站(self):
-    #     dr = page_车站大屏(self.driver)
-    #     a = dr.check_起始站("K823")
-    #     self.myEq("浠水", a, "检查默认选择起始站")
-    #
-    # def test_016_检查到达站文案(self):
-    #     dr = page_车站大屏(self.driver)
-    #     a = dr.check_结果页文案("K823","到达站")
-    #     self.myEq("到达站", a, "检查到达站文案站")
+    def test_015_检查勾选起始站(self):
+        dr = page_车站大屏(self.driver)
+        a = dr.check_起始站("K823")
+        self.myEq("浠水", a, "检查默认选择起始站")
 
-    # def test_017_检查结果页底部文案(self):
-    #     dr = page_车站大屏(self.driver)
-    #     a = dr.check_结果页文案("K823", "添加行程，列车动态实时提醒")
-    #     self.myEq("添加行程，列车动态实时提醒", a, "检查结果页底部文案")
+    def test_016_检查到达站文案(self):
+        dr = page_车站大屏(self.driver)
+        a = dr.check_结果页文案("K823","到达站")
+        self.myEq("到达站", a, "检查到达站文案站")
 
-    # def test_018_检查加一天标识(self):
-    #     dr = page_车站大屏(self.driver)
-    #     a = dr.check_结果页文案("K823", "+1天")
-    #     self.myEq("+1天", a, "检查跨天标识")
+    def test_017_检查结果页底部文案(self):
+        dr = page_车站大屏(self.driver)
+        a = dr.check_结果页文案("K823", "添加行程，列车动态实时提醒")
+        self.myEq("添加行程，列车动态实时提醒", a, "检查结果页底部文案")
 
-    # def test_019_检查车次变更标识(self):
-    #     dr = page_车站大屏(self.driver)
-    #     a = dr.check_结果页文案("K823", "车次变更：K823")
-    #     self.myEq("车次变更：K823", a, "检查车次变更标识")
+    def test_018_检查加一天标识(self):
+        dr = page_车站大屏(self.driver)
+        a = dr.check_结果页文案("K823", "+1天")
+        self.myEq("+1天", a, "检查跨天标识")
 
-    # def test_019_检查车次变更标识_01( self ):
-    #     dr = page_车站大屏(self.driver)
-    #     a = dr.check_结果页文案("K823", "车次号：K822")
-    #     self.myEq("车次号：K822", a, "检查车次变更标识")
+    def test_019_检查车次变更标识(self):
+        dr = page_车站大屏(self.driver)
+        a = dr.check_结果页文案("K823", "车次变更：K823")
+        self.myEq("车次变更：K823", a, "检查车次变更标识")
 
-    # def test_020_检查车次变更标识_02( self ):
-    #     dr = page_车站大屏(self.driver)
-    #     a = dr.check_结果页文案("K823", "车次变更：K823")
-    #     self.myEq("车次变更：K823", a, "检查车次变更标识")
+    def test_019_检查车次变更标识_01( self ):
+        dr = page_车站大屏(self.driver)
+        a = dr.check_结果页文案("K823", "车次号：K822")
+        self.myEq("车次号：K822", a, "检查车次变更标识")
+
+    def test_020_检查车次变更标识_02( self ):
+        dr = page_车站大屏(self.driver)
+        a = dr.check_结果页文案("K823", "车次变更：K823")
+        self.myEq("车次变更：K823", a, "检查车次变更标识")
 
 
     def tearDown(self):
         dr=page_车站大屏(self.driver)
+        dr.screenshot_as_png()
         dr.tc_后置回首页()
 
 

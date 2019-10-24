@@ -1,0 +1,333 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571903686106" stop="1571903928394">
+  <name>testCase.test_35_意见反馈</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571903686106" status="passed" stop="1571903746984">
+      <name>tc_意见反馈.test_意见反馈_0__test_202__</name>
+      <attachments>
+        <attachment source="91dc1afc-c8eb-4331-9cea-8cb1699749c1-attachment.png" title="截图" type="image/png"/>
+        <attachment source="f0c8c81c-c0cc-4fd5-b35b-fe3119a84809-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="2e5452ca-16a0-4862-9c2a-955b40c579c4-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13852-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571903688114" status="passed" stop="1571903692597">
+          <name>点击我的</name>
+          <title>点击我的</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903692597" status="passed" stop="1571903698608">
+          <name>点击_个人中心_意见反馈</name>
+          <title>点击_个人中心_意见反馈</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903698609" status="passed" stop="1571903705425">
+          <name>输入_意见反馈_详细描述</name>
+          <title>输入_意见反馈_详细描述</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903705426" status="passed" stop="1571903711850">
+          <name>输入_意见反馈_联系方式</name>
+          <title>输入_意见反馈_联系方式</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903711850" status="passed" stop="1571903716603">
+          <name>点击_意见反馈_提交反馈</name>
+          <title>点击_意见反馈_提交反馈</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903716603" status="passed" stop="1571903716822">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903717424" status="passed" stop="1571903746984">
+          <name>返回到我的</name>
+          <title>返回到我的</title>
+          <attachments/>
+          <steps>
+            <step start="1571903717424" status="passed" stop="1571903717546">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903717546" status="passed" stop="1571903722886">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903722886" status="passed" stop="1571903743006">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903743006" status="passed" stop="1571903746984">
+              <name>点击我的</name>
+              <title>点击我的</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571903746992" status="passed" stop="1571903803692">
+      <name>tc_意见反馈.test_意见反馈_1__test_203__</name>
+      <attachments>
+        <attachment source="f40b435a-69e7-4749-85b9-b515fa7c49c8-attachment.png" title="截图" type="image/png"/>
+        <attachment source="a956338c-ea0c-47e2-b3bb-0f07ee454d03-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13852-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571903746994" status="passed" stop="1571903751060">
+          <name>点击我的</name>
+          <title>点击我的</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903751060" status="passed" stop="1571903756089">
+          <name>点击_个人中心_意见反馈</name>
+          <title>点击_个人中心_意见反馈</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903756090" status="passed" stop="1571903761378">
+          <name>输入_意见反馈_详细描述</name>
+          <title>输入_意见反馈_详细描述</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903761378" status="passed" stop="1571903768511">
+          <name>输入_意见反馈_联系方式</name>
+          <title>输入_意见反馈_联系方式</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903768511" status="passed" stop="1571903773256">
+          <name>点击_意见反馈_提交反馈</name>
+          <title>点击_意见反馈_提交反馈</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903773256" status="passed" stop="1571903773537">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903774196" status="passed" stop="1571903803691">
+          <name>返回到我的</name>
+          <title>返回到我的</title>
+          <attachments/>
+          <steps>
+            <step start="1571903774196" status="passed" stop="1571903774287">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903774287" status="passed" stop="1571903778689">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903778689" status="passed" stop="1571903799685">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903799685" status="passed" stop="1571903803691">
+              <name>点击我的</name>
+              <title>点击我的</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571903803698" status="passed" stop="1571903861417">
+      <name>tc_意见反馈.test_意见反馈_2__test_204__</name>
+      <attachments>
+        <attachment source="8504d269-2eb9-446e-915a-3a0d70deab34-attachment.png" title="截图" type="image/png"/>
+        <attachment source="58db6cdd-5f7a-4432-8d25-9822fe386e54-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13852-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571903803700" status="passed" stop="1571903807730">
+          <name>点击我的</name>
+          <title>点击我的</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903807730" status="passed" stop="1571903812826">
+          <name>点击_个人中心_意见反馈</name>
+          <title>点击_个人中心_意见反馈</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903812827" status="passed" stop="1571903818163">
+          <name>输入_意见反馈_详细描述</name>
+          <title>输入_意见反馈_详细描述</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903818163" status="passed" stop="1571903826013">
+          <name>输入_意见反馈_联系方式</name>
+          <title>输入_意见反馈_联系方式</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903826013" status="passed" stop="1571903830175">
+          <name>点击_意见反馈_提交反馈</name>
+          <title>点击_意见反馈_提交反馈</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903830175" status="passed" stop="1571903831251">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903831868" status="passed" stop="1571903861416">
+          <name>返回到我的</name>
+          <title>返回到我的</title>
+          <attachments/>
+          <steps>
+            <step start="1571903831868" status="passed" stop="1571903831974">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903831974" status="passed" stop="1571903836404">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903836404" status="passed" stop="1571903857307">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903857307" status="passed" stop="1571903861416">
+              <name>点击我的</name>
+              <title>点击我的</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571903861423" status="passed" stop="1571903928394">
+      <name>tc_意见反馈.test_意见反馈_3__test_205__</name>
+      <attachments>
+        <attachment source="d0557137-baac-45aa-98a6-cc0576ff47ea-attachment.png" title="截图" type="image/png"/>
+        <attachment source="9d1999d9-dba3-496f-b29f-a9d0d3b84486-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13852-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571903861426" status="passed" stop="1571903865473">
+          <name>点击我的</name>
+          <title>点击我的</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903865473" status="passed" stop="1571903870576">
+          <name>点击_个人中心_意见反馈</name>
+          <title>点击_个人中心_意见反馈</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903870576" status="passed" stop="1571903875625">
+          <name>点击_意见反馈_服务体验</name>
+          <title>点击_意见反馈_服务体验</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903875625" status="passed" stop="1571903885800">
+          <name>输入_意见反馈_详细描述</name>
+          <title>输入_意见反馈_详细描述</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903885800" status="passed" stop="1571903894017">
+          <name>输入_意见反馈_联系方式</name>
+          <title>输入_意见反馈_联系方式</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903894017" status="passed" stop="1571903898383">
+          <name>点击_意见反馈_提交反馈</name>
+          <title>点击_意见反馈_提交反馈</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903898383" status="passed" stop="1571903901994">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903902830" status="passed" stop="1571903928394">
+          <name>返回到我的</name>
+          <title>返回到我的</title>
+          <attachments/>
+          <steps>
+            <step start="1571903902830" status="passed" stop="1571903923704">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903923704" status="passed" stop="1571903928394">
+              <name>点击我的</name>
+              <title>点击我的</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

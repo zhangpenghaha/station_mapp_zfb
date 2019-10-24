@@ -1,0 +1,232 @@
+{
+  "uid" : "f997bbf242661bc1",
+  "name" : "tc_站内商业.test_313_单条件筛选_所有分类_超市",
+  "fullName" : "testCase.test_5_站内商业.tc_站内商业.test_313_单条件筛选_所有分类_超市",
+  "historyId" : "cf521be2622904ea727243fcaea80729",
+  "time" : {
+    "start" : 1571906285793,
+    "stop" : 1571906332412,
+    "duration" : 46619
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击首页_车站商业_查看全部",
+      "time" : {
+        "start" : 1571906285796,
+        "stop" : 1571906290837,
+        "duration" : 5041
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击站内商业_全部分类",
+      "time" : {
+        "start" : 1571906290838,
+        "stop" : 1571906295104,
+        "duration" : 4266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击站内商业_筛选展开_百货超市",
+      "time" : {
+        "start" : 1571906295104,
+        "stop" : 1571906299942,
+        "duration" : 4838
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "获取站内商业_店铺列表_便民超市文本",
+      "time" : {
+        "start" : 1571906299942,
+        "stop" : 1571906300177,
+        "duration" : 235
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "获取站内商业_店铺列表_平价自选超市",
+      "time" : {
+        "start" : 1571906300177,
+        "stop" : 1571906300444,
+        "duration" : 267
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1571906301541,
+        "stop" : 1571906332411,
+        "duration" : 30870
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1571906301541,
+          "stop" : 1571906302090,
+          "duration" : 549
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1571906302090,
+          "stop" : 1571906306528,
+          "duration" : 4438
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1571906306528,
+          "stop" : 1571906327482,
+          "duration" : 20954
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1571906327482,
+          "stop" : 1571906332411,
+          "duration" : 4929
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1ea856f7f56f6854",
+      "name" : "截图",
+      "source" : "1ea856f7f56f6854.png",
+      "type" : "image/png",
+      "size" : 486635
+    }, {
+      "uid" : "222764ec9a273e8a",
+      "name" : "Captured log call",
+      "source" : "222764ec9a273e8a.txt",
+      "type" : "text/plain",
+      "size" : 997
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "13852-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_5_站内商业"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_5_站内商业"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_站内商业.test_313_单条件筛选_所有分类_超市"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_5_站内商业"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f997bbf242661bc1.json",
+  "parameterValues" : [ ]
+}

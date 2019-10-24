@@ -16,11 +16,11 @@ class tc_车次详情(st_首页):
         dr = page_首页(cls.driver)
         # dr.click_首页()
         # dr = page_选择车次(self.driver)
-        if dr.get_首页顶部_当前站点()!= "浠水站":
+        if dr.get_toast("浠水站")!= "浠水站":
             dr.click_首页_切换站点按钮()
             dr = page_切换站点(cls.driver)
             dr.bus_切换站点_切换到指定站点("浠水")
-        dr.act_下滑()
+        dr.act_下滑(3)
         dr.act_滑动_byYourSelf(dr.txt_首页_时刻查询模块名, 0.5, 0.15, "txt_首页_时刻查询模块名移动到0.15位置")
         dr.click_首页_站站查询()
         dr.click_首页_时刻查询_查询()
@@ -67,7 +67,7 @@ class tc_车次详情(st_首页):
         dr = page_选择车次(self.driver)
         dr.click_点击车次("K600")
         a=dr.click_确定添加()
-        self.myEq("全程预计剩余",a,"点击确定添加")
+        self.myEq("行李托运",a,"点击确定添加")
 
     # @classmethod
     # def tearDownClass(cls):
@@ -77,7 +77,9 @@ class tc_车次详情(st_首页):
 
     @classmethod
     def tearDownClass(cls):
+
         dr = page_行程(cls.driver)
+        dr.screenshot_as_png()
         dr.tc_后置回行程()
         dr.bus_行程_删除首个行程()
         dr.tc_后置回首页()

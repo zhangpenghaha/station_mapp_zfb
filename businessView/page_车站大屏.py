@@ -25,10 +25,13 @@ class page_车站大屏(page_首页):
     btn_车站大屏_高铁动车 = loc_text("高铁动车")
     # btn_车站大屏_高铁动车 = loc_text("高铁动车")
     text_输入框文案 = loc_text("请输入要查询的车次号")
+    img_清空 = loc_id("ATscreen2")
+    text_车次号 = loc_id("ATscreen31")
+    text_浠水站 = loc_text("浠水")
     text_以上信息仅供参考文案 = loc_text("以上信息仅供参考，实际情况以车站公告为准")
     "车次列表"
 
-    btn_车站大屏_第一行=loc_child_TtoCT_Number("wx8d75e764f0c4bf1c:pages/station/pages/stationLargeScreen/index.html:VISIBLE",":",0)
+    btn_车站大屏_第一行=loc_id("ATscreen31")
 
     btn_车站大屏_小键盘_回退=loc_child_TtoC_Number("wx8d75e764f0c4bf1c:pages/station/pages/stationLargeScreen/index.html:VISIBLE","android.widget.Image",3)
     btn_车站大屏_小键盘_收起=loc_child_TtoC_Number("wx8d75e764f0c4bf1c:pages/station/pages/stationLargeScreen/index.html:VISIBLE","android.widget.Image",4)
@@ -61,6 +64,7 @@ class page_车站大屏(page_首页):
     @allure.step(title='点击_车站大屏_到达')
     def input_输入车次号(self,TrainNo,text):
         self.click_点击(self.text_输入框文案, "text_输入框文案")
+        time.sleep(3)
         self.act_键盘输入(TrainNo)
         return self.get_toast(text)
 

@@ -1,0 +1,172 @@
+{
+  "uid" : "cb91f89e198b33b6",
+  "name" : "tc_个人中心.test_204_点击积分商城给提示",
+  "fullName" : "testCase.test_30_个人中心.tc_个人中心.test_204_点击积分商城给提示",
+  "historyId" : "196828db321b4dd5f5d75e55a085cd5a",
+  "time" : {
+    "start" : 1571903489041,
+    "stop" : 1571903527690,
+    "duration" : 38649
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击我的",
+      "time" : {
+        "start" : 1571903489045,
+        "stop" : 1571903493063,
+        "duration" : 4018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击_个人中心_积分商城",
+      "time" : {
+        "start" : 1571903493064,
+        "stop" : 1571903497173,
+        "duration" : 4109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击确认",
+      "time" : {
+        "start" : 1571903497483,
+        "stop" : 1571903502263,
+        "duration" : 4780
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "返回到我的",
+      "time" : {
+        "start" : 1571903502987,
+        "stop" : 1571903527690,
+        "duration" : 24703
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1571903502987,
+          "stop" : 1571903523609,
+          "duration" : 20622
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击我的",
+        "time" : {
+          "start" : 1571903523609,
+          "stop" : 1571903527690,
+          "duration" : 4081
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a61516b666c44cdc",
+      "name" : "截图",
+      "source" : "a61516b666c44cdc.png",
+      "type" : "image/png",
+      "size" : 242643
+    }, {
+      "uid" : "9ac3066be69e932d",
+      "name" : "Captured log call",
+      "source" : "9ac3066be69e932d.txt",
+      "type" : "text/plain",
+      "size" : 787
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "13852-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_30_个人中心"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_30_个人中心"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_个人中心.test_204_点击积分商城给提示"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_30_个人中心"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb91f89e198b33b6.json",
+  "parameterValues" : [ ]
+}

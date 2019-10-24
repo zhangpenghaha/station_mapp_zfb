@@ -9,7 +9,7 @@ from common.request import *
 class page_车次详情(page_车次途经站点):
 
 
-    btn_车次详情_分享按钮 = loc_id("appx_coverView_1")
+    btn_车次详情_分享按钮 = loc_id("ATtrip3_1")
 
     btn_车次详情_行李托运 = loc_text('行李托运')
     btn_车次详情_undefined = loc_contains_text_instance('und',0)
@@ -64,13 +64,13 @@ class page_车次详情(page_车次途经站点):
 
     @allure.step(title='点击车次详情_分享')
     def click_车次详情_分享按钮(self):
-        return self.click_点击(self.btn_车次详情_分享按钮,"btn_行程详情分享")
-        # logging.info("点击分享按钮" )
-        # time.sleep(5)
-        # a = self.get_screenSize()
-        # x = a[0] * 0.88
-        # y = a[1] * 0.755
-        # return TouchAction(self.driver).tap(x=x, y=y).perform()
+        # return self.click_点击(self.btn_车次详情_分享按钮,"btn_行程详情分享")
+        logging.info("点击分享按钮" )
+        time.sleep(5)
+        a = self.get_screenSize()
+        x = a[0] * 0.88
+        y = a[1] * 0.755
+        return TouchAction(self.driver).tap(x=x, y=y).perform()
 
     def get_车次详情_行李托运(self):
         return self.get_元素文本(self.btn_车次详情_行李托运,'btn_车次详情_行李托运')

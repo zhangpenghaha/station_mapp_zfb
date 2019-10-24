@@ -1,0 +1,17 @@
+baseView.py                 39 INFO     点击btn_首页!
+common.py                  409 INFO     向下滑动屏幕
+baseView.py                 72 INFO     获取toast_提示:浠水站!
+baseView.py                 39 INFO     点击btn_车站大屏!
+baseView.py                 39 INFO     点击btn_车站大屏_到达!
+baseView.py                 72 INFO     获取toast_提示:车次!
+baseView.py                 72 INFO     获取toast_提示:始发站!
+baseView.py                 72 INFO     获取toast_提示:到本站!
+baseView.py                 72 INFO     获取toast_提示:出站口!
+baseView.py                 72 INFO     获取toast_提示:状态!
+myassert.py                 13 INFO     通过!
+baseView.py                 39 INFO     点击返回按钮!
+common.py                  143 INFO     返回到后置返回!
+baseView.py                212 ERROR    Message: An element could not be located on the page using the given search parameters.
+
+baseView.py                213 ERROR    new UiSelector().description("返回")judge_元素不存在!
+baseView.py                 39 INFO     点击btn_首页!

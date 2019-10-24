@@ -17,6 +17,7 @@ class common(baseView):
     btn_确定 = loc_text("确定")
     btn_确认 = loc_text("确认")
     btn_取消 = loc_text("取消")
+    btn_后一天 = loc_text("后一天")
     toast_单个按钮弹出提示 = loc_id("com.tencent.mm:id/dcf")
 
     "退出键盘"
@@ -43,6 +44,12 @@ class common(baseView):
     btn_行程 = loc_text("行程")
     btn_玩转车站 = loc_text("玩转车站")
     btn_我的 = loc_text("我的")
+
+    def screenshot_as_png(self):
+        allure.attach("截图", self.driver.get_screenshot_as_png(), allure.attach_type.PNG)
+
+    def click_后一天(self):
+        return self.click_点击(self.btn_后一天, "btn_后一天")
 
     @allure.step(title='获取二维码提示')
     def get_二维码提示(self):
@@ -154,18 +161,17 @@ class common(baseView):
     def click_点击坐标轴(self, x, y):
         return TouchAction(self.driver).tap(x=x, y=y).perform()
 
-    @allure.step(title='关闭分享行程')
-    def click_关闭分享行程(self):
-        time.sleep(5)
-        a = self.get_screenSize()
-        x = a[0] * 0.5
-        y = a[1] * 0.7812
-        return TouchAction(self.driver).tap(x=x, y=y).perform()
+    # @allure.step(title='关闭分享行程')
+    # def click_关闭分享行程(self):
+    #     time.sleep(5)
+    #     a = self.get_screenSize()
+    #     x = a[0] * 0.5
+    #     y = a[1] * 0.7812
+    #     return TouchAction(self.driver).tap(x=x, y=y).perform()
 
     @allure.step(title='返回到首页')
     def tc_后置回首页(self):
-        allure.attach("截图", self.driver.get_screenshot_as_png(), allure.attach_type.PNG)
-        # time.sleep(10)
+        time.sleep(3)
         for i in range(10):
             j = self.jde_返回按钮()
             if j == 1:
@@ -183,7 +189,6 @@ class common(baseView):
 
     @allure.step(title='返回到我的')
     def tc_后置回我的(self):
-        allure.attach("截图", self.driver.get_screenshot_as_png(), allure.attach_type.PNG)
         for i in range(10):
             j = self.jde_返回按钮()
             if j == 1:
@@ -202,7 +207,7 @@ class common(baseView):
 
     @allure.step(title='返回到个人中心')
     def tc_后置回个人中心(self):
-        allure.attach("截图", self.driver.get_screenshot_as_png(), allure.attach_type.PNG)
+
         for i in range(10):
             j = self.jde_返回按钮()
             if j == 1:
@@ -221,7 +226,6 @@ class common(baseView):
 
     @allure.step(title='返回到行程页')
     def tc_后置回行程( self ):
-        allure.attach("截图", self.driver.get_screenshot_as_png(), allure.attach_type.PNG)
         for i in range(10):
             j = self.jde_返回按钮()
             if j == 1:
@@ -273,7 +277,6 @@ class common(baseView):
         nums = 0
         while True:
             btn = self.get_toast(text)
-            print(btn)
             if btn == 0:
                 self.act_上滑()
                 nums += 1

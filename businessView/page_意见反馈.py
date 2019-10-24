@@ -15,9 +15,6 @@ class page_意见反馈(page_个人中心):
     btn_意见反馈_详细描述 = loc_class_instance("android.widget.EditText", 0)
     # btn_意见反馈_联系方式=loc_child_TtoST("wx8d75e764f0c4bf1c:pages/mine/pages/feedback/index.html:VISIBLE","请输入手机号")
     btn_意见反馈_联系方式 = loc_class_instance("android.widget.EditText", 1)
-    # ipb_意见反馈_联系方式=loc_child_IDtoC_Number("com.tencent.mm:id/y","android.widget.EditText",1)
-
-    # btn_提交反馈=loc_child_TtoT("wx8d75e764f0c4bf1c:pages/mine/pages/feedback/index.html:VISIBLE","提交反馈")
     btn_提交反馈 = loc_text("提交反馈")
     "操作层"
 

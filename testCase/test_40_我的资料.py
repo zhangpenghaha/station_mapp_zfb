@@ -40,6 +40,7 @@ class tc_我的资料(st_首页):
 
     def tearDown(self):
         dr=page_我的资料(self.driver)
+        dr.screenshot_as_png()
         dr.click_点击首页()
         dr.tc_后置回我的()
 

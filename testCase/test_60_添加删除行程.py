@@ -14,10 +14,14 @@ class tc_行程(st_首页):
         dr = page_行程(self.driver)
         dr.click_点击行程()
 
+    def test_01_无行程页面检查(self):
+        dr = page_行程(self.driver)
+        a = dr.get_text("暂无行程")
+        self.myEq("暂无行程", a, "没有行程页面检查")
+
     @parameterized.expand(read_excel("test_data.xlsx", "checichaxun"))
     def test_2_手动添加行程_车次查询(self, test_车次, test_data, test_起始站, test_终点站,  if_success, test_toast):
         dr = page_行程(self.driver)
-        dr.click_点击行程()
         dr.click_行程_添加行程()
         dr.click_行程_手动添加()
         dr = page_添加行程(self.driver)
@@ -61,7 +65,6 @@ class tc_行程(st_首页):
     @parameterized.expand(read_excel("test_data.xlsx", "zhanzhanchaxun"))
     def test_3_手动添加行程_站站查询( self, test_出发地, test_目的地 , test_days, test_车次, if_success, test_toast):
         dr = page_行程(self.driver)
-        dr.click_点击行程()
         dr.click_行程_添加行程()
         dr.click_行程_手动添加()
         dr = page_添加行程(self.driver)
@@ -99,13 +102,14 @@ class tc_行程(st_首页):
 
     def test_5_删除行程( self ):
         dr = page_行程(self.driver)
-        dr.bus_行程_删除全部(20)  # 输入删除个数
+        dr.bus_行程_删除全部(2)  # 输入删除个数
         a = dr.click_行程_删除()
         self.myEq(a, None, "test_删除全部行程")
 
 
     def tearDown(self):
         dr = page_行程(self.driver)
+        dr.screenshot_as_png()
         dr.tc_后置回行程()
         dr.bus_行程_删除首个行程()
 

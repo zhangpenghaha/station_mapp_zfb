@@ -8,25 +8,34 @@ class page_行程(common):
     "定位器!!!!!!!!!!!!!!!!!!!!!!!"
     btn_行程 = loc_text("行程")
     btn_行程_添加行程1 = loc_text("+添加行程")
-    btn_行程_添加行程2 = loc_child_TtoC_Number("wx8d75e764f0c4bf1c:pages/tabBar/trainState/index.html:VISIBLE",
-                                         "android.widget.Button", 1)
+    btn_行程_添加行程2 = loc_id("ATtrain2")
 
     btn_行程_手动添加 = loc_text("手动添加")
     btn_行程_取消 = loc_text("取消")
     btn_行程_删除 = loc_id_instance("detele", 0)
-
+    btn_分享 = loc_id("ATtrain1_0")
+    btn_关闭分享 = loc_id("ATtrain3")
     "操作层"
 
     @allure.step(title='点击行程')
     def click_点击行程(self):
         return self.click_点击(self.btn_行程, "btn_点击行程")
 
+    @allure.step(title='点击分享行程')
+    def click_点击分享(self):
+        return self.click_点击(self.btn_分享, "btn_分享")
+
+    @allure.step(title='关闭分享')
+    def click_关闭分享行程(self):
+        return self.click_点击(self.btn_关闭分享, "关闭分享行程")
+
     @allure.step(title='点击添加行程_十字图标')
     def click_添加行程2(self):
-        a = self.get_screenSize()
-        x = a[0] * 0.92
-        y = a[1] * 0.77
-        return TouchAction(self.driver).tap(x=x, y=y).perform()
+        return self.click_点击(self.btn_行程_添加行程2, "添加行程")
+        # a = self.get_screenSize()
+        # x = a[0] * 0.92
+        # y = a[1] * 0.77
+        # return TouchAction(self.driver).tap(x=x, y=y).perform()
 
     @allure.step(title='点击添加行程')
     def click_行程_添加行程(self):

@@ -1,0 +1,253 @@
+{
+  "uid" : "4ed1b0ed693f229",
+  "name" : "tc_意见反馈.test_意见反馈_0__test_202__",
+  "fullName" : "testCase.test_35_意见反馈.tc_意见反馈.test_意见反馈_0__test_202__",
+  "historyId" : "600666187191d991ee1bff39c10bae7b",
+  "time" : {
+    "start" : 1571903686106,
+    "stop" : 1571903746984,
+    "duration" : 60878
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击我的",
+      "time" : {
+        "start" : 1571903688114,
+        "stop" : 1571903692597,
+        "duration" : 4483
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击_个人中心_意见反馈",
+      "time" : {
+        "start" : 1571903692597,
+        "stop" : 1571903698608,
+        "duration" : 6011
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入_意见反馈_详细描述",
+      "time" : {
+        "start" : 1571903698609,
+        "stop" : 1571903705425,
+        "duration" : 6816
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入_意见反馈_联系方式",
+      "time" : {
+        "start" : 1571903705426,
+        "stop" : 1571903711850,
+        "duration" : 6424
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击_意见反馈_提交反馈",
+      "time" : {
+        "start" : 1571903711850,
+        "stop" : 1571903716603,
+        "duration" : 4753
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "获取toast提示",
+      "time" : {
+        "start" : 1571903716603,
+        "stop" : 1571903716822,
+        "duration" : 219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "返回到我的",
+      "time" : {
+        "start" : 1571903717424,
+        "stop" : 1571903746984,
+        "duration" : 29560
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1571903717424,
+          "stop" : 1571903717546,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1571903717546,
+          "stop" : 1571903722886,
+          "duration" : 5340
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1571903722886,
+          "stop" : 1571903743006,
+          "duration" : 20120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击我的",
+        "time" : {
+          "start" : 1571903743006,
+          "stop" : 1571903746984,
+          "duration" : 3978
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2c815bf6fe423a62",
+      "name" : "截图",
+      "source" : "2c815bf6fe423a62.png",
+      "type" : "image/png",
+      "size" : 72820
+    }, {
+      "uid" : "cac781833e7f3473",
+      "name" : "Captured log setup",
+      "source" : "cac781833e7f3473.txt",
+      "type" : "text/plain",
+      "size" : 115
+    }, {
+      "uid" : "3cf60f4eb7d7e5bc",
+      "name" : "Captured log call",
+      "source" : "3cf60f4eb7d7e5bc.txt",
+      "type" : "text/plain",
+      "size" : 1230
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 11,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "13852-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_35_意见反馈"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_35_意见反馈"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_意见反馈.test_意见反馈_0__test_202__"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_35_意见反馈"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ed1b0ed693f229.json",
+  "parameterValues" : [ ]
+}

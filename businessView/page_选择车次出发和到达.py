@@ -43,7 +43,7 @@ class page_选择车次出发和到达(page_首页,page_添加行程):
         回返途径站点 = []
         # 车次号 = self.get_选择车次出发和到达_车次号()
         path = '/vega-station/schedule/detailByTrainNo'
-        form_datas = {"date": get_当前年月日(), "trainNO": 车次号}
+        form_datas = {"date": get_当前日期加指定日(1) , "trainNO": 车次号}
         r = get_requests(path, form_datas=form_datas)
         返回结果['endDate'] = r['endDate']
         for i in range(len(r['data'])):

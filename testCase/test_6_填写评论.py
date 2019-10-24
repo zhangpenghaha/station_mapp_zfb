@@ -103,6 +103,7 @@ class tc_填写评论(st_首页):
 
     def tearDown(self):
         dr=page_填写评论(self.driver)
+        dr.screenshot_as_png()
         dr.tc_后置回首页()
 
 if __name__ == '__main__':

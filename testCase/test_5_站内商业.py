@@ -130,6 +130,7 @@ class tc_站内商业(st_首页):
 
     def tearDown(self):
         dr = page_站内商业(self.driver)
+        dr.screenshot_as_png()
         dr.tc_后置回首页()
 
 

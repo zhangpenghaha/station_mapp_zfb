@@ -1,0 +1,157 @@
+{
+  "uid" : "e11d201909e9e0",
+  "name" : "tc_车次详情.test_711_检查出发站与终点站",
+  "fullName" : "testCase.test_2_71_选择车次.tc_车次详情.test_711_检查出发站与终点站",
+  "historyId" : "b55e007b85b7a758e78c9be2b81c29cd",
+  "time" : {
+    "start" : 1571903234669,
+    "stop" : 1571903264950,
+    "duration" : 30281
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取toast提示",
+      "time" : {
+        "start" : 1571903234675,
+        "stop" : 1571903235559,
+        "duration" : 884
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1571903235559,
+        "stop" : 1571903246250,
+        "duration" : 10691
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "act_滑动_byYourSelf",
+      "time" : {
+        "start" : 1571903246250,
+        "stop" : 1571903252385,
+        "duration" : 6135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击首页_站站查询",
+      "time" : {
+        "start" : 1571903252385,
+        "stop" : 1571903256713,
+        "duration" : 4328
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击首页_时刻查询_查询",
+      "time" : {
+        "start" : 1571903256713,
+        "stop" : 1571903261991,
+        "duration" : 5278
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a7372566769f0e4",
+      "name" : "Captured log setup",
+      "source" : "a7372566769f0e4.txt",
+      "type" : "text/plain",
+      "size" : 504
+    }, {
+      "uid" : "95bee1db758d2e1",
+      "name" : "Captured log call",
+      "source" : "95bee1db758d2e1.txt",
+      "type" : "text/plain",
+      "size" : 107
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "13852-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_2_71_选择车次"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_2_71_选择车次"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_车次详情.test_711_检查出发站与终点站"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_2_71_选择车次"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e11d201909e9e0.json",
+  "parameterValues" : [ ]
+}

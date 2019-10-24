@@ -1,0 +1,17 @@
+baseView.py                 39 INFO     点击btn_首页!
+baseView.py                 72 INFO     获取toast_提示:浠水站!
+common.py                  397 INFO     向上滑动屏幕
+common.py                  397 INFO     向上滑动屏幕
+common.py                  397 INFO     向上滑动屏幕
+baseView.py                 39 INFO     点击btn_首页站内商业_查看全部!
+test_5_站内商业.py              34 INFO     ====test_301_所有楼层展开=====
+baseView.py                 39 INFO     点击btn_站内商业_所有楼层!
+baseView.py                 72 INFO     获取toast_提示:F1!
+baseView.py                 72 INFO     获取toast_提示:B1!
+myassert.py                 13 INFO     通过!
+baseView.py                 39 INFO     点击返回按钮!
+common.py                  143 INFO     返回到后置返回!
+baseView.py                212 ERROR    Message: An element could not be located on the page using the given search parameters.
+
+baseView.py                213 ERROR    new UiSelector().description("返回")judge_元素不存在!
+baseView.py                 39 INFO     点击btn_首页!

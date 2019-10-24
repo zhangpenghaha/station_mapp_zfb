@@ -2,26 +2,950 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "tc_行程.test_1_添加行程弹出选择框",
-    "uid" : "205a5a009c1185f2",
+    "name" : "tc_首页.test_002_点击切换站点toast切换站点_武昌站",
+    "uid" : "1931fe7cff9fd9d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1571386953310,
-      "stop" : 1571386997770,
-      "duration" : 44460
+      "start" : 1571902029934,
+      "stop" : 1571902084650,
+      "duration" : 54716
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_005_站点切换页面调转",
+    "uid" : "3560f34655fed57",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902084660,
+      "stop" : 1571902115967,
+      "duration" : 31307
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_007_首页天气页面跳转",
+    "uid" : "24ae27cd9ca55d99",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902115972,
+      "stop" : 1571902151299,
+      "duration" : 35327
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_020_切换到测试站点_浠水站",
+    "uid" : "715aa56d275de4e4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902151305,
+      "stop" : 1571902201759,
+      "duration" : 50454
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_026_余票查询跳转",
+    "uid" : "ba87c991e1b6e5ae",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902201764,
+      "stop" : 1571902232940,
+      "duration" : 31176
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_027_更多服务屏幕跳转",
+    "uid" : "7b8f891f088c2fae",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902232946,
+      "stop" : 1571902258327,
+      "duration" : 25381
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_028_公告详情页面跳转",
+    "uid" : "887cd42f158be711",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902258334,
+      "stop" : 1571902291557,
+      "duration" : 33223
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_029_更多资讯页面跳转",
+    "uid" : "dad339a271e8bde3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902291563,
+      "stop" : 1571902322940,
+      "duration" : 31377
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_030_车次号为空toast提示",
+    "uid" : "86cccad38f0eb196",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902322946,
+      "stop" : 1571902376575,
+      "duration" : 53629
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_031_车次查询摄像头调用",
+    "uid" : "e9e496d422decd33",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902376581,
+      "stop" : 1571902434244,
+      "duration" : 57663
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_032_站站查询标签页切换",
+    "uid" : "7b80f3b6dd2e21f9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902434251,
+      "stop" : 1571902483908,
+      "duration" : 49657
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_033_车次查询标签页切换",
+    "uid" : "eee188b5a8556970",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902483914,
+      "stop" : 1571902531294,
+      "duration" : 47380
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_034_时刻查询选择日期页面跳转",
+    "uid" : "1bfda4aa4a8f39a0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902531300,
+      "stop" : 1571902591010,
+      "duration" : 59710
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_037_时刻查询_站站查询结果跳转",
+    "uid" : "27e09ecd3ceef946",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902591015,
+      "stop" : 1571902655845,
+      "duration" : 64830
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_045_首页_到达切换",
+    "uid" : "fa51f6ea8c416000",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902655853,
+      "stop" : 1571902714367,
+      "duration" : 58514
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_048_首页_候车切换",
+    "uid" : "f5574fc10eed9aa8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902714373,
+      "stop" : 1571902773252,
+      "duration" : 58879
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_050_车站大屏页面跳转",
+    "uid" : "92ca29143c664b7e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571902773258,
+      "stop" : 1571902839781,
+      "duration" : 66523
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_060_查看全部跳转站内商业",
+    "uid" : "85a62948623004ea",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1571902839787,
+      "stop" : 1571903006932,
+      "duration" : 167145
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_065_进站后按钮切换",
+    "uid" : "5e96ec2589dc76fb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903006942,
+      "stop" : 1571903074459,
+      "duration" : 67517
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_首页.test_068_进站前按钮切换",
+    "uid" : "6e5b9a7cc532a4d3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903074465,
+      "stop" : 1571903143388,
+      "duration" : 68923
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_1_添加行程弹出选择框",
+    "uid" : "dba7e353095b82a9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903143397,
+      "stop" : 1571903187192,
+      "duration" : 43795
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "tc_行程.test_2_手动添加行程跳转到关注行程页",
-    "uid" : "7586594480711fb9",
+    "uid" : "c96456cd0ad1720e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1571386997780,
-      "stop" : 1571387046771,
-      "duration" : 48991
+      "start" : 1571903187200,
+      "stop" : 1571903234660,
+      "duration" : 47460
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车次详情.test_711_检查出发站与终点站",
+    "uid" : "e11d201909e9e0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903234669,
+      "stop" : 1571903264950,
+      "duration" : 30281
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车次详情.test_712_勾选高铁",
+    "uid" : "bb41d7993fd6d23b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903264956,
+      "stop" : 1571903297461,
+      "duration" : 32505
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车次详情.test_716_文案检查",
+    "uid" : "c1b7e17ef9ab1988",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903297466,
+      "stop" : 1571903316561,
+      "duration" : 19095
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车次详情.test_717_点击展开",
+    "uid" : "47d7d774726694bc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903316567,
+      "stop" : 1571903328937,
+      "duration" : 12370
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车次详情.test_718_点击确定添加",
+    "uid" : "8099bc8d676bae13",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903328940,
+      "stop" : 1571903345259,
+      "duration" : 16319
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_个人中心.test_202_个人中心跳转",
+    "uid" : "12adbce7d456d797",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903413961,
+      "stop" : 1571903448316,
+      "duration" : 34355
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_个人中心.test_203_我的资料跳转",
+    "uid" : "e57b2146d6898736",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903448324,
+      "stop" : 1571903489034,
+      "duration" : 40710
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_个人中心.test_204_点击积分商城给提示",
+    "uid" : "cb91f89e198b33b6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903489041,
+      "stop" : 1571903527690,
+      "duration" : 38649
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_个人中心.test_205_点击优惠券给提示",
+    "uid" : "41398eba359cf389",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903527695,
+      "stop" : 1571903567105,
+      "duration" : 39410
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_个人中心.test_206_我的12306跳转",
+    "uid" : "567e70fdb972d246",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903567110,
+      "stop" : 1571903606843,
+      "duration" : 39733
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_个人中心.test_207_我的行程跳转",
+    "uid" : "be6631e413642605",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903606849,
+      "stop" : 1571903647443,
+      "duration" : 40594
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_个人中心.test_208_意见反馈跳转",
+    "uid" : "32299ffc5cfa6fea",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903647449,
+      "stop" : 1571903686098,
+      "duration" : 38649
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_意见反馈.test_意见反馈_0__test_202__",
+    "uid" : "4ed1b0ed693f229",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903686106,
+      "stop" : 1571903746984,
+      "duration" : 60878
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_意见反馈.test_意见反馈_1__test_203__",
+    "uid" : "3d891ebe171a135f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903746992,
+      "stop" : 1571903803692,
+      "duration" : 56700
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_意见反馈.test_意见反馈_2__test_204__",
+    "uid" : "47cd780229b1caf7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903803698,
+      "stop" : 1571903861417,
+      "duration" : 57719
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_意见反馈.test_意见反馈_3__test_205__",
+    "uid" : "573ff8dbf1148c0b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903861423,
+      "stop" : 1571903928394,
+      "duration" : 66971
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_我的资料.test_102_是否有城市选择控件弹出",
+    "uid" : "96a0ee3a5c44f357",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571903928404,
+      "stop" : 1571904004592,
+      "duration" : 76188
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_我的资料.test_103_是否有日期选择控件弹出",
+    "uid" : "6565c70889fa1190",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571904004600,
+      "stop" : 1571904078417,
+      "duration" : 73817
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_我的资料.test_104_确认修改出生日期",
+    "uid" : "28bd842fb5b92f42",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1571904078423,
+      "stop" : 1571904327759,
+      "duration" : 249336
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_我的资料.test_105_取消修改出生日期",
+    "uid" : "71afccfc0a2b6128",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571904327772,
+      "stop" : 1571904433477,
+      "duration" : 105705
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车站大屏详情.test_001_车站大屏候车字段检查",
+    "uid" : "2522b9fb3792cf1d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571904433485,
+      "stop" : 1571904498244,
+      "duration" : 64759
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车站大屏详情.test_002_车站大屏到达字段检查",
+    "uid" : "415ae26afe0f4a26",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571904498252,
+      "stop" : 1571904561926,
+      "duration" : 63674
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车站大屏详情.test_003_点击车次查看详情文案",
+    "uid" : "89f7047c9830ce97",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571904561931,
+      "stop" : 1571904619586,
+      "duration" : 57655
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车站大屏详情.test_004_车站大屏_输入框文案",
+    "uid" : "d4e14c756e5b5799",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571904619592,
+      "stop" : 1571904676166,
+      "duration" : 56574
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车站大屏详情.test_006_检查以上信息仅供参考文案",
+    "uid" : "38a78bc6757abc76",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571904676171,
+      "stop" : 1571904732883,
+      "duration" : 56712
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车站大屏详情.test_007_点击搜索输入框",
+    "uid" : "c89534ca3806cd2a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571904732889,
+      "stop" : 1571904796006,
+      "duration" : 63117
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车站大屏详情.test_008_搜索存在的车次",
+    "uid" : "c6d29829eb0b57b7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571904796012,
+      "stop" : 1571904876433,
+      "duration" : 80421
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车站大屏详情.test_009_搜索不存在的车次",
+    "uid" : "422733cedbcf7cd6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571904876439,
+      "stop" : 1571904947288,
+      "duration" : 70849
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车站大屏详情.test_010_模糊查询车次",
+    "uid" : "75b4f2f9c79f4426",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571904947295,
+      "stop" : 1571905020908,
+      "duration" : 73613
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车站大屏详情.test_011_精准查询车次",
+    "uid" : "6a8fdf1222c116f5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571905020913,
+      "stop" : 1571905105794,
+      "duration" : 84881
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车站大屏详情.test_012_勾选高铁动车",
+    "uid" : "6cde4f91437962d2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571905105801,
+      "stop" : 1571905163391,
+      "duration" : 57590
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车次详情.test_500_首页车次号搜索绑定行程",
+    "uid" : "b50177c5239bb8f7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571905163398,
+      "stop" : 1571905442588,
+      "duration" : 279190
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车次详情.test_501_行程车次号搜索绑定行程",
+    "uid" : "3b7a9bd894840db",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571905442949,
+      "stop" : 1571905629911,
+      "duration" : 186962
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_车次详情.test_502_首页删除行程",
+    "uid" : "539597fc239dda75",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571905629917,
+      "stop" : 1571905756802,
+      "duration" : 126885
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_站内商业.test_301_所有楼层展开",
+    "uid" : "6930541173057c37",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571905756810,
+      "stop" : 1571905817334,
+      "duration" : 60524
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_站内商业.test_303_全部分类展开",
+    "uid" : "144f1e99a9f561d2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571905817343,
+      "stop" : 1571905927620,
+      "duration" : 110277
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_站内商业.test_305_全部分类展开",
+    "uid" : "dbb740fad879811b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571905927633,
+      "stop" : 1571905971016,
+      "duration" : 43383
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_站内商业.test_309_跳转店铺详情",
+    "uid" : "54a420e743d0c553",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571905971022,
+      "stop" : 1571906027700,
+      "duration" : 56678
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_站内商业.test_310_单条件筛选_所有楼层_一层",
+    "uid" : "ae79e08d8cf7ce0f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571906027707,
+      "stop" : 1571906093476,
+      "duration" : 65769
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_站内商业.test_311_单条件筛选_所有楼层_负一层_无结果",
+    "uid" : "225f281f984e853d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571906093481,
+      "stop" : 1571906144054,
+      "duration" : 50573
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_站内商业.test_312_单条件筛选_所有分类_美食_无结果",
+    "uid" : "e75355597c92b35a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571906144061,
+      "stop" : 1571906285769,
+      "duration" : 141708
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_站内商业.test_313_单条件筛选_所有分类_超市",
+    "uid" : "f997bbf242661bc1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571906285793,
+      "stop" : 1571906332412,
+      "duration" : 46619
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_站内商业.test_399_标记归零",
+    "uid" : "ac93a38f1fe3d2f7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571906332418,
+      "stop" : 1571906373749,
+      "duration" : 41331
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_2_手动添加行程_车次查询_0_G9",
+    "uid" : "f93e392eb86b6aee",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571906373757,
+      "stop" : 1571906490118,
+      "duration" : 116361
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_2_手动添加行程_车次查询_1_Z78",
+    "uid" : "a580494b733709e0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571906490126,
+      "stop" : 1571906609807,
+      "duration" : 119681
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_2_手动添加行程_车次查询_2_K515",
+    "uid" : "4869f10dcb4af5ea",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571906609813,
+      "stop" : 1571906736074,
+      "duration" : 126261
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_2_手动添加行程_车次查询_3_K422",
+    "uid" : "913662f2d647ae95",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571906736081,
+      "stop" : 1571906870694,
+      "duration" : 134613
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_2_手动添加行程_车次查询_4_K422",
+    "uid" : "94283e5c8766bf09",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571906870699,
+      "stop" : 1571906990901,
+      "duration" : 120202
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_2_手动添加行程_车次查询_5_G999",
+    "uid" : "df4e15a89e14269c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571906990908,
+      "stop" : 1571907147145,
+      "duration" : 156237
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_2_手动添加行程_车次查询_6_C2",
+    "uid" : "59d0a6ec6df19e85",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571907147152,
+      "stop" : 1571907276887,
+      "duration" : 129735
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_2_手动添加行程_车次查询_7_Z178",
+    "uid" : "13399cee4256f3a3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571907276894,
+      "stop" : 1571907433181,
+      "duration" : 156287
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_2_手动添加行程_车次查询_8_K823",
+    "uid" : "31ad286d08f88e78",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571907433188,
+      "stop" : 1571907560592,
+      "duration" : 127404
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_2_手动添加行程_车次查询_9_K823",
+    "uid" : "cbf144123a966a24",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571907560598,
+      "stop" : 1571907681749,
+      "duration" : 121151
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_3_手动添加行程_站站查询_0__",
+    "uid" : "544b8ae0a0f50c60",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571907681755,
+      "stop" : 1571907878964,
+      "duration" : 197209
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_3_手动添加行程_站站查询_1__",
+    "uid" : "1f043ddae54d8fd4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571907878971,
+      "stop" : 1571908372267,
+      "duration" : 493296
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_3_手动添加行程_站站查询_2__",
+    "uid" : "386e6708f7410afc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571908372279,
+      "stop" : 1571908575680,
+      "duration" : 203401
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tc_行程.test_3_手动添加行程_站站查询_3__",
+    "uid" : "5e247c22059ac9ee",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571908575686,
+      "stop" : 1571908772338,
+      "duration" : 196652
     },
     "flaky" : false,
     "parameters" : [ ]

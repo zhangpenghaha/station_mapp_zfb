@@ -1,0 +1,305 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571903234669" stop="1571903345259">
+  <name>testCase.test_2_71_选择车次</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571903234669" status="passed" stop="1571903264950">
+      <name>tc_车次详情.test_711_检查出发站与终点站</name>
+      <attachments>
+        <attachment source="42e0a3fd-f1d3-4373-b380-ef30cd0f7bb1-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="0c57a89f-78a9-4ab1-bf07-f3ac3a1c7b21-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13852-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571903234675" status="passed" stop="1571903235559">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903235559" status="passed" stop="1571903246250">
+          <name>向下滑动</name>
+          <title>向下滑动</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903246250" status="passed" stop="1571903252385">
+          <name>act_滑动_byYourSelf</name>
+          <title>act_滑动_byYourSelf</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903252385" status="passed" stop="1571903256713">
+          <name>点击首页_站站查询</name>
+          <title>点击首页_站站查询</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903256713" status="passed" stop="1571903261991">
+          <name>点击首页_时刻查询_查询</name>
+          <title>点击首页_时刻查询_查询</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571903264956" status="passed" stop="1571903297461">
+      <name>tc_车次详情.test_712_勾选高铁</name>
+      <attachments>
+        <attachment source="4a9510f8-5b54-4ff2-8d67-6fccd1ee20da-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13852-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571903264959" status="passed" stop="1571903297453">
+          <name>勾选高铁动车按钮</name>
+          <title>勾选高铁动车按钮</title>
+          <attachments/>
+          <steps>
+            <step start="1571903271227" status="passed" stop="1571903292112">
+              <name>获取toast提示</name>
+              <title>获取toast提示</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571903297466" status="passed" stop="1571903316561">
+      <name>tc_车次详情.test_716_文案检查</name>
+      <attachments>
+        <attachment source="b278b5e6-976b-4b4e-8593-4e7045577eea-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13852-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571903297468" status="passed" stop="1571903303348">
+          <name>点击_车次</name>
+          <title>点击_车次</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903303348" status="passed" stop="1571903316560">
+          <name>检查选择车次结果页文案</name>
+          <title>检查选择车次结果页文案</title>
+          <attachments/>
+          <steps>
+            <step start="1571903303348" status="passed" stop="1571903306594">
+              <name>获取toast提示</name>
+              <title>获取toast提示</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903306594" status="passed" stop="1571903306830">
+              <name>获取toast提示</name>
+              <title>获取toast提示</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903306830" status="passed" stop="1571903307804">
+              <name>获取toast提示</name>
+              <title>获取toast提示</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903307804" status="passed" stop="1571903308626">
+              <name>获取toast提示</name>
+              <title>获取toast提示</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903308626" status="passed" stop="1571903309561">
+              <name>获取toast提示</name>
+              <title>获取toast提示</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903309561" status="passed" stop="1571903310582">
+              <name>获取toast提示</name>
+              <title>获取toast提示</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903310582" status="passed" stop="1571903311570">
+              <name>获取toast提示</name>
+              <title>获取toast提示</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903311570" status="passed" stop="1571903312569">
+              <name>获取toast提示</name>
+              <title>获取toast提示</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903312569" status="passed" stop="1571903313756">
+              <name>获取toast提示</name>
+              <title>获取toast提示</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903313756" status="passed" stop="1571903314606">
+              <name>获取toast提示</name>
+              <title>获取toast提示</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903314606" status="passed" stop="1571903316559">
+              <name>获取toast提示</name>
+              <title>获取toast提示</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571903316567" status="passed" stop="1571903328937">
+      <name>tc_车次详情.test_717_点击展开</name>
+      <attachments>
+        <attachment source="1d018ae1-6cfc-462c-a23d-1827684aebf2-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13852-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571903316569" status="passed" stop="1571903323321">
+          <name>点击_车次</name>
+          <title>点击_车次</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903323321" status="passed" stop="1571903328936">
+          <name>点击_展开</name>
+          <title>点击_展开</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571903328940" status="passed" stop="1571903345259">
+      <name>tc_车次详情.test_718_点击确定添加</name>
+      <attachments>
+        <attachment source="ba849a98-c04d-42db-bfaa-f485af67f5a2-attachment.txt" title="Captured log call" type="text/plain"/>
+        <attachment source="0a197460-fd53-4431-a5e3-4c73326b4364-attachment.png" title="截图" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13852-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571903328942" status="passed" stop="1571903333904">
+          <name>点击_车次</name>
+          <title>点击_车次</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571903333904" status="passed" stop="1571903345258">
+          <name>点击_确认添加</name>
+          <title>点击_确认添加</title>
+          <attachments/>
+          <steps>
+            <step start="1571903340275" status="passed" stop="1571903345258">
+              <name>获取toast提示</name>
+              <title>获取toast提示</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571903346068" status="passed" stop="1571903377515">
+          <name>返回到行程页</name>
+          <title>返回到行程页</title>
+          <attachments/>
+          <steps>
+            <step start="1571903346068" status="passed" stop="1571903346155">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903346156" status="passed" stop="1571903352016">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903352016" status="passed" stop="1571903372308">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903372308" status="passed" stop="1571903377515">
+              <name>点击行程</name>
+              <title>点击行程</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571903377515" status="passed" stop="1571903386336">
+          <name>点击_行程_删除首个行程</name>
+          <title>点击_行程_删除首个行程</title>
+          <attachments/>
+          <steps>
+            <step start="1571903377515" status="passed" stop="1571903382339">
+              <name>点击_行程_删除行程</name>
+              <title>点击_行程_删除行程</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903382339" status="passed" stop="1571903386336">
+              <name>点击确定</name>
+              <title>点击确定</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571903386336" status="passed" stop="1571903413954">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1571903386336" status="passed" stop="1571903406667">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571903406667" status="passed" stop="1571903413954">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

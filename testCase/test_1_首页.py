@@ -1,5 +1,7 @@
 import time
 
+import allure
+
 from myUnit.st_首页 import st_首页
 from businessView.page_切换站点 import page_切换站点
 from businessView.page_首页 import page_首页
@@ -398,6 +400,7 @@ class tc_首页(st_首页):
 
     def tearDown(self):
         dr = page_选择车次(self.driver)
+        dr.screenshot_as_png()
         dr.tc_后置回首页()
 
 

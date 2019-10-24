@@ -5,20 +5,20 @@ platformName: Android
 #deviceName: HUAWEI nova 3e
 
 
-udid: 8FS7N16916007633
-deviceName: HUAWEI P9 Plus
-platformVersion: 8.1.0
+#udid: 8FS7N16916007633
+#deviceName: HUAWEI P9 Plus
+#platformVersion: 8.1.0
+
 #udid: 192.168.2.180:5555
 ##udid: c485aa18
 #deviceName: Mi Note 3
 #platformVersion: 8.1.0
 
 
-#udid: LE67A06170270823
-##udid: 192.168.0.103:5555
-#deviceName: Le X620
-#platformVersion: 6.0
-
+udid: LE67A06170270823
+deviceName: Le X620
+platformVersion: 6.0
+#udid: 192.168.0.103:5555
 
 
 

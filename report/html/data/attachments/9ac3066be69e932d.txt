@@ -1,0 +1,11 @@
+test_30_个人中心.py             10 INFO     =====个人中心前置条件=====
+baseView.py                 39 INFO     点击btn_我的!
+test_30_个人中心.py             31 INFO     =====test_4_点击积分商城给提示=====
+baseView.py                 39 INFO     点击btn_个人中心_积分商城!
+baseView.py                 72 INFO     获取txt_个人中心_完善中!
+baseView.py                 39 INFO     点击点击确认按钮!!
+myassert.py                 13 INFO     通过!
+baseView.py                212 ERROR    Message: An element could not be located on the page using the given search parameters.
+
+baseView.py                213 ERROR    new UiSelector().description("返回")judge_元素不存在!
+baseView.py                 39 INFO     点击btn_我的!

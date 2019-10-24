@@ -1,0 +1,4 @@
+baseView.py                212 ERROR    Message: An element could not be located on the page using the given search parameters.
+
+baseView.py                213 ERROR    new UiSelector().description("返回")judge_元素不存在!
+baseView.py                 39 INFO     点击btn_首页!

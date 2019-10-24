@@ -24,6 +24,7 @@ class tc_意见反馈(st_首页):
 
     def tearDown(self):
         dr = page_意见反馈(self.driver)
+        dr.screenshot_as_png()
         dr.tc_后置回我的()
 
 if __name__ == '__main__':

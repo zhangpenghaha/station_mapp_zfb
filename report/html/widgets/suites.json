@@ -1,6 +1,105 @@
 {
-  "total" : 1,
+  "total" : 10,
   "items" : [ {
+    "uid" : "fe8aa704c70a71eb55e86213f1b2384a",
+    "name" : "testCase.test_1_首页",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 19,
+      "unknown" : 0,
+      "total" : 20
+    }
+  }, {
+    "uid" : "b393b613ace27e50214432d4b6086287",
+    "name" : "testCase.test_40_我的资料",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "9871b93fb417b15f9c399cae5e61a283",
+    "name" : "testCase.test_60_添加删除行程",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 14
+    }
+  }, {
+    "uid" : "193cb2eb3a19ff9bea875b47d659407a",
+    "name" : "testCase.test_45_车站大屏2",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "560ded1b30c09b3c21bcac37ea28c8a2",
+    "name" : "testCase.test_5_站内商业",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "2e24cfb857d719bc03bfdadd8dc199a5",
+    "name" : "testCase.test_30_个人中心",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "7c4c6ce66dcb64603a4f040752a7ca82",
+    "name" : "testCase.test_2_71_选择车次",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "dc6979f0a72b54a41908f68b4077331c",
+    "name" : "testCase.test_35_意见反馈",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "780e86a0a78d53e1490cc5d760473efe",
+    "name" : "testCase.test_50_车次详情",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
     "uid" : "d2cbd3f49af51cd5feecd39756089a95",
     "name" : "testCase.test_20_行程",
     "statistic" : {

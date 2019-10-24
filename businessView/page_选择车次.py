@@ -1,3 +1,4 @@
+from businessView.page_车次详情 import page_车次详情
 from common.loc import *
 from businessView.page_首页 import page_首页
 import allure
@@ -7,12 +8,15 @@ class page_选择车次(page_首页):
     # 站站查询选择车次
 
     title_选择车次=loc_text("选择车次")
-    date_日期=loc_child_TtoC_Number("wx8d75e764f0c4bf1c:pages/station/pages/findStation/findStation.html:VISIBLE","android.view.View",1)
+    date_日期=loc_id("ATfind1")
     img_高铁动车=loc_text("高铁动车")
-    text_共XX车次=loc_child_TtoC_Number("wx8d75e764f0c4bf1c:pages/station/pages/findStation/findStation.html:VISIBLE","android.view.View",5)
+    text_共XX车次=loc_child_IDtoC_Number("ATfind3","android.view.View",2)
     text_武汉到北京=loc_text("武汉-北京")
     img_日历icon = loc_child_TtoC_Number("wx8d75e764f0c4bf1c:pages/station/pages/findStation/findStation.html:VISIBLE",
                                      "android.widget.Image", 0)
+
+    text_所有车次 = loc_id("ATfind4")
+    text_第一列车次 = loc_id("ATfind5_0")
     text_选择日期=loc_text("选择日期")
     text_点击日期 = loc_child_TtoC_Number("wx8d75e764f0c4bf1c:pages/station/pages/calendar/calendar.html:VISIBLE","android.view.View",24)
 
@@ -108,7 +112,7 @@ class page_选择车次(page_首页):
     @allure.step(title='点击_确认添加')
     def click_确定添加(self):
         self.click_点击(self.text_确定添加, "text_确定添加")
-        return self.get_元素文本(self.text_全程预计剩余, "text_全程预计剩余")
+        return self.get_toast("行李托运")
 
     @allure.step(title='检查选择车次结果页文案')
     def check_选择车次结果页文案(self):
@@ -119,6 +123,9 @@ class page_选择车次(page_首页):
             a0.append(text)
         return a0
 
+    def get_总共多少趟(self):
+        return self.get_元素文本(self.text_共XX车次)
+
 
 if __name__ =="__main__":
 
@@ -126,15 +133,18 @@ if __name__ =="__main__":
     from function.funcdate import get_当前月日, get_获取当前星期
     driver=appium_微信车站通()
     dr=page_首页(driver)
-    dr.click_站站查询()
-    dr.click_时刻查询_查询()
-    dt=page_选择车次(driver)
-    dt.click_点击车次()
-    a=dt.click_确定添加()
-
-    print(a)
-
-
+    dr.act_下滑(3)
+    dr.act_滑动_byYourSelf(dr.txt_首页_时刻查询模块名, 0.5, 0.15, "txt_首页_时刻查询模块名移动到0.15位置")
+    dr.click_首页_站站查询()
+    dr.click_首页_时刻查询_查询()
+    dr = page_选择车次(driver)
+    a = dr.get_总共多少趟()
+    num = str(a)[1]+ str(a)[2]
+    print(num)
+    # "ATfind5_0"
+    b ="ATfind5_" + str(int(num)-1)
+    last_train = loc_id(b)
+    dr.click_点击(last_train)
 
 
 

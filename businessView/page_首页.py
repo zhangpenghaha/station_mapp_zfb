@@ -18,15 +18,15 @@ class page_首页(common):
     # btn_切换站点 = loc_child_TtoCT_Number("wx8d75e764f0c4bf1c:pages/tabBar/station/index.html:VISIBLE", "站", 0)
     # btn_切换站点 = loc_text("切换站点")
     # btn_切换站点 = loc_contains_text("站")
-    btn_切换站点 = loc_child_CtoC_Number("android.webkit.WebView", "android.widget.Image", 0)
-    btn_首页_天气页面 = loc_contains_text("℃")
+    btn_切换站点 = loc_child_IDtoC_Number("AThome1_1","android.view.View", 0)
+    btn_首页_天气页面 = loc_id("AThome2")
 
     "站点切换提示"
     txt_首页_站点切换提示 = loc_start_text("定位显示您在")
     btn_首页_切换站点按钮 = loc_start_text("切换到")
 
     "banner图"
-    btn_首页_banner_1=loc_child_TtoC_Number("wx8d75e764f0c4bf1c:pages/tabBar/station/index.html:VISIBLE","android.widget.Image",2)
+    btn_首页_banner_1=loc_id("AThome3_0")
     btn_点击查看车站流量 = loc_text("点击查看车站流量")
 
     "菜单模块阵列下面的按钮"
@@ -58,6 +58,7 @@ class page_首页(common):
     btn_出发时间星期 = loc_contains_text("星期")
     txt_车次号输入框示例 = loc_start_text("例如: G520")
     btn_分享行程 = loc_text("分享行程")
+    btn_关闭分享 = loc_id("AThome5")
 
     " 车站大屏 "
     txt_首页_车站大屏模块名 = loc_text_instance("车站大屏",0)
@@ -93,6 +94,10 @@ class page_首页(common):
     "===========================操作层==========================="
 
     "首页焦点"
+
+    @allure.step(title='关闭分享')
+    def click_关闭分享(self):
+        return self.click_点击(self.btn_关闭分享,"关闭分享")
 
     @allure.step(title='点击首页_焦点')
     def click_首页_焦点(self):

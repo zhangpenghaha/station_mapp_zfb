@@ -1,0 +1,221 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571910059942" stop="1571910193361">
+  <name>testCase.test_80_行程详情与分享</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571910059942" status="failed" stop="1571910193361">
+      <description>手动添加行程_车次查询</description>
+      <name>tc_行程详情与分享.test_40_行程列表页分享</name>
+      <failure>
+        <message>AssertionError: 0 != '分享 '</message>
+        <stack-trace>self = &lt;testCase.test_80_行程详情与分享.tc_行程详情与分享 testMethod=test_40_行程列表页分享&gt;
+
+    def test_40_行程列表页分享(self):
+        """手动添加行程_车次查询"""
+        dr = page_行程(self.driver)
+        dr.tc_后置回行程()
+        dr.click_点击分享()
+        a = dr.get_toast("分享 ")
+        dr.click_关闭分享行程()
+&gt;       self.myEq(a, "分享 ", "行程列表页行程分享按钮")
+
+test_80_行程详情与分享.py:91: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\function\myassert.py:11: in myEq
+    return self.assertEqual(预期结果, 实际结果)
+E   AssertionError: 0 != '分享 '</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="a80d4388-271f-4041-a571-2a5e255821f4-attachment.png" title="截图" type="image/png"/>
+        <attachment source="e4e3c9d2-c9ab-4cdd-ba17-c35402f11a7d-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="ddcd29c0-0f7c-4689-8d11-0b95c051acf5-attachment.txt" title="Captured log call" type="text/plain"/>
+        <attachment source="74834ba5-5598-4b9e-9f5e-c15ee502f128-attachment.png" title="截图" type="image/png"/>
+        <attachment source="345155ef-7169-43dd-930b-39c720be818e-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="159a6037-1be2-4c63-9adf-3ecd907720f0-attachment.txt" title="Captured log call" type="text/plain"/>
+        <attachment source="5f1e8015-0606-4dad-96d7-42b05d59b309-attachment.txt" title="Captured log teardown" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11816-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571910083862" status="passed" stop="1571910101324">
+          <name>返回到行程页</name>
+          <title>返回到行程页</title>
+          <attachments/>
+          <steps>
+            <step start="1571910083862" status="passed" stop="1571910088110">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571910088110" status="passed" stop="1571910093297">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571910093297" status="passed" stop="1571910093837">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571910093837" status="passed" stop="1571910101324">
+              <name>点击行程</name>
+              <title>点击行程</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571910101324" status="passed" stop="1571910106204">
+          <name>点击分享行程</name>
+          <title>点击分享行程</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571910106204" status="passed" stop="1571910116896">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571910116896" status="passed" stop="1571910121365">
+          <name>关闭分享</name>
+          <title>关闭分享</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571910123213" status="passed" stop="1571910130870">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1571910126213" status="passed" stop="1571910126414">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571910126414" status="passed" stop="1571910130870">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571910131473" status="passed" stop="1571910140855">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1571910134473" status="passed" stop="1571910134863">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571910134863" status="passed" stop="1571910140855">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571910151054" status="passed" stop="1571910162740">
+          <name>返回到行程页</name>
+          <title>返回到行程页</title>
+          <attachments/>
+          <steps>
+            <step start="1571910151054" status="passed" stop="1571910151703">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571910151703" status="passed" stop="1571910156102">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571910156102" status="passed" stop="1571910157483">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571910157483" status="passed" stop="1571910162740">
+              <name>点击行程</name>
+              <title>点击行程</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571910162740" status="passed" stop="1571910167953">
+          <name>点击分享行程</name>
+          <title>点击分享行程</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571910167953" status="passed" stop="1571910178621">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571910178621" status="passed" stop="1571910183094">
+          <name>关闭分享</name>
+          <title>关闭分享</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571910185045" status="passed" stop="1571910193349">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1571910188045" status="passed" stop="1571910188297">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571910188297" status="passed" stop="1571910193349">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571910193361" status="passed" stop="1571910202333">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1571910196362" status="passed" stop="1571910196780">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571910196780" status="passed" stop="1571910202333">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

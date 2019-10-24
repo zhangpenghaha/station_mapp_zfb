@@ -1,0 +1,28 @@
+baseView.py                 39 INFO     点击btn_点击行程!
+baseView.py                 39 INFO     点击btn_行程_添加行程!
+baseView.py                 39 INFO     点击btn_行程_手动添加!
+baseView.py                 39 INFO     点击btn_添加行程new UiSelector().text("车次添加")!
+baseView.py                 39 INFO     点击点击车次号输入框!
+baseView.py                 39 INFO     点击输入K!
+baseView.py                 39 INFO     点击输入4!
+baseView.py                 39 INFO     点击输入2!
+baseView.py                 39 INFO     点击输入2!
+baseView.py                 39 INFO     点击点击日期!
+page_选择日期.py                53 INFO     星期一
+page_选择日期.py                55 INFO     10月26日
+baseView.py                 39 INFO     点击选择日期!
+baseView.py                 39 INFO     点击btn_添加行程_查询!
+baseView.py                 39 INFO     点击点击起始站!
+baseView.py                 72 INFO     获取toast_提示:绍兴!
+baseView.py                 39 INFO     点击点击绍兴!
+baseView.py                 39 INFO     点击点击确定按钮!!
+baseView.py                 72 INFO     获取toast_提示:行李托运!
+myassert.py                 13 INFO     通过!
+baseView.py                 39 INFO     点击返回按钮!
+common.py                  143 INFO     返回到后置返回!
+baseView.py                212 ERROR    Message: An element could not be located on the page using the given search parameters.
+
+baseView.py                213 ERROR    new UiSelector().description("返回")judge_元素不存在!
+baseView.py                 39 INFO     点击btn_行程!
+baseView.py                 39 INFO     点击btn_行程_删除!
+baseView.py                 39 INFO     点击点击确定按钮!

@@ -1,0 +1,12 @@
+test_1_首页.py                27 INFO     =====前置条件=====
+common.py                  409 INFO     向下滑动屏幕
+common.py                  409 INFO     向下滑动屏幕
+common.py                  409 INFO     向下滑动屏幕
+test_1_首页.py               315 INFO     =====test_060_查看全部跳转站内商业=====
+common.py                  359 INFO     按住txt_首页_时刻查询模块名移动到0.15位置移动到自定义位置!
+common.py                  359 INFO     按住btn_首页车站大屏_候车按钮移动到0.3位置移动到自定义位置!
+common.py                  359 INFO     按住txt_首页_车站商业模块名移动到0.3位置移动到自定义位置!
+baseView.py                212 ERROR    Message: An element could not be located on the page using the given search parameters.
+
+baseView.py                213 ERROR    new UiSelector().description("返回")judge_元素不存在!
+baseView.py                 39 INFO     点击btn_首页!

@@ -35,7 +35,7 @@ class baseView(object):
             return self.driver.find_element_by_android_uiautomator(loc)
 
     def click_点击(self, loc, info):
-        time.sleep(7)
+        time.sleep(3)
         logging.info("点击" + info + "!")
         try:
             WebDriverWait(self.driver, 15).until(lambda x: x.find_element_by_android_uiautomator(loc))

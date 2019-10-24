@@ -38,6 +38,7 @@ class tc_行程(st_首页):
 
     def tearDown(self):
         dr = page_行程(self.driver)
+        dr.screenshot_as_png()
         dr.tc_后置回行程()
 
     @classmethod

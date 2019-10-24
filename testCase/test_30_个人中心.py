@@ -66,6 +66,7 @@ class tc_个人中心(st_首页):
 
     def tearDown(self):
         dr = page_个人中心(self.driver)
+        dr.screenshot_as_png()
         dr.tc_后置回我的()
 
 

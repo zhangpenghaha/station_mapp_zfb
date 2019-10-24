@@ -22,7 +22,8 @@ class tc_车次详情(st_首页):
         dr.act_下滑(3)
         dr.click_首页_车次查询()
         dr.act_滑动_AtoB(dr.btn_首页_车次查询, dr.btn_车站大屏, "车次查询", "车站大屏")
-        sid= dr.bus_首页_车次号搜索("G85")
+        sid= dr.bus_首页_车次号搜索("G836")
+        dr.click_后一天()
         dr.bus_选择始终站(sid)
         dr.click_车次途经站点_确认添加()
         a = dr.get_toast("行李托运")
@@ -54,6 +55,7 @@ class tc_车次详情(st_首页):
 
     def tearDown(self):
         dr=page_车次详情(self.driver)
+        dr.screenshot_as_png()
         dr.tc_后置回首页()
 
 if __name__ == '__main__':

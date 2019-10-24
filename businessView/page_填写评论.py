@@ -4,27 +4,15 @@ from time import sleep
 import allure
 class page_填写评论(page_店铺详情):
     ipb_填写评论_商家评论 = loc_class_instance("android.widget.EditText", 0)
-    # btn_填写评论_星级 = loc_child_TtoC_Number("wx8d75e764f0c4bf1c:pages/playStation/pages/write/write.html:VISIBLE",
-    #                                     # "android.widget.Image", 3)
-    btn_填写评论_星级 = loc_child_TtoC_Number("__react-content", "android.widget.Image",3)
-
-    # btn_填写评论_提交评价 = loc_child_TtoT("wx8d75e764f0c4bf1c:pages/playStation/pages/write/write.html:VISIBLE", "提交评价 ")
     btn_填写评论_提交评价 = loc_text("提交评价")
-
-    # btn_填写评论_添加图片 = loc_child_TtoT("wx8d75e764f0c4bf1c:pages/playStation/pages/write/write.html:VISIBLE", "添加图片")
     btn_填写评论_添加图片 =loc_text("添加图片")
     btn_从相册选择 = loc_text("从相册选择")
-
-    btn_填写评论_勾选匿名 = loc_child_TtoC_Number("__react-content",
-                                          "android.widget.Image", 7)
+    btn_填写评论_勾选匿名 = loc_id("ATwrite3")
 
     "提示定位"
 
     @allure.step(title='点击_填写评论_选择星级')
     def click_填写评论_选择星级(self, startNum):
-        # return self.click_点击(
-        #     loc_child_TtoC_Number("wx8d75e764f0c4bf1c:pages/playStation/pages/write/write.html:VISIBLE",
-        #                           "android.widget.Image", {}).format(startNum), "点击" + str(startNum) + "星级")
         return self.click_点击(
             loc_class_instance("android.widget.Image", {}).format(startNum), "点击" + str(startNum) + "星级")
 

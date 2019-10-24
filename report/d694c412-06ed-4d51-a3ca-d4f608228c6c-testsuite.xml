@@ -1,0 +1,1420 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571905163398" stop="1571905756802">
+  <name>testCase.test_50_车次详情</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571905163398" status="passed" stop="1571905442588">
+      <name>tc_车次详情.test_500_首页车次号搜索绑定行程</name>
+      <failure>
+        <message>ConnectionError: HTTPSConnectionPool(host='www.cx9z.com', port=443): Max retries exceeded with url: /vega-station/schedule/detailByTrainNo?date=2019-10-25&amp;trainNO=G836 (Caused by NewConnectionError('&lt;urllib3.connection.VerifiedHTTPSConnection object at 0x000002301C5B8E48&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))</message>
+        <stack-trace>self = &lt;urllib3.connection.VerifiedHTTPSConnection object at 0x000002301C5B8E48&gt;
+
+    def _new_conn(self):
+        """ Establish a socket connection and set nodelay settings on it.
+    
+            :return: New socket connection.
+            """
+        extra_kw = {}
+        if self.source_address:
+            extra_kw['source_address'] = self.source_address
+    
+        if self.socket_options:
+            extra_kw['socket_options'] = self.socket_options
+    
+        try:
+            conn = connection.create_connection(
+&gt;               (self.host, self.port), self.timeout, **extra_kw)
+
+f:\python_1\lib\site-packages\urllib3\connection.py:141: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+address = ('www.cx9z.com', 443), timeout = None, source_address = None
+socket_options = [(6, 1, 1)]
+
+    def create_connection(address, timeout=socket._GLOBAL_DEFAULT_TIMEOUT,
+                          source_address=None, socket_options=None):
+        """Connect to *address* and return the socket object.
+    
+        Convenience function.  Connect to *address* (a 2-tuple ``(host,
+        port)``) and return the socket object.  Passing the optional
+        *timeout* parameter will set the timeout on the socket instance
+        before attempting to connect.  If no *timeout* is supplied, the
+        global default timeout setting returned by :func:`getdefaulttimeout`
+        is used.  If *source_address* is set it must be a tuple of (host, port)
+        for the socket to bind as a source address before making the connection.
+        An host of '' or port 0 tells the OS to use the default.
+        """
+    
+        host, port = address
+        if host.startswith('['):
+            host = host.strip('[]')
+        err = None
+    
+        # Using the value from allowed_gai_family() in the context of getaddrinfo lets
+        # us select whether to work with IPv4 DNS records, IPv6 records, or both.
+        # The original create_connection function always returns all records.
+        family = allowed_gai_family()
+    
+        for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+            af, socktype, proto, canonname, sa = res
+            sock = None
+            try:
+                sock = socket.socket(af, socktype, proto)
+    
+                # If provided, set socket level options before connecting.
+                _set_socket_options(sock, socket_options)
+    
+                if timeout is not socket._GLOBAL_DEFAULT_TIMEOUT:
+                    sock.settimeout(timeout)
+                if source_address:
+                    sock.bind(source_address)
+                sock.connect(sa)
+                return sock
+    
+            except socket.error as e:
+                err = e
+                if sock is not None:
+                    sock.close()
+                    sock = None
+    
+        if err is not None:
+&gt;           raise err
+
+f:\python_1\lib\site-packages\urllib3\util\connection.py:83: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+address = ('www.cx9z.com', 443), timeout = None, source_address = None
+socket_options = [(6, 1, 1)]
+
+    def create_connection(address, timeout=socket._GLOBAL_DEFAULT_TIMEOUT,
+                          source_address=None, socket_options=None):
+        """Connect to *address* and return the socket object.
+    
+        Convenience function.  Connect to *address* (a 2-tuple ``(host,
+        port)``) and return the socket object.  Passing the optional
+        *timeout* parameter will set the timeout on the socket instance
+        before attempting to connect.  If no *timeout* is supplied, the
+        global default timeout setting returned by :func:`getdefaulttimeout`
+        is used.  If *source_address* is set it must be a tuple of (host, port)
+        for the socket to bind as a source address before making the connection.
+        An host of '' or port 0 tells the OS to use the default.
+        """
+    
+        host, port = address
+        if host.startswith('['):
+            host = host.strip('[]')
+        err = None
+    
+        # Using the value from allowed_gai_family() in the context of getaddrinfo lets
+        # us select whether to work with IPv4 DNS records, IPv6 records, or both.
+        # The original create_connection function always returns all records.
+        family = allowed_gai_family()
+    
+        for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+            af, socktype, proto, canonname, sa = res
+            sock = None
+            try:
+                sock = socket.socket(af, socktype, proto)
+    
+                # If provided, set socket level options before connecting.
+                _set_socket_options(sock, socket_options)
+    
+                if timeout is not socket._GLOBAL_DEFAULT_TIMEOUT:
+                    sock.settimeout(timeout)
+                if source_address:
+                    sock.bind(source_address)
+&gt;               sock.connect(sa)
+E               ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+f:\python_1\lib\site-packages\urllib3\util\connection.py:73: ConnectionRefusedError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;urllib3.connectionpool.HTTPSConnectionPool object at 0x000002301995A908&gt;, method = 'GET'
+url = '/vega-station/schedule/detailByTrainNo?date=2019-10-25&amp;trainNO=G836', body = None
+headers = {'User-Agent': 'python-requests/2.18.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'token': 'c9e2527e3962444698575a83a1a638e6'}
+retries = Retry(total=0, connect=None, read=False, redirect=None, status=None), redirect = False
+assert_same_host = False, timeout = &lt;urllib3.util.timeout.Timeout object at 0x000002301C6EB6A0&gt;
+pool_timeout = None, release_conn = False, chunked = False, body_pos = None
+response_kw = {'decode_content': False, 'preload_content': False}, conn = None
+release_this_conn = True, err = None, clean_exit = False
+timeout_obj = &lt;urllib3.util.timeout.Timeout object at 0x000002301C6EB7F0&gt;
+is_new_proxy_conn = False
+
+    def urlopen(self, method, url, body=None, headers=None, retries=None,
+                redirect=True, assert_same_host=True, timeout=_Default,
+                pool_timeout=None, release_conn=None, chunked=False,
+                body_pos=None, **response_kw):
+        """
+            Get a connection from the pool and perform an HTTP request. This is the
+            lowest level call for making a request, so you'll need to specify all
+            the raw details.
+    
+            .. note::
+    
+               More commonly, it's appropriate to use a convenience method provided
+               by :class:`.RequestMethods`, such as :meth:`request`.
+    
+            .. note::
+    
+               `release_conn` will only behave as expected if
+               `preload_content=False` because we want to make
+               `preload_content=False` the default behaviour someday soon without
+               breaking backwards compatibility.
+    
+            :param method:
+                HTTP request method (such as GET, POST, PUT, etc.)
+    
+            :param body:
+                Data to send in the request body (useful for creating
+                POST requests, see HTTPConnectionPool.post_url for
+                more convenience).
+    
+            :param headers:
+                Dictionary of custom headers to send, such as User-Agent,
+                If-None-Match, etc. If None, pool headers are used. If provided,
+                these headers completely replace any pool-specific headers.
+    
+            :param retries:
+                Configure the number of retries to allow before raising a
+                :class:`~urllib3.exceptions.MaxRetryError` exception.
+    
+                Pass ``None`` to retry until you receive a response. Pass a
+                :class:`~urllib3.util.retry.Retry` object for fine-grained control
+                over different types of retries.
+                Pass an integer number to retry connection errors that many times,
+                but no other types of errors. Pass zero to never retry.
+    
+                If ``False``, then retries are disabled and any exception is raised
+                immediately. Also, instead of raising a MaxRetryError on redirects,
+                the redirect response will be returned.
+    
+            :type retries: :class:`~urllib3.util.retry.Retry`, False, or an int.
+    
+            :param redirect:
+                If True, automatically handle redirects (status codes 301, 302,
+                303, 307, 308). Each redirect counts as a retry. Disabling retries
+                will disable redirect, too.
+    
+            :param assert_same_host:
+                If ``True``, will make sure that the host of the pool requests is
+                consistent else will raise HostChangedError. When False, you can
+                use the pool on an HTTP proxy and request foreign hosts.
+    
+            :param timeout:
+                If specified, overrides the default timeout for this one
+                request. It may be a float (in seconds) or an instance of
+                :class:`urllib3.util.Timeout`.
+    
+            :param pool_timeout:
+                If set and the pool is set to block=True, then this method will
+                block for ``pool_timeout`` seconds and raise EmptyPoolError if no
+                connection is available within the time period.
+    
+            :param release_conn:
+                If False, then the urlopen call will not release the connection
+                back into the pool once a response is received (but will release if
+                you read the entire contents of the response such as when
+                `preload_content=True`). This is useful if you're not preloading
+                the response's content immediately. You will need to call
+                ``r.release_conn()`` on the response ``r`` to return the connection
+                back into the pool. If None, it takes the value of
+                ``response_kw.get('preload_content', True)``.
+    
+            :param chunked:
+                If True, urllib3 will send the body using chunked transfer
+                encoding. Otherwise, urllib3 will send the body using the standard
+                content-length form. Defaults to False.
+    
+            :param int body_pos:
+                Position to seek to in file-like body in the event of a retry or
+                redirect. Typically this won't need to be set because urllib3 will
+                auto-populate the value when needed.
+    
+            :param \\**response_kw:
+                Additional parameters are passed to
+                :meth:`urllib3.response.HTTPResponse.from_httplib`
+            """
+        if headers is None:
+            headers = self.headers
+    
+        if not isinstance(retries, Retry):
+            retries = Retry.from_int(retries, redirect=redirect, default=self.retries)
+    
+        if release_conn is None:
+            release_conn = response_kw.get('preload_content', True)
+    
+        # Check host
+        if assert_same_host and not self.is_same_host(url):
+            raise HostChangedError(self, url, retries)
+    
+        conn = None
+    
+        # Track whether `conn` needs to be released before
+        # returning/raising/recursing. Update this variable if necessary, and
+        # leave `release_conn` constant throughout the function. That way, if
+        # the function recurses, the original value of `release_conn` will be
+        # passed down into the recursive call, and its value will be respected.
+        #
+        # See issue #651 [1] for details.
+        #
+        # [1] &lt;https://github.com/shazow/urllib3/issues/651&gt;
+        release_this_conn = release_conn
+    
+        # Merge the proxy headers. Only do this in HTTP. We have to copy the
+        # headers dict so we can safely change it without those changes being
+        # reflected in anyone else's copy.
+        if self.scheme == 'http':
+            headers = headers.copy()
+            headers.update(self.proxy_headers)
+    
+        # Must keep the exception bound to a separate variable or else Python 3
+        # complains about UnboundLocalError.
+        err = None
+    
+        # Keep track of whether we cleanly exited the except block. This
+        # ensures we do proper cleanup in finally.
+        clean_exit = False
+    
+        # Rewind body position, if needed. Record current position
+        # for future rewinds in the event of a redirect/retry.
+        body_pos = set_file_position(body, body_pos)
+    
+        try:
+            # Request a connection from the queue.
+            timeout_obj = self._get_timeout(timeout)
+            conn = self._get_conn(timeout=pool_timeout)
+    
+            conn.timeout = timeout_obj.connect_timeout
+    
+            is_new_proxy_conn = self.proxy is not None and not getattr(conn, 'sock', None)
+            if is_new_proxy_conn:
+                self._prepare_proxy(conn)
+    
+            # Make the request on the httplib connection object.
+            httplib_response = self._make_request(conn, method, url,
+                                                  timeout=timeout_obj,
+                                                  body=body, headers=headers,
+&gt;                                                 chunked=chunked)
+
+f:\python_1\lib\site-packages\urllib3\connectionpool.py:601: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;urllib3.connectionpool.HTTPSConnectionPool object at 0x000002301995A908&gt;
+conn = &lt;urllib3.connection.VerifiedHTTPSConnection object at 0x000002301C5B8E48&gt;, method = 'GET'
+url = '/vega-station/schedule/detailByTrainNo?date=2019-10-25&amp;trainNO=G836'
+timeout = &lt;urllib3.util.timeout.Timeout object at 0x000002301C6EB7F0&gt;, chunked = False
+httplib_request_kw = {'body': None, 'headers': {'User-Agent': 'python-requests/2.18.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*'...tion': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'token': 'c9e2527e3962444698575a83a1a638e6'}}
+timeout_obj = &lt;urllib3.util.timeout.Timeout object at 0x000002301C5B8F98&gt;
+
+    def _make_request(self, conn, method, url, timeout=_Default, chunked=False,
+                      **httplib_request_kw):
+        """
+            Perform a request on a given urllib connection object taken from our
+            pool.
+    
+            :param conn:
+                a connection from one of our connection pools
+    
+            :param timeout:
+                Socket timeout in seconds for the request. This can be a
+                float or integer, which will set the same timeout value for
+                the socket connect and the socket read, or an instance of
+                :class:`urllib3.util.Timeout`, which gives you more fine-grained
+                control over your timeouts.
+            """
+        self.num_requests += 1
+    
+        timeout_obj = self._get_timeout(timeout)
+        timeout_obj.start_connect()
+        conn.timeout = timeout_obj.connect_timeout
+    
+        # Trigger any extra validation we need to do.
+        try:
+&gt;           self._validate_conn(conn)
+
+f:\python_1\lib\site-packages\urllib3\connectionpool.py:346: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;urllib3.connectionpool.HTTPSConnectionPool object at 0x000002301995A908&gt;
+conn = &lt;urllib3.connection.VerifiedHTTPSConnection object at 0x000002301C5B8E48&gt;
+
+    def _validate_conn(self, conn):
+        """
+            Called right before a request is made, after the socket is created.
+            """
+        super(HTTPSConnectionPool, self)._validate_conn(conn)
+    
+        # Force connect early to allow us to validate the connection.
+        if not getattr(conn, 'sock', None):  # AppEngine might not have  `.sock`
+&gt;           conn.connect()
+
+f:\python_1\lib\site-packages\urllib3\connectionpool.py:850: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;urllib3.connection.VerifiedHTTPSConnection object at 0x000002301C5B8E48&gt;
+
+    def connect(self):
+        # Add certificate verification
+&gt;       conn = self._new_conn()
+
+f:\python_1\lib\site-packages\urllib3\connection.py:284: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;urllib3.connection.VerifiedHTTPSConnection object at 0x000002301C5B8E48&gt;
+
+    def _new_conn(self):
+        """ Establish a socket connection and set nodelay settings on it.
+    
+            :return: New socket connection.
+            """
+        extra_kw = {}
+        if self.source_address:
+            extra_kw['source_address'] = self.source_address
+    
+        if self.socket_options:
+            extra_kw['socket_options'] = self.socket_options
+    
+        try:
+            conn = connection.create_connection(
+                (self.host, self.port), self.timeout, **extra_kw)
+    
+        except SocketTimeout as e:
+            raise ConnectTimeoutError(
+                self, "Connection to %s timed out. (connect timeout=%s)" %
+                (self.host, self.timeout))
+    
+        except SocketError as e:
+            raise NewConnectionError(
+&gt;               self, "Failed to establish a new connection: %s" % e)
+E           urllib3.exceptions.NewConnectionError: &lt;urllib3.connection.VerifiedHTTPSConnection object at 0x000002301C5B8E48&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+f:\python_1\lib\site-packages\urllib3\connection.py:150: NewConnectionError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;requests.adapters.HTTPAdapter object at 0x000002301C6EB0B8&gt;
+request = &lt;PreparedRequest [GET]&gt;, stream = False
+timeout = &lt;urllib3.util.timeout.Timeout object at 0x000002301C6EB6A0&gt;, verify = True, cert = None
+proxies = OrderedDict()
+
+    def send(self, request, stream=False, timeout=None, verify=True, cert=None, proxies=None):
+        """Sends PreparedRequest object. Returns Response object.
+    
+            :param request: The :class:`PreparedRequest &lt;PreparedRequest&gt;` being sent.
+            :param stream: (optional) Whether to stream the request content.
+            :param timeout: (optional) How long to wait for the server to send
+                data before giving up, as a float, or a :ref:`(connect timeout,
+                read timeout) &lt;timeouts&gt;` tuple.
+            :type timeout: float or tuple or urllib3 Timeout object
+            :param verify: (optional) Either a boolean, in which case it controls whether
+                we verify the server's TLS certificate, or a string, in which case it
+                must be a path to a CA bundle to use
+            :param cert: (optional) Any user-provided SSL certificate to be trusted.
+            :param proxies: (optional) The proxies dictionary to apply to the request.
+            :rtype: requests.Response
+            """
+    
+        conn = self.get_connection(request.url, proxies)
+    
+        self.cert_verify(conn, request.url, verify, cert)
+        url = self.request_url(request, proxies)
+        self.add_headers(request)
+    
+        chunked = not (request.body is None or 'Content-Length' in request.headers)
+    
+        if isinstance(timeout, tuple):
+            try:
+                connect, read = timeout
+                timeout = TimeoutSauce(connect=connect, read=read)
+            except ValueError as e:
+                # this may raise a string formatting error.
+                err = ("Invalid timeout {0}. Pass a (connect, read) "
+                       "timeout tuple, or a single float to set "
+                       "both timeouts to the same value".format(timeout))
+                raise ValueError(err)
+        elif isinstance(timeout, TimeoutSauce):
+            pass
+        else:
+            timeout = TimeoutSauce(connect=timeout, read=timeout)
+    
+        try:
+            if not chunked:
+                resp = conn.urlopen(
+                    method=request.method,
+                    url=url,
+                    body=request.body,
+                    headers=request.headers,
+                    redirect=False,
+                    assert_same_host=False,
+                    preload_content=False,
+                    decode_content=False,
+                    retries=self.max_retries,
+&gt;                   timeout=timeout
+                )
+
+f:\python_1\lib\site-packages\requests\adapters.py:440: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;urllib3.connectionpool.HTTPSConnectionPool object at 0x000002301995A908&gt;, method = 'GET'
+url = '/vega-station/schedule/detailByTrainNo?date=2019-10-25&amp;trainNO=G836', body = None
+headers = {'User-Agent': 'python-requests/2.18.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'token': 'c9e2527e3962444698575a83a1a638e6'}
+retries = Retry(total=0, connect=None, read=False, redirect=None, status=None), redirect = False
+assert_same_host = False, timeout = &lt;urllib3.util.timeout.Timeout object at 0x000002301C6EB6A0&gt;
+pool_timeout = None, release_conn = False, chunked = False, body_pos = None
+response_kw = {'decode_content': False, 'preload_content': False}, conn = None
+release_this_conn = True, err = None, clean_exit = False
+timeout_obj = &lt;urllib3.util.timeout.Timeout object at 0x000002301C6EB7F0&gt;
+is_new_proxy_conn = False
+
+    def urlopen(self, method, url, body=None, headers=None, retries=None,
+                redirect=True, assert_same_host=True, timeout=_Default,
+                pool_timeout=None, release_conn=None, chunked=False,
+                body_pos=None, **response_kw):
+        """
+            Get a connection from the pool and perform an HTTP request. This is the
+            lowest level call for making a request, so you'll need to specify all
+            the raw details.
+    
+            .. note::
+    
+               More commonly, it's appropriate to use a convenience method provided
+               by :class:`.RequestMethods`, such as :meth:`request`.
+    
+            .. note::
+    
+               `release_conn` will only behave as expected if
+               `preload_content=False` because we want to make
+               `preload_content=False` the default behaviour someday soon without
+               breaking backwards compatibility.
+    
+            :param method:
+                HTTP request method (such as GET, POST, PUT, etc.)
+    
+            :param body:
+                Data to send in the request body (useful for creating
+                POST requests, see HTTPConnectionPool.post_url for
+                more convenience).
+    
+            :param headers:
+                Dictionary of custom headers to send, such as User-Agent,
+                If-None-Match, etc. If None, pool headers are used. If provided,
+                these headers completely replace any pool-specific headers.
+    
+            :param retries:
+                Configure the number of retries to allow before raising a
+                :class:`~urllib3.exceptions.MaxRetryError` exception.
+    
+                Pass ``None`` to retry until you receive a response. Pass a
+                :class:`~urllib3.util.retry.Retry` object for fine-grained control
+                over different types of retries.
+                Pass an integer number to retry connection errors that many times,
+                but no other types of errors. Pass zero to never retry.
+    
+                If ``False``, then retries are disabled and any exception is raised
+                immediately. Also, instead of raising a MaxRetryError on redirects,
+                the redirect response will be returned.
+    
+            :type retries: :class:`~urllib3.util.retry.Retry`, False, or an int.
+    
+            :param redirect:
+                If True, automatically handle redirects (status codes 301, 302,
+                303, 307, 308). Each redirect counts as a retry. Disabling retries
+                will disable redirect, too.
+    
+            :param assert_same_host:
+                If ``True``, will make sure that the host of the pool requests is
+                consistent else will raise HostChangedError. When False, you can
+                use the pool on an HTTP proxy and request foreign hosts.
+    
+            :param timeout:
+                If specified, overrides the default timeout for this one
+                request. It may be a float (in seconds) or an instance of
+                :class:`urllib3.util.Timeout`.
+    
+            :param pool_timeout:
+                If set and the pool is set to block=True, then this method will
+                block for ``pool_timeout`` seconds and raise EmptyPoolError if no
+                connection is available within the time period.
+    
+            :param release_conn:
+                If False, then the urlopen call will not release the connection
+                back into the pool once a response is received (but will release if
+                you read the entire contents of the response such as when
+                `preload_content=True`). This is useful if you're not preloading
+                the response's content immediately. You will need to call
+                ``r.release_conn()`` on the response ``r`` to return the connection
+                back into the pool. If None, it takes the value of
+                ``response_kw.get('preload_content', True)``.
+    
+            :param chunked:
+                If True, urllib3 will send the body using chunked transfer
+                encoding. Otherwise, urllib3 will send the body using the standard
+                content-length form. Defaults to False.
+    
+            :param int body_pos:
+                Position to seek to in file-like body in the event of a retry or
+                redirect. Typically this won't need to be set because urllib3 will
+                auto-populate the value when needed.
+    
+            :param \\**response_kw:
+                Additional parameters are passed to
+                :meth:`urllib3.response.HTTPResponse.from_httplib`
+            """
+        if headers is None:
+            headers = self.headers
+    
+        if not isinstance(retries, Retry):
+            retries = Retry.from_int(retries, redirect=redirect, default=self.retries)
+    
+        if release_conn is None:
+            release_conn = response_kw.get('preload_content', True)
+    
+        # Check host
+        if assert_same_host and not self.is_same_host(url):
+            raise HostChangedError(self, url, retries)
+    
+        conn = None
+    
+        # Track whether `conn` needs to be released before
+        # returning/raising/recursing. Update this variable if necessary, and
+        # leave `release_conn` constant throughout the function. That way, if
+        # the function recurses, the original value of `release_conn` will be
+        # passed down into the recursive call, and its value will be respected.
+        #
+        # See issue #651 [1] for details.
+        #
+        # [1] &lt;https://github.com/shazow/urllib3/issues/651&gt;
+        release_this_conn = release_conn
+    
+        # Merge the proxy headers. Only do this in HTTP. We have to copy the
+        # headers dict so we can safely change it without those changes being
+        # reflected in anyone else's copy.
+        if self.scheme == 'http':
+            headers = headers.copy()
+            headers.update(self.proxy_headers)
+    
+        # Must keep the exception bound to a separate variable or else Python 3
+        # complains about UnboundLocalError.
+        err = None
+    
+        # Keep track of whether we cleanly exited the except block. This
+        # ensures we do proper cleanup in finally.
+        clean_exit = False
+    
+        # Rewind body position, if needed. Record current position
+        # for future rewinds in the event of a redirect/retry.
+        body_pos = set_file_position(body, body_pos)
+    
+        try:
+            # Request a connection from the queue.
+            timeout_obj = self._get_timeout(timeout)
+            conn = self._get_conn(timeout=pool_timeout)
+    
+            conn.timeout = timeout_obj.connect_timeout
+    
+            is_new_proxy_conn = self.proxy is not None and not getattr(conn, 'sock', None)
+            if is_new_proxy_conn:
+                self._prepare_proxy(conn)
+    
+            # Make the request on the httplib connection object.
+            httplib_response = self._make_request(conn, method, url,
+                                                  timeout=timeout_obj,
+                                                  body=body, headers=headers,
+                                                  chunked=chunked)
+    
+            # If we're going to release the connection in ``finally:``, then
+            # the response doesn't need to know about the connection. Otherwise
+            # it will also try to release it and we'll have a double-release
+            # mess.
+            response_conn = conn if not release_conn else None
+    
+            # Pass method to Response for length checking
+            response_kw['request_method'] = method
+    
+            # Import httplib's response into our own wrapper object
+            response = self.ResponseCls.from_httplib(httplib_response,
+                                                     pool=self,
+                                                     connection=response_conn,
+                                                     retries=retries,
+                                                     **response_kw)
+    
+            # Everything went great!
+            clean_exit = True
+    
+        except queue.Empty:
+            # Timed out by queue.
+            raise EmptyPoolError(self, "No pool connections are available.")
+    
+        except (TimeoutError, HTTPException, SocketError, ProtocolError,
+                BaseSSLError, SSLError, CertificateError) as e:
+            # Discard the connection for these exceptions. It will be
+            # replaced during the next _get_conn() call.
+            clean_exit = False
+            if isinstance(e, (BaseSSLError, CertificateError)):
+                e = SSLError(e)
+            elif isinstance(e, (SocketError, NewConnectionError)) and self.proxy:
+                e = ProxyError('Cannot connect to proxy.', e)
+            elif isinstance(e, (SocketError, HTTPException)):
+                e = ProtocolError('Connection aborted.', e)
+    
+            retries = retries.increment(method, url, error=e, _pool=self,
+&gt;                                       _stacktrace=sys.exc_info()[2])
+
+f:\python_1\lib\site-packages\urllib3\connectionpool.py:639: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = Retry(total=0, connect=None, read=False, redirect=None, status=None), method = 'GET'
+url = '/vega-station/schedule/detailByTrainNo?date=2019-10-25&amp;trainNO=G836', response = None
+error = NewConnectionError('&lt;urllib3.connection.VerifiedHTTPSConnection object at 0x000002301C5B8E48&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)
+_pool = &lt;urllib3.connectionpool.HTTPSConnectionPool object at 0x000002301995A908&gt;
+_stacktrace = &lt;traceback object at 0x000002301C582D88&gt;
+
+    def increment(self, method=None, url=None, response=None, error=None,
+                  _pool=None, _stacktrace=None):
+        """ Return a new Retry object with incremented retry counters.
+    
+            :param response: A response object, or None, if the server did not
+                return a response.
+            :type response: :class:`~urllib3.response.HTTPResponse`
+            :param Exception error: An error encountered during the request, or
+                None if the response was received successfully.
+    
+            :return: A new ``Retry`` object.
+            """
+        if self.total is False and error:
+            # Disabled, indicate to re-raise the error.
+            raise six.reraise(type(error), error, _stacktrace)
+    
+        total = self.total
+        if total is not None:
+            total -= 1
+    
+        connect = self.connect
+        read = self.read
+        redirect = self.redirect
+        status_count = self.status
+        cause = 'unknown'
+        status = None
+        redirect_location = None
+    
+        if error and self._is_connection_error(error):
+            # Connect retry?
+            if connect is False:
+                raise six.reraise(type(error), error, _stacktrace)
+            elif connect is not None:
+                connect -= 1
+    
+        elif error and self._is_read_error(error):
+            # Read retry?
+            if read is False or not self._is_method_retryable(method):
+                raise six.reraise(type(error), error, _stacktrace)
+            elif read is not None:
+                read -= 1
+    
+        elif response and response.get_redirect_location():
+            # Redirect retry?
+            if redirect is not None:
+                redirect -= 1
+            cause = 'too many redirects'
+            redirect_location = response.get_redirect_location()
+            status = response.status
+    
+        else:
+            # Incrementing because of a server error like a 500 in
+            # status_forcelist and a the given method is in the whitelist
+            cause = ResponseError.GENERIC_ERROR
+            if response and response.status:
+                if status_count is not None:
+                    status_count -= 1
+                cause = ResponseError.SPECIFIC_ERROR.format(
+                    status_code=response.status)
+                status = response.status
+    
+        history = self.history + (RequestHistory(method, url, error, status, redirect_location),)
+    
+        new_retry = self.new(
+            total=total,
+            connect=connect, read=read, redirect=redirect, status=status_count,
+            history=history)
+    
+        if new_retry.is_exhausted():
+&gt;           raise MaxRetryError(_pool, url, error or ResponseError(cause))
+E           urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.cx9z.com', port=443): Max retries exceeded with url: /vega-station/schedule/detailByTrainNo?date=2019-10-25&amp;trainNO=G836 (Caused by NewConnectionError('&lt;urllib3.connection.VerifiedHTTPSConnection object at 0x000002301C5B8E48&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+
+f:\python_1\lib\site-packages\urllib3\util\retry.py:388: MaxRetryError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;testCase.test_50_车次详情.tc_车次详情 testMethod=test_500_首页车次号搜索绑定行程&gt;
+
+    def test_500_首页车次号搜索绑定行程(self):
+        dr = page_车次详情(self.driver)
+        dr.act_下滑(3)
+        dr.click_首页_车次查询()
+        dr.act_滑动_AtoB(dr.btn_首页_车次查询, dr.btn_车站大屏, "车次查询", "车站大屏")
+        sid= dr.bus_首页_车次号搜索("G836")
+        dr.click_后一天()
+&gt;       dr.bus_选择始终站(sid)
+
+testCase\test_50_车次详情.py:27: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+f:\python_1\lib\site-packages\allure\common.py:62: in impl
+    return func(*a, **kw)
+businessView\page_选择车次出发和到达.py:57: in bus_选择始终站
+    起点站 = self.get_api_车次详情根据车次号(车次号)['arr_station'][0]
+f:\python_1\lib\site-packages\allure\common.py:62: in impl
+    return func(*a, **kw)
+businessView\page_选择车次出发和到达.py:47: in get_api_车次详情根据车次号
+    r = get_requests(path, form_datas=form_datas)
+common\request.py:36: in get_requests
+    r = requests.get(base_url, headers=header, params=form_datas)
+f:\python_1\lib\site-packages\requests\api.py:72: in get
+    return request('get', url, params=params, **kwargs)
+f:\python_1\lib\site-packages\requests\api.py:58: in request
+    return session.request(method=method, url=url, **kwargs)
+f:\python_1\lib\site-packages\requests\sessions.py:508: in request
+    resp = self.send(prep, **send_kwargs)
+f:\python_1\lib\site-packages\requests\sessions.py:618: in send
+    r = adapter.send(request, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;requests.adapters.HTTPAdapter object at 0x000002301C6EB0B8&gt;
+request = &lt;PreparedRequest [GET]&gt;, stream = False
+timeout = &lt;urllib3.util.timeout.Timeout object at 0x000002301C6EB6A0&gt;, verify = True, cert = None
+proxies = OrderedDict()
+
+    def send(self, request, stream=False, timeout=None, verify=True, cert=None, proxies=None):
+        """Sends PreparedRequest object. Returns Response object.
+    
+            :param request: The :class:`PreparedRequest &lt;PreparedRequest&gt;` being sent.
+            :param stream: (optional) Whether to stream the request content.
+            :param timeout: (optional) How long to wait for the server to send
+                data before giving up, as a float, or a :ref:`(connect timeout,
+                read timeout) &lt;timeouts&gt;` tuple.
+            :type timeout: float or tuple or urllib3 Timeout object
+            :param verify: (optional) Either a boolean, in which case it controls whether
+                we verify the server's TLS certificate, or a string, in which case it
+                must be a path to a CA bundle to use
+            :param cert: (optional) Any user-provided SSL certificate to be trusted.
+            :param proxies: (optional) The proxies dictionary to apply to the request.
+            :rtype: requests.Response
+            """
+    
+        conn = self.get_connection(request.url, proxies)
+    
+        self.cert_verify(conn, request.url, verify, cert)
+        url = self.request_url(request, proxies)
+        self.add_headers(request)
+    
+        chunked = not (request.body is None or 'Content-Length' in request.headers)
+    
+        if isinstance(timeout, tuple):
+            try:
+                connect, read = timeout
+                timeout = TimeoutSauce(connect=connect, read=read)
+            except ValueError as e:
+                # this may raise a string formatting error.
+                err = ("Invalid timeout {0}. Pass a (connect, read) "
+                       "timeout tuple, or a single float to set "
+                       "both timeouts to the same value".format(timeout))
+                raise ValueError(err)
+        elif isinstance(timeout, TimeoutSauce):
+            pass
+        else:
+            timeout = TimeoutSauce(connect=timeout, read=timeout)
+    
+        try:
+            if not chunked:
+                resp = conn.urlopen(
+                    method=request.method,
+                    url=url,
+                    body=request.body,
+                    headers=request.headers,
+                    redirect=False,
+                    assert_same_host=False,
+                    preload_content=False,
+                    decode_content=False,
+                    retries=self.max_retries,
+                    timeout=timeout
+                )
+    
+            # Send the request.
+            else:
+                if hasattr(conn, 'proxy_pool'):
+                    conn = conn.proxy_pool
+    
+                low_conn = conn._get_conn(timeout=DEFAULT_POOL_TIMEOUT)
+    
+                try:
+                    low_conn.putrequest(request.method,
+                                        url,
+                                        skip_accept_encoding=True)
+    
+                    for header, value in request.headers.items():
+                        low_conn.putheader(header, value)
+    
+                    low_conn.endheaders()
+    
+                    for i in request.body:
+                        low_conn.send(hex(len(i))[2:].encode('utf-8'))
+                        low_conn.send(b'\r\n')
+                        low_conn.send(i)
+                        low_conn.send(b'\r\n')
+                    low_conn.send(b'0\r\n\r\n')
+    
+                    # Receive the response from the server
+                    try:
+                        # For Python 2.7+ versions, use buffering of HTTP
+                        # responses
+                        r = low_conn.getresponse(buffering=True)
+                    except TypeError:
+                        # For compatibility with Python 2.6 versions and back
+                        r = low_conn.getresponse()
+    
+                    resp = HTTPResponse.from_httplib(
+                        r,
+                        pool=conn,
+                        connection=low_conn,
+                        preload_content=False,
+                        decode_content=False
+                    )
+                except:
+                    # If we hit any problems here, clean up the connection.
+                    # Then, reraise so that we can handle the actual exception.
+                    low_conn.close()
+                    raise
+    
+        except (ProtocolError, socket.error) as err:
+            raise ConnectionError(err, request=request)
+    
+        except MaxRetryError as e:
+            if isinstance(e.reason, ConnectTimeoutError):
+                # TODO: Remove this in 3.0.0: see #2811
+                if not isinstance(e.reason, NewConnectionError):
+                    raise ConnectTimeout(e, request=request)
+    
+            if isinstance(e.reason, ResponseError):
+                raise RetryError(e, request=request)
+    
+            if isinstance(e.reason, _ProxyError):
+                raise ProxyError(e, request=request)
+    
+            if isinstance(e.reason, _SSLError):
+                # This branch is for urllib3 v1.22 and later.
+                raise SSLError(e, request=request)
+    
+&gt;           raise ConnectionError(e, request=request)
+E           requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.cx9z.com', port=443): Max retries exceeded with url: /vega-station/schedule/detailByTrainNo?date=2019-10-25&amp;trainNO=G836 (Caused by NewConnectionError('&lt;urllib3.connection.VerifiedHTTPSConnection object at 0x000002301C5B8E48&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+
+f:\python_1\lib\site-packages\requests\adapters.py:508: ConnectionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="27125765-fac8-45dc-9e0e-8f7d503f452a-attachment.png" title="截图" type="image/png"/>
+        <attachment source="91034982-044a-474c-81cf-91ba4c69ff3f-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="14879ba7-9ed8-4e47-9d50-8b89f0e1ff09-attachment.txt" title="Captured log call" type="text/plain"/>
+        <attachment source="3424b91d-dff4-4294-a5d7-65bc81cee2db-attachment.png" title="截图" type="image/png"/>
+        <attachment source="fde2e18d-39af-4529-a89d-3634e0297c32-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="2b5c8183-9c45-4629-bc87-862f10ec01d4-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13852-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571905165405" status="passed" stop="1571905170410">
+          <name>点击首页</name>
+          <title>点击首页</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905170410" status="passed" stop="1571905171613">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905171613" status="passed" stop="1571905181709">
+          <name>向下滑动</name>
+          <title>向下滑动</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905181709" status="passed" stop="1571905186602">
+          <name>点击首页_车次查询</name>
+          <title>点击首页_车次查询</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905192334" status="passed" stop="1571905223418">
+          <name>点击首页_车次号搜索_时刻查询</name>
+          <title>点击首页_车次号搜索_时刻查询</title>
+          <attachments/>
+          <steps>
+            <step start="1571905192334" status="passed" stop="1571905199134">
+              <name>点击_车次号输入</name>
+              <title>点击_车次号输入</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905199134" status="passed" stop="1571905219000">
+              <name>键盘输入</name>
+              <title>键盘输入</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905219000" status="passed" stop="1571905223418">
+              <name>点击首页_时刻查询_查询</name>
+              <title>点击首页_时刻查询_查询</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571905237306" status="failed" stop="1571905238435">
+          <name>选择始终站</name>
+          <title>选择始终站</title>
+          <attachments/>
+          <steps>
+            <step start="1571905237306" status="failed" stop="1571905238435">
+              <name>根据车次号获取车次详情api信息</name>
+              <title>根据车次号获取车次详情api信息</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571905239217" status="passed" stop="1571905270319">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1571905239217" status="passed" stop="1571905239307">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905239307" status="passed" stop="1571905244241">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905244241" status="passed" stop="1571905264634">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905264634" status="passed" stop="1571905270319">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571905270562" status="passed" stop="1571905275551">
+          <name>点击首页</name>
+          <title>点击首页</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905275551" status="passed" stop="1571905275797">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905275797" status="passed" stop="1571905286277">
+          <name>向下滑动</name>
+          <title>向下滑动</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905286277" status="passed" stop="1571905290651">
+          <name>点击首页_车次查询</name>
+          <title>点击首页_车次查询</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905296180" status="passed" stop="1571905326834">
+          <name>点击首页_车次号搜索_时刻查询</name>
+          <title>点击首页_车次号搜索_时刻查询</title>
+          <attachments/>
+          <steps>
+            <step start="1571905296180" status="passed" stop="1571905300996">
+              <name>点击_车次号输入</name>
+              <title>点击_车次号输入</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905300996" status="passed" stop="1571905321837">
+              <name>键盘输入</name>
+              <title>键盘输入</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905321837" status="passed" stop="1571905326834">
+              <name>点击首页_时刻查询_查询</name>
+              <title>点击首页_时刻查询_查询</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571905351160" status="passed" stop="1571905399491">
+          <name>选择始终站</name>
+          <title>选择始终站</title>
+          <attachments/>
+          <steps>
+            <step start="1571905351160" status="passed" stop="1571905351452">
+              <name>根据车次号获取车次详情api信息</name>
+              <title>根据车次号获取车次详情api信息</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905351453" status="passed" stop="1571905351620">
+              <name>根据车次号获取车次详情api信息</name>
+              <title>根据车次号获取车次详情api信息</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905351621" status="passed" stop="1571905351800">
+              <name>根据车次号获取车次详情api信息</name>
+              <title>根据车次号获取车次详情api信息</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905357177" status="passed" stop="1571905368005">
+              <name>向上滑动</name>
+              <title>向上滑动</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905375777" status="passed" stop="1571905399491">
+              <name>点击_选择车次出发和到达_跨天第一个</name>
+              <title>点击_选择车次出发和到达_跨天第一个</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571905399491" status="passed" stop="1571905405305">
+          <name>点击_途经站点_确认添加</name>
+          <title>点击_途经站点_确认添加</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905405305" status="passed" stop="1571905409992">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905410608" status="passed" stop="1571905442588">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1571905410608" status="passed" stop="1571905411076">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905411076" status="passed" stop="1571905417112">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905417112" status="passed" stop="1571905437304">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905437304" status="passed" stop="1571905442588">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571905442949" status="passed" stop="1571905629911">
+      <name>tc_车次详情.test_501_行程车次号搜索绑定行程</name>
+      <attachments>
+        <attachment source="16670f9b-a5c6-4d2f-8071-37b91b9d2dad-attachment.png" title="截图" type="image/png"/>
+        <attachment source="d376ae4c-4e7c-47ed-bfb3-9361584def6b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13852-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571905442955" status="passed" stop="1571905449501">
+          <name>点击首页</name>
+          <title>点击首页</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905449501" status="passed" stop="1571905450334">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905450334" status="passed" stop="1571905456583">
+          <name>点击行程</name>
+          <title>点击行程</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905456583" status="passed" stop="1571905485102">
+          <name>点击添加行程</name>
+          <title>点击添加行程</title>
+          <attachments/>
+          <steps>
+            <step start="1571905480179" status="passed" stop="1571905485102">
+              <name>点击添加行程_十字图标</name>
+              <title>点击添加行程_十字图标</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571905485102" status="passed" stop="1571905491891">
+          <name>点击行程_手动添加行程</name>
+          <title>点击行程_手动添加行程</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905491891" status="passed" stop="1571905496058">
+          <name>点击_添加行程_查询方式</name>
+          <title>点击_添加行程_查询方式</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905496058" status="passed" stop="1571905517368">
+          <name>点击车次号输入框</name>
+          <title>点击车次号输入框</title>
+          <attachments/>
+          <steps>
+            <step start="1571905500221" status="passed" stop="1571905517368">
+              <name>键盘输入</name>
+              <title>键盘输入</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571905517368" status="passed" stop="1571905522788">
+          <name>点击_添加行程_查询</name>
+          <title>点击_添加行程_查询</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905522788" status="passed" stop="1571905573163">
+          <name>选择始终站</name>
+          <title>选择始终站</title>
+          <attachments/>
+          <steps>
+            <step start="1571905522788" status="passed" stop="1571905522989">
+              <name>根据车次号获取车次详情api信息</name>
+              <title>根据车次号获取车次详情api信息</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905522990" status="passed" stop="1571905523177">
+              <name>根据车次号获取车次详情api信息</name>
+              <title>根据车次号获取车次详情api信息</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905523178" status="passed" stop="1571905523378">
+              <name>根据车次号获取车次详情api信息</name>
+              <title>根据车次号获取车次详情api信息</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905527426" status="passed" stop="1571905538164">
+              <name>向上滑动</name>
+              <title>向上滑动</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905543571" status="passed" stop="1571905567527">
+              <name>点击_选择车次出发和到达_跨天第一个</name>
+              <title>点击_选择车次出发和到达_跨天第一个</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905567527" status="passed" stop="1571905573163">
+              <name>点击_选择车次出发和到达_确认添加</name>
+              <title>点击_选择车次出发和到达_确认添加</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1571905573163" status="passed" stop="1571905596975">
+          <name>点击_途经站点_确认添加</name>
+          <title>点击_途经站点_确认添加</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905596975" status="passed" stop="1571905597453">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905598193" status="passed" stop="1571905629911">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1571905598193" status="passed" stop="1571905598272">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905598272" status="passed" stop="1571905604367">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905604367" status="passed" stop="1571905624638">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905624639" status="passed" stop="1571905629911">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571905629917" status="passed" stop="1571905756802">
+      <name>tc_车次详情.test_502_首页删除行程</name>
+      <attachments>
+        <attachment source="1a5f1880-1d1f-4170-a2f4-59163167896e-attachment.png" title="截图" type="image/png"/>
+        <attachment source="dd71a278-b105-4f81-9b4d-a5454bbf58d2-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13852-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571905629919" status="passed" stop="1571905634982">
+          <name>点击首页</name>
+          <title>点击首页</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905634982" status="passed" stop="1571905635751">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905635751" status="passed" stop="1571905640977">
+          <name>点击行程</name>
+          <title>点击行程</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905640977" status="passed" stop="1571905707413">
+          <name>点击行程_删除全部行程</name>
+          <title>点击行程_删除全部行程</title>
+          <attachments/>
+          <steps>
+            <step start="1571905640977" status="passed" stop="1571905650042">
+              <name>点击_行程_删除首个行程</name>
+              <title>点击_行程_删除首个行程</title>
+              <attachments/>
+              <steps>
+                <step start="1571905640977" status="passed" stop="1571905645690">
+                  <name>点击_行程_删除行程</name>
+                  <title>点击_行程_删除行程</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+                <step start="1571905645690" status="passed" stop="1571905650042">
+                  <name>点击确定</name>
+                  <title>点击确定</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+              </steps>
+            </step>
+            <step start="1571905655066" status="passed" stop="1571905683467">
+              <name>点击_行程_删除首个行程</name>
+              <title>点击_行程_删除首个行程</title>
+              <attachments/>
+              <steps>
+                <step start="1571905655066" status="passed" stop="1571905678815">
+                  <name>点击_行程_删除行程</name>
+                  <title>点击_行程_删除行程</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+                <step start="1571905678815" status="passed" stop="1571905683467">
+                  <name>点击确定</name>
+                  <title>点击确定</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+              </steps>
+            </step>
+          </steps>
+        </step>
+        <step start="1571905707413" status="passed" stop="1571905731918">
+          <name>点击_行程_删除行程</name>
+          <title>点击_行程_删除行程</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1571905732638" status="passed" stop="1571905756801">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1571905732638" status="passed" stop="1571905752820">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1571905752820" status="passed" stop="1571905756801">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

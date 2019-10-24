@@ -1,0 +1,7 @@
+baseView.py                 72 INFO     获取toast_提示:浠水站!
+common.py                  409 INFO     向下滑动屏幕
+common.py                  409 INFO     向下滑动屏幕
+common.py                  409 INFO     向下滑动屏幕
+common.py                  359 INFO     按住txt_首页_时刻查询模块名移动到0.15位置移动到自定义位置!
+baseView.py                 39 INFO     点击btn_站站查询!
+baseView.py                 39 INFO     点击btn_时刻查询_查询!
