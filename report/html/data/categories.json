@@ -1,41 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: 0 != '智能排序'",
-      "children" : [ {
-        "name" : "tc_首页.test_060_查看全部跳转站内商业",
-        "uid" : "85a62948623004ea",
-        "parentUid" : "59c532bdf2dc51260706be591042ed24",
-        "status" : "failed",
-        "time" : {
-          "start" : 1571902839787,
-          "stop" : 1571903006932,
-          "duration" : 167145
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "59c532bdf2dc51260706be591042ed24"
-    }, {
-      "name" : "AssertionError: 1 != 0",
-      "children" : [ {
-        "name" : "tc_我的资料.test_104_确认修改出生日期",
-        "uid" : "28bd842fb5b92f42",
-        "parentUid" : "d8d689cdcaf4abe246184e91861be50a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1571904078423,
-          "stop" : 1571904327759,
-          "duration" : 249336
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d8d689cdcaf4abe246184e91861be50a"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }

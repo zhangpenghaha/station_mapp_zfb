@@ -1,7 +1,0 @@
-baseView.py                 39 INFO     点击img_高铁动车!
-baseView.py                 72 INFO     获取toast_提示:new UiSelector().text("K968")!
-baseView.py                 77 ERROR    Message: 
-
-baseView.py                 78 ERROR    toast_提示:new UiSelector().text("K968")元素找不到!
-baseView.py                 39 INFO     点击img_高铁动车!
-myassert.py                 13 INFO     通过!

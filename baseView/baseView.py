@@ -2,7 +2,6 @@
 import logging
 import time
 import os
-
 import allure
 from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import NoSuchElementException
@@ -35,7 +34,8 @@ class baseView(object):
             return self.driver.find_element_by_android_uiautomator(loc)
 
     def click_点击(self, loc, info):
-        time.sleep(3)
+        time.sleep(5)
+        # allure.attach("点击" + info, info, allure.attach_type.TEXT)
         logging.info("点击" + info + "!")
         try:
             WebDriverWait(self.driver, 15).until(lambda x: x.find_element_by_android_uiautomator(loc))
@@ -56,6 +56,7 @@ class baseView(object):
         return self.driver.switch_to.context('NATIVE_APP')
 
     def send_输入(self, loc, info, mes):
+        allure.attach("输入" + mes, mes, allure.attach_type.TEXT)
         logging.info(info + "输入" + mes + "!")
         # allure.attach( mes, allure.attach_type.TEXT)
         try:

@@ -46,7 +46,7 @@ class page_首页(common):
     btn_车次号输入框 = loc_start_text("车次号")
     # btn_首页_时刻查询_扫码 = loc_class_instance("android.widget.Button", 0)
     btn_首页_时刻查询_扫码 = loc_id("scanbtn")
-    btn_首页_切换起始站点 = loc_class_instance("android.widget.Image", 10)
+    btn_首页_切换起始站点 = loc_child_IDtoC_Number("AThome8", "android.widget.Image",0 )
     # btn_首页_切换起始站点 = loc_child_TtoCT_Number("wx8d75e764f0c4bf1c:pages/tabBar/station/index.html:VISIBLE","android.widget.Image", 10)
     btn_首页_车次查询 = loc_text("车次查询")
     btn_首页_站站查询 = loc_text("站站查询")
@@ -77,7 +77,7 @@ class page_首页(common):
     btn_首页站内商业_进站后 = loc_text_instance("进站后",0)
 
     "商铺"
-    btn_首页_车站商业进站前1号位 = loc_text("便民超市")
+    btn_首页_车站商业进站前1号位 = loc_text("百货超市")
     btn_首页_车站商业进站后1号位 = loc_text("平价自选商店")
 
     "=====更多服务====="
@@ -277,7 +277,7 @@ class page_首页(common):
 
     "站内商业"
 
-    @allure.step(title='点击首页_车站山野进站前1号位')
+    @allure.step(title='点击首页_车站商业进站前1号位')
     def click_首页_车站商业进站前1号位(self):
         return self.click_点击(self.btn_首页_车站商业进站前1号位, "btn_首页_车站商业进站前1号位")
 

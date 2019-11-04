@@ -13,25 +13,25 @@ from businessView.page_添加行程 import page_添加行程
 
 
 class tc_行程详情与分享(st_首页):
-    # @classmethod
-    # def setUpClass(cls):
-    #     dr = page_行程(cls.driver)
-    #     dr.click_点击行程()
-    #     dr.bus_行程_删除全部(2)
-    #     dr.click_行程_添加行程()
-    #     dr.click_行程_手动添加()
-    #     dr = page_添加行程(cls.driver)
-    #     dr.click_添加行程_查询方式("站站添加")
-    #     dr.click_点击出发地()
-    #     dr = Page_选择城市(cls.driver)
-    #     dr.select_选择城市("乌鲁木齐")
-    #     dr.click_点击目的地()
-    #     dr.select_选择城市("哈尔滨")
-    #     dr = page_添加行程(cls.driver)
-    #     dr.click_添加行程_查询()
-    #     dr = page_选择车次(cls.driver)
-    #     dr.click_点击车次("小时")
-    #     dr.click_确认添加()
+    @classmethod
+    def setUpClass(cls):
+        dr = page_行程(cls.driver)
+        dr.click_点击行程()
+        dr.bus_行程_删除全部(2)
+        dr.click_行程_添加行程()
+        dr.click_行程_手动添加()
+        dr = page_添加行程(cls.driver)
+        dr.click_添加行程_查询方式("站站添加")
+        dr.click_点击出发地()
+        dr = Page_选择城市(cls.driver)
+        dr.select_选择城市("乌鲁木齐")
+        dr.click_点击目的地()
+        dr.select_选择城市("哈尔滨")
+        dr = page_添加行程(cls.driver)
+        dr.click_添加行程_查询()
+        dr = page_选择车次(cls.driver)
+        dr.click_点击车次("小时")
+        dr.click_确认添加()
 
     def setUp(self):
         dr = page_首页(self.driver)

@@ -1,0 +1,17 @@
+baseView.py                 39 INFO     点击btn_首页!
+baseView.py                 39 INFO     点击btn_首页_车站商业进站前1号位!
+baseView.py                 39 INFO     点击btn_店铺详情_评论此商家!
+test_6_填写评论.py              79 INFO     =====test_006_主流程不上传图片不匿名=====
+baseView.py                 39 INFO     点击点击5星级!
+baseView.py                 60 INFO     ipb_商家评论输入此超市很赞!
+baseView.py                 39 INFO     点击btn_商家评论!
+baseView.py                 39 INFO     点击btn_提交评价!
+baseView.py                 73 INFO     获取toast_提示:评论此商家!
+test_6_填写评论.py              84 INFO     toast提示为:评论提交成功
+myassert.py                 13 INFO     通过!
+baseView.py                 39 INFO     点击返回按钮!
+common.py                  144 INFO     返回到后置返回!
+baseView.py                213 ERROR    Message: An element could not be located on the page using the given search parameters.
+
+baseView.py                214 ERROR    new UiSelector().description("返回")judge_元素不存在!
+baseView.py                 39 INFO     点击btn_首页!

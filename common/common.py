@@ -64,6 +64,7 @@ class common(baseView):
 
     @allure.step(title='获取toast提示')
     def get_toast(self,toast_tip):
+        allure.attach("获取toast提示" + toast_tip, toast_tip, allure.attach_type.TEXT)
         return self.get_元素文本(loc_text(toast_tip), "toast_提示:"+toast_tip)
 
     @allure.step(title='获取toast提示')

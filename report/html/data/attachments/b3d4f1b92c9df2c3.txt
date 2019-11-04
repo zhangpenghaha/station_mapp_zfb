@@ -1,4 +1,0 @@
-baseView.py                 39 INFO     点击text_车次!
-baseView.py                 39 INFO     点击text_展开!
-baseView.py                 72 INFO     获取text_收起!
-myassert.py                 13 INFO     通过!

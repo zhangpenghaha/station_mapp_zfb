@@ -1,4 +1,0 @@
-baseView.py                 39 INFO     点击text_车次!
-baseView.py                 39 INFO     点击text_确定添加!
-baseView.py                 72 INFO     获取toast_提示:行李托运!
-myassert.py                 13 INFO     通过!

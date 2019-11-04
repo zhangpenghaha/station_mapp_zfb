@@ -268,14 +268,15 @@ class tc_首页(st_首页):
         a = dr.get_toast("武汉-北京")
         self.myEq(a, "武汉-北京", "时刻查询_站站查询结果跳转")
 
-    # def test_038_站站查询_切换起始站点按钮(self):
-    #     logging.info("=====test_038_站站查询_切换起始站点按钮=====")
-    #     dr = page_首页(self.driver)
-    #     dr.click_首页_切换起始站点()
-    #     dr.click_首页_时刻查询_查询()
-    #     dr = page_选择车次(self.driver)
-    #     a = dr.get_选择车次_出发地_目的地()
-    #     self.myEq(a, "北京-武汉", "站站查询_切换起始站点按钮")
+    def test_038_站站查询_切换起始站点按钮(self):
+        logging.info("=====test_038_站站查询_切换起始站点按钮=====")
+        dr = page_首页(self.driver)
+        dr.click_首页_切换起始站点()
+        dr.act_上滑()
+        dr.click_首页_时刻查询_查询()
+        dr = page_选择车次(self.driver)
+        a = dr.get_toast("北京-武汉")
+        self.myEq(a, "北京-武汉", "站站查询_切换起始站点按钮")
 
     "封腰"
 
@@ -346,56 +347,56 @@ class tc_首页(st_首页):
     "=====更多服务====="
 
 
-    # def test_075_功能待完善提示(self):
-    #     logging.info("=====test_075_功能待完善提示=====")
-    #     dr = page_首页(self.driver)
-    #     dr.act_上滑(3)
-    #     dr.click_首页更多服务_服务项("洗手间")
-    #     a = dr.click_确认()
-    #     self.myEq(a, 1, "功能待完善提示")
+    def test_075_功能待完善提示(self):
+        logging.info("=====test_075_功能待完善提示=====")
+        dr = page_首页(self.driver)
+        dr.act_上滑(3)
+        dr.click_首页更多服务_服务项("饮水机")
+        a = dr.get_toast("饮水处")
+        self.myEq(a, "饮水处", "功能待完善提示")
 
 
     "首页底部服务页面"
 
 
-    # def test_100_首页军人优先跳转(self):
-    #     logging.info("=====test_100_首页军人优先跳转=====")
-    #     dr = page_首页(self.driver)
-    #     dr.act_上滑(4)
-    #     dr.click_首页军人优先()
-    #     dr = page_首页底部服务页面(self.driver)
-    #     a = dr.get_军人优先_文章标题()
-    #     self.myEq(a, "【军人优先】风里雨里你在前，铁路出行你优先", "test_100_首页军人优先跳转")
-    #
-    #
-    # def test_105_首页常见问题跳转(self):
-    #     logging.info("=====test_105_首页常见问题跳转=====")
-    #     dr = page_首页(self.driver)
-    #     dr.act_上滑(4)
-    #     dr.click_首页常见问题()
-    #     dr = page_首页底部服务页面(self.driver)
-    #     a = dr.get_常见问题_文章标题()
-    #     self.myEq(a, "出行常见问题之火车票相关", "test_105_首页常见问题跳转")
-    #
-    #
-    # def test_110_首页服务评价跳转(self):
-    #     logging.info("=====test_110_首页服务评价跳转=====")
-    #     dr = page_首页(self.driver)
-    #     dr.act_上滑(4)
-    #     dr.click_首页服务评价()
-    #     dr = page_首页底部服务页面(self.driver)
-    #     a = dr.get_服务评价_文章标题()
-    #     self.myEq(a, "【服务评价】欢迎您对铁路出行服务进行评价！", "test_105_首页常见问题跳转")
-    #
-    #
-    # def test_115_首页关于我们跳转(self):
-    #     logging.info("=====test_115_首页关于我们跳转=====")
-    #     dr = page_首页(self.driver)
-    #     dr.act_上滑(4)
-    #     dr.click_首页关于我们()
-    #     dr = page_首页底部服务页面(self.driver)
-    #     a = dr.get_关于我们_文章标题()
-    #     self.myEq(a, "威泰科技", "test_105_首页常见问题跳转")
+    def test_100_首页军人优先跳转(self):
+        logging.info("=====test_100_首页军人优先跳转=====")
+        dr = page_首页(self.driver)
+        dr.act_上滑(4)
+        dr.click_首页军人优先()
+        dr = page_首页底部服务页面(self.driver)
+        a = dr.get_军人优先_文章标题()
+        self.myEq(a, "【军人优先】风里雨里你在前，铁路出行你优先", "test_100_首页军人优先跳转")
+
+
+    def test_105_首页常见问题跳转(self):
+        logging.info("=====test_105_首页常见问题跳转=====")
+        dr = page_首页(self.driver)
+        dr.act_上滑(4)
+        dr.click_首页常见问题()
+        dr = page_首页底部服务页面(self.driver)
+        a = dr.get_常见问题_文章标题()
+        self.myEq(a, "出行常见问题之火车票相关", "test_105_首页常见问题跳转")
+
+
+    def test_110_首页服务评价跳转(self):
+        logging.info("=====test_110_首页服务评价跳转=====")
+        dr = page_首页(self.driver)
+        dr.act_上滑(4)
+        dr.click_首页服务评价()
+        dr = page_首页底部服务页面(self.driver)
+        a = dr.get_服务评价_文章标题()
+        self.myEq(a, "【服务评价】欢迎您对铁路出行服务进行评价！", "test_105_首页常见问题跳转")
+
+
+    def test_115_首页关于我们跳转(self):
+        logging.info("=====test_115_首页关于我们跳转=====")
+        dr = page_首页(self.driver)
+        dr.act_上滑(4)
+        dr.click_首页关于我们()
+        dr = page_首页底部服务页面(self.driver)
+        a = dr.get_关于我们_文章标题()
+        self.myEq(a, "威泰科技", "test_105_首页常见问题跳转")
 
 
     def tearDown(self):
