@@ -1,0 +1,322 @@
+{
+  "uid" : "73ae14ff32bb1ff6",
+  "name" : "tc_我的资料.test_105_取消修改出生日期",
+  "fullName" : "testCase.test_40_我的资料.tc_我的资料.test_105_取消修改出生日期",
+  "historyId" : "21e56dd93f508c363f82408d335ec385",
+  "time" : {
+    "start" : 1573011080359,
+    "stop" : 1573011159339,
+    "duration" : 78980
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击我的",
+      "time" : {
+        "start" : 1573011080362,
+        "stop" : 1573011084982,
+        "duration" : 4620
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_个人中心_我的资料",
+      "time" : {
+        "start" : 1573011084982,
+        "stop" : 1573011089133,
+        "duration" : 4151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "修改日期",
+      "time" : {
+        "start" : 1573011089133,
+        "stop" : 1573011132125,
+        "duration" : 42992
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取出生日期文本",
+        "time" : {
+          "start" : 1573011089134,
+          "stop" : 1573011093318,
+          "duration" : 4184
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击_我的资料_出生日期",
+        "time" : {
+          "start" : 1573011093318,
+          "stop" : 1573011096471,
+          "duration" : 3153
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取选择后_向上点年份",
+        "time" : {
+          "start" : 1573011096471,
+          "stop" : 1573011106395,
+          "duration" : 9924
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "向上选择月份",
+        "time" : {
+          "start" : 1573011106396,
+          "stop" : 1573011116664,
+          "duration" : 10268
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "向上选择日期",
+        "time" : {
+          "start" : 1573011116665,
+          "stop" : 1573011126849,
+          "duration" : 10184
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击取消",
+        "time" : {
+          "start" : 1573011126850,
+          "stop" : 1573011129721,
+          "duration" : 2871
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取出生日期文本",
+        "time" : {
+          "start" : 1573011129721,
+          "stop" : 1573011132123,
+          "duration" : 2402
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页",
+      "time" : {
+        "start" : 1573011132926,
+        "stop" : 1573011149800,
+        "duration" : 16874
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到我的",
+      "time" : {
+        "start" : 1573011149800,
+        "stop" : 1573011159338,
+        "duration" : 9538
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573011151890,
+          "stop" : 1573011152367,
+          "duration" : 477
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573011152367,
+          "stop" : 1573011155740,
+          "duration" : 3373
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573011155740,
+          "stop" : 1573011156388,
+          "duration" : 648
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击我的",
+        "time" : {
+          "start" : 1573011156389,
+          "stop" : 1573011159338,
+          "duration" : 2949
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "862852b6cac421cd",
+      "name" : "截图",
+      "source" : "862852b6cac421cd.png",
+      "type" : "image/png",
+      "size" : 238226
+    }, {
+      "uid" : "e2165d231c1c7685",
+      "name" : "Captured log call",
+      "source" : "e2165d231c1c7685.txt",
+      "type" : "text/plain",
+      "size" : 1959
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_40_我的资料"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_40_我的资料"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_我的资料.test_105_取消修改出生日期"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_40_我的资料"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73ae14ff32bb1ff6.json",
+  "parameterValues" : [ ]
+}

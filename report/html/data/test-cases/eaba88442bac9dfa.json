@@ -1,0 +1,364 @@
+{
+  "uid" : "eaba88442bac9dfa",
+  "name" : "tc_填写评论.test_004_主流程全部填写",
+  "fullName" : "testCase.test_6_填写评论.tc_填写评论.test_004_主流程全部填写",
+  "historyId" : "5c97429d188526e7b103bd544f2e7d65",
+  "time" : {
+    "start" : 1573015928055,
+    "stop" : 1573016002869,
+    "duration" : 74814
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击首页",
+      "time" : {
+        "start" : 1573015928057,
+        "stop" : 1573015931210,
+        "duration" : 3153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页_车站商业进站前1号位",
+      "time" : {
+        "start" : 1573015931210,
+        "stop" : 1573015937298,
+        "duration" : 6088
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_店铺详情_[评论此商家",
+      "time" : {
+        "start" : 1573015937298,
+        "stop" : 1573015946368,
+        "duration" : 9070
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_填写评论_勾选匿名",
+      "time" : {
+        "start" : 1573015946369,
+        "stop" : 1573015950422,
+        "duration" : 4053
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_填写评论_选择星级",
+      "time" : {
+        "start" : 1573015950422,
+        "stop" : 1573015954940,
+        "duration" : 4518
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_填写评论_添加图片",
+      "time" : {
+        "start" : 1573015954940,
+        "stop" : 1573015959549,
+        "duration" : 4609
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_填写评论_从相册选择",
+      "time" : {
+        "start" : 1573015959549,
+        "stop" : 1573015963702,
+        "duration" : 4153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择图片",
+      "time" : {
+        "start" : 1573015963702,
+        "stop" : 1573015971740,
+        "duration" : 8038
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击完成",
+        "time" : {
+          "start" : 1573015966585,
+          "stop" : 1573015971740,
+          "duration" : 5155
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入_填写评论_商家评论",
+      "time" : {
+        "start" : 1573015971740,
+        "stop" : 1573015975012,
+        "duration" : 3272
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d77295bbc3b7d70",
+        "name" : "输入便民超市,物美价廉,货物丰富!",
+        "source" : "6d77295bbc3b7d70.txt",
+        "type" : "text/plain",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_填写评论_商家评论",
+      "time" : {
+        "start" : 1573015975012,
+        "stop" : 1573015978965,
+        "duration" : 3953
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_填写评论_提交评论",
+      "time" : {
+        "start" : 1573015978965,
+        "stop" : 1573015981805,
+        "duration" : 2840
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取toast提示",
+      "time" : {
+        "start" : 1573015981805,
+        "stop" : 1573015989963,
+        "duration" : 8158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc129fdea970ab45",
+        "name" : "获取toast提示评论此商家",
+        "source" : "fc129fdea970ab45.txt",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573015990993,
+        "stop" : 1573016002869,
+        "duration" : 11876
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573015992483,
+          "stop" : 1573015993236,
+          "duration" : 753
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573015993236,
+          "stop" : 1573015997283,
+          "duration" : 4047
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573015997283,
+          "stop" : 1573015999029,
+          "duration" : 1746
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573015999029,
+          "stop" : 1573016002869,
+          "duration" : 3840
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "84df9e39161b28d6",
+      "name" : "截图",
+      "source" : "84df9e39161b28d6.png",
+      "type" : "image/png",
+      "size" : 445458
+    }, {
+      "uid" : "bb464674927e425d",
+      "name" : "Captured log call",
+      "source" : "bb464674927e425d.txt",
+      "type" : "text/plain",
+      "size" : 1574
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_6_填写评论"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_6_填写评论"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_填写评论.test_004_主流程全部填写"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_6_填写评论"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eaba88442bac9dfa.json",
+  "parameterValues" : [ ]
+}

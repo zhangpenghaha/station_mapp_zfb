@@ -1,0 +1,172 @@
+{
+  "uid" : "765d0335baf67dbf",
+  "name" : "tc_首页.test_033_车次查询标签页切换",
+  "fullName" : "testCase.test_1_首页.tc_首页.test_033_车次查询标签页切换",
+  "historyId" : "f423be0ffb3a70462b608cfa6e7e3faa",
+  "time" : {
+    "start" : 1573008165631,
+    "stop" : 1573008201097,
+    "duration" : 35466
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573008165633,
+        "stop" : 1573008181871,
+        "duration" : 16238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页_车次查询",
+      "time" : {
+        "start" : 1573008184872,
+        "stop" : 1573008189061,
+        "duration" : 4189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取车次号输入框示例文本",
+      "time" : {
+        "start" : 1573008189061,
+        "stop" : 1573008192296,
+        "duration" : 3235
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573008193574,
+        "stop" : 1573008201096,
+        "duration" : 7522
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573008195739,
+          "stop" : 1573008196221,
+          "duration" : 482
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573008196221,
+          "stop" : 1573008201096,
+          "duration" : 4875
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c00581d99d610cdc",
+      "name" : "截图",
+      "source" : "c00581d99d610cdc.png",
+      "type" : "image/png",
+      "size" : 480602
+    }, {
+      "uid" : "938a7bcf3159ae24",
+      "name" : "Captured log call",
+      "source" : "938a7bcf3159ae24.txt",
+      "type" : "text/plain",
+      "size" : 810
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_首页.test_033_车次查询标签页切换"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "765d0335baf67dbf.json",
+  "parameterValues" : [ ]
+}

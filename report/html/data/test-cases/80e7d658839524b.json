@@ -1,0 +1,193 @@
+{
+  "uid" : "80e7d658839524b",
+  "name" : "tc_行程.test_1_添加行程弹出选择框",
+  "fullName" : "testCase.test_20_行程.tc_行程.test_1_添加行程弹出选择框",
+  "historyId" : "8d0d803d91b7f2f7684e5dd678fc6947",
+  "time" : {
+    "start" : 1573009578371,
+    "stop" : 1573009606573,
+    "duration" : 28202
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击行程",
+      "time" : {
+        "start" : 1573009580378,
+        "stop" : 1573009587254,
+        "duration" : 6876
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击添加行程",
+      "time" : {
+        "start" : 1573009587254,
+        "stop" : 1573009591569,
+        "duration" : 4315
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取添加行程_手动添加文本",
+      "time" : {
+        "start" : 1573009591569,
+        "stop" : 1573009593547,
+        "duration" : 1978
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击取消",
+      "time" : {
+        "start" : 1573009593548,
+        "stop" : 1573009597344,
+        "duration" : 3796
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573009597991,
+        "stop" : 1573009606573,
+        "duration" : 8582
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573009600103,
+          "stop" : 1573009600617,
+          "duration" : 514
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573009600617,
+          "stop" : 1573009606573,
+          "duration" : 5956
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2e1b9c0e570e4712",
+      "name" : "截图",
+      "source" : "2e1b9c0e570e4712.png",
+      "type" : "image/png",
+      "size" : 155202
+    }, {
+      "uid" : "c15cbe0aeabc2b65",
+      "name" : "Captured log setup",
+      "source" : "c15cbe0aeabc2b65.txt",
+      "type" : "text/plain",
+      "size" : 115
+    }, {
+      "uid" : "77475ca367da825f",
+      "name" : "Captured log call",
+      "source" : "77475ca367da825f.txt",
+      "type" : "text/plain",
+      "size" : 595
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_20_行程"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_20_行程"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_行程.test_1_添加行程弹出选择框"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_20_行程"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80e7d658839524b.json",
+  "parameterValues" : [ ]
+}

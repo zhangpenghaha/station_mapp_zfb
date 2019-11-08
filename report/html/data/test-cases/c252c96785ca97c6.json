@@ -1,0 +1,289 @@
+{
+  "uid" : "c252c96785ca97c6",
+  "name" : "tc_车站大屏详情.test_018_检查加一天标识",
+  "fullName" : "testCase.test_45_车站大屏2.tc_车站大屏详情.test_018_检查加一天标识",
+  "historyId" : "d2d7050b6c409165f54d0bb27938961f",
+  "time" : {
+    "start" : 1573012148744,
+    "stop" : 1573012224364,
+    "duration" : 75620
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击首页",
+      "time" : {
+        "start" : 1573012148747,
+        "stop" : 1573012152955,
+        "duration" : 4208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573012152955,
+        "stop" : 1573012160109,
+        "duration" : 7154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取toast提示",
+      "time" : {
+        "start" : 1573012163109,
+        "stop" : 1573012167867,
+        "duration" : 4758
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4678aa5c7cd7d10",
+        "name" : "获取toast提示浠水站",
+        "source" : "4678aa5c7cd7d10.txt",
+        "type" : "text/plain",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_车站大屏_到达",
+      "time" : {
+        "start" : 1573012173184,
+        "stop" : 1573012207635,
+        "duration" : 34451
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "键盘输入",
+        "time" : {
+          "start" : 1573012177085,
+          "stop" : 1573012199319,
+          "duration" : 22234
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573012203351,
+          "stop" : 1573012207635,
+          "duration" : 4284
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f1fa22169e7c4038",
+          "name" : "获取toast提示+1天",
+          "source" : "f1fa22169e7c4038.txt",
+          "type" : "text/plain",
+          "size" : 5
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573012208308,
+        "stop" : 1573012224364,
+        "duration" : 16056
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573012210110,
+          "stop" : 1573012210396,
+          "duration" : 286
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573012210396,
+          "stop" : 1573012214791,
+          "duration" : 4395
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573012214791,
+          "stop" : 1573012215484,
+          "duration" : 693
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573012215484,
+          "stop" : 1573012218679,
+          "duration" : 3195
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573012218679,
+          "stop" : 1573012219480,
+          "duration" : 801
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573012219480,
+          "stop" : 1573012224364,
+          "duration" : 4884
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b4afa5eceb18fdad",
+      "name" : "截图",
+      "source" : "b4afa5eceb18fdad.png",
+      "type" : "image/png",
+      "size" : 146485
+    }, {
+      "uid" : "b6400a53f747d51c",
+      "name" : "Captured log call",
+      "source" : "b6400a53f747d51c.txt",
+      "type" : "text/plain",
+      "size" : 1248
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_45_车站大屏2"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_45_车站大屏2"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_车站大屏详情.test_018_检查加一天标识"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_45_车站大屏2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c252c96785ca97c6.json",
+  "parameterValues" : [ ]
+}

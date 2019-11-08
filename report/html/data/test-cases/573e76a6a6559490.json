@@ -1,0 +1,439 @@
+{
+  "uid" : "573e76a6a6559490",
+  "name" : "tc_行程.test_2_手动添加行程_车次查询_4_K422",
+  "fullName" : "testCase.test_60_添加删除行程.tc_行程.test_2_手动添加行程_车次查询_4_K422",
+  "historyId" : "e1e66f627fcd712f5c42027f10f6a26a",
+  "time" : {
+    "start" : 1573013691949,
+    "stop" : 1573013799362,
+    "duration" : 107413
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击行程",
+      "time" : {
+        "start" : 1573013691951,
+        "stop" : 1573013696089,
+        "duration" : 4138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击添加行程",
+      "time" : {
+        "start" : 1573013696089,
+        "stop" : 1573013699095,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击行程_手动添加行程",
+      "time" : {
+        "start" : 1573013699095,
+        "stop" : 1573013705043,
+        "duration" : 5948
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_添加行程_查询方式",
+      "time" : {
+        "start" : 1573013705043,
+        "stop" : 1573013708059,
+        "duration" : 3016
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击车次号输入框",
+      "time" : {
+        "start" : 1573013708059,
+        "stop" : 1573013730487,
+        "duration" : 22428
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "键盘输入",
+        "time" : {
+          "start" : 1573013711179,
+          "stop" : 1573013730487,
+          "duration" : 19308
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击出发日期",
+      "time" : {
+        "start" : 1573013730487,
+        "stop" : 1573013735506,
+        "duration" : 5019
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择几天后的日期",
+      "time" : {
+        "start" : 1573013735506,
+        "stop" : 1573013739875,
+        "duration" : 4369
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "选择日期",
+        "time" : {
+          "start" : 1573013735506,
+          "stop" : 1573013735507,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_添加行程_查询",
+      "time" : {
+        "start" : 1573013739875,
+        "stop" : 1573013746962,
+        "duration" : 7087
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择起始站",
+      "time" : {
+        "start" : 1573013746963,
+        "stop" : 1573013751945,
+        "duration" : 4982
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择终点站",
+      "time" : {
+        "start" : 1573013751945,
+        "stop" : 1573013760713,
+        "duration" : 8768
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573013751945,
+          "stop" : 1573013755879,
+          "duration" : 3934
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7f6a4b2142d525a3",
+          "name" : "获取toast提示绍兴",
+          "source" : "7f6a4b2142d525a3.txt",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击确定添加",
+      "time" : {
+        "start" : 1573013760713,
+        "stop" : 1573013770659,
+        "duration" : 9946
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取toast提示",
+      "time" : {
+        "start" : 1573013770659,
+        "stop" : 1573013775970,
+        "duration" : 5311
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "25bede1dfc6a608",
+        "name" : "获取toast提示行李托运",
+        "source" : "25bede1dfc6a608.txt",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到行程页",
+      "time" : {
+        "start" : 1573013776713,
+        "stop" : 1573013790566,
+        "duration" : 13853
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573013778484,
+          "stop" : 1573013779256,
+          "duration" : 772
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573013779256,
+          "stop" : 1573013785015,
+          "duration" : 5759
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573013785015,
+          "stop" : 1573013785751,
+          "duration" : 736
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击行程",
+        "time" : {
+          "start" : 1573013785751,
+          "stop" : 1573013790566,
+          "duration" : 4815
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_行程_删除首个行程",
+      "time" : {
+        "start" : 1573013790566,
+        "stop" : 1573013799362,
+        "duration" : 8796
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击_行程_删除行程",
+        "time" : {
+          "start" : 1573013790566,
+          "stop" : 1573013795305,
+          "duration" : 4739
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击确定",
+        "time" : {
+          "start" : 1573013795305,
+          "stop" : 1573013799362,
+          "duration" : 4057
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "43300b59598fb5ee",
+      "name" : "截图",
+      "source" : "43300b59598fb5ee.png",
+      "type" : "image/png",
+      "size" : 187265
+    }, {
+      "uid" : "c30f54d5c29578ea",
+      "name" : "Captured log call",
+      "source" : "c30f54d5c29578ea.txt",
+      "type" : "text/plain",
+      "size" : 1826
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 23,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_60_添加删除行程"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_60_添加删除行程"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_行程.test_2_手动添加行程_车次查询_4_K422"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_60_添加删除行程"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "573e76a6a6559490.json",
+  "parameterValues" : [ ]
+}

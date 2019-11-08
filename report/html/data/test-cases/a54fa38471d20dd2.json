@@ -1,0 +1,205 @@
+{
+  "uid" : "a54fa38471d20dd2",
+  "name" : "tc_首页.test_002_点击切换站点toast切换站点_武昌站",
+  "fullName" : "testCase.test_1_首页.tc_首页.test_002_点击切换站点toast切换站点_武昌站",
+  "historyId" : "14ef47e34f8c2a5065a3cb845cff54ed",
+  "time" : {
+    "start" : 1573007606378,
+    "stop" : 1573007698510,
+    "duration" : 92132
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573007608389,
+        "stop" : 1573007633928,
+        "duration" : 25539
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_切换站点",
+      "time" : {
+        "start" : 1573007636929,
+        "stop" : 1573007644935,
+        "duration" : 8006
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"点击切换站点输入框",
+      "time" : {
+        "start" : 1573007649935,
+        "stop" : 1573007675501,
+        "duration" : 25566
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc8490293127b440",
+        "name" : "输入武昌",
+        "source" : "cc8490293127b440.txt",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取toast提示",
+      "time" : {
+        "start" : 1573007681558,
+        "stop" : 1573007688622,
+        "duration" : 7064
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "df495a60958bdf99",
+        "name" : "获取toast提示武昌站",
+        "source" : "df495a60958bdf99.txt",
+        "type" : "text/plain",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573007690008,
+        "stop" : 1573007698510,
+        "duration" : 8502
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573007692299,
+          "stop" : 1573007692988,
+          "duration" : 689
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573007692989,
+          "stop" : 1573007698510,
+          "duration" : 5521
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4805cb376799efef",
+      "name" : "截图",
+      "source" : "4805cb376799efef.png",
+      "type" : "image/png",
+      "size" : 718088
+    }, {
+      "uid" : "3ca1199b43a40949",
+      "name" : "Captured log setup",
+      "source" : "3ca1199b43a40949.txt",
+      "type" : "text/plain",
+      "size" : 115
+    }, {
+      "uid" : "ff4c71fe8f79ddea",
+      "name" : "Captured log call",
+      "source" : "ff4c71fe8f79ddea.txt",
+      "type" : "text/plain",
+      "size" : 1048
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_首页.test_002_点击切换站点toast切换站点_武昌站"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a54fa38471d20dd2.json",
+  "parameterValues" : [ ]
+}

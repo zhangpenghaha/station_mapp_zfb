@@ -1,0 +1,17 @@
+baseView.py                 64 INFO     点击乌鲁木齐!
+common.py                  423 INFO     向上滑动屏幕
+common.py                  423 INFO     向上滑动屏幕
+baseView.py                102 INFO     获取获取 列车型号 文本!
+baseView.py                102 INFO     获取获取 定员 文本!
+baseView.py                102 INFO     获取获取 编组 文本!
+baseView.py                102 INFO     获取获取 车上WiFi 文本!
+baseView.py                102 INFO     获取获取 餐车 文本!
+baseView.py                102 INFO     获取获取 最高时速 文本!
+baseView.py                102 INFO     获取获取 充电电源 文本!
+myassert.py                 13 INFO     通过!
+baseView.py                 64 INFO     点击返回按钮!
+common.py                  148 INFO     返回到后置返回!
+baseView.py                246 ERROR    Message: An element could not be located on the page using the given search parameters.
+
+baseView.py                247 ERROR    new UiSelector().description("返回")judge_元素不存在!
+baseView.py                 64 INFO     点击btn_首页!

@@ -1,5 +1,281 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: '' != '智能排序'\n+ 智能排序",
+      "children" : [ {
+        "name" : "tc_首页.test_060_查看全部跳转站内商业",
+        "uid" : "35e1607d8a08a68e",
+        "parentUid" : "d132f4fa51555ef9aefbccf785d5a92f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573008564552,
+          "stop" : 1573008697116,
+          "duration" : 132564
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d132f4fa51555ef9aefbccf785d5a92f"
+    }, {
+      "name" : "AssertionError: '百货超市' != '便民超市'\n- 百货超市\n+ 便民超市\n",
+      "children" : [ {
+        "name" : "tc_首页.test_068_进站前按钮切换",
+        "uid" : "eaa919885aab9dfc",
+        "parentUid" : "73f7e69072767b160b2c306335607bd9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573008756683,
+          "stop" : 1573008882155,
+          "duration" : 125472
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "73f7e69072767b160b2c306335607bd9"
+    }, {
+      "name" : "AssertionError: 0 != '注意事项'",
+      "children" : [ {
+        "name" : "tc_首页.test_075_功能待完善提示",
+        "uid" : "b7c2442cb156cd8e",
+        "parentUid" : "188ef5373ed03845886d7faf2d8dabdc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573008882169,
+          "stop" : 1573009024804,
+          "duration" : 142635
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "188ef5373ed03845886d7faf2d8dabdc"
+    }, {
+      "name" : "AssertionError: 0 != '【军人优先】风里雨里你在前，铁路出行你优先'",
+      "children" : [ {
+        "name" : "tc_首页.test_100_首页军人优先跳转",
+        "uid" : "7bfd317539415ce3",
+        "parentUid" : "dbef1059f71800370ed3c55c7de1d4a9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573009024820,
+          "stop" : 1573009157300,
+          "duration" : 132480
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dbef1059f71800370ed3c55c7de1d4a9"
+    }, {
+      "name" : "AssertionError: 0 != '出行常见问题之火车票相关'",
+      "children" : [ {
+        "name" : "tc_首页.test_105_首页常见问题跳转",
+        "uid" : "3c42408f2a755a77",
+        "parentUid" : "0c3e15bc5f23efadf8f22b5a8950f0ef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573009157311,
+          "stop" : 1573009300120,
+          "duration" : 142809
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c3e15bc5f23efadf8f22b5a8950f0ef"
+    }, {
+      "name" : "AssertionError: 0 != '【服务评价】欢迎您对铁路出行服务进行评价！'",
+      "children" : [ {
+        "name" : "tc_首页.test_110_首页服务评价跳转",
+        "uid" : "e9bb52d68cd14b66",
+        "parentUid" : "e9589cd4ac137cfa7bc3d2d824530675",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573009300135,
+          "stop" : 1573009437493,
+          "duration" : 137358
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9589cd4ac137cfa7bc3d2d824530675"
+    }, {
+      "name" : "AssertionError: 0 != '威泰科技'",
+      "children" : [ {
+        "name" : "tc_首页.test_115_首页关于我们跳转",
+        "uid" : "eda6fbdc818f23ca",
+        "parentUid" : "051544520f228ba57f2eac9fc0309ef5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573009437505,
+          "stop" : 1573009578344,
+          "duration" : 140839
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "051544520f228ba57f2eac9fc0309ef5"
+    }, {
+      "name" : "AssertionError: '武汉-北京' != 0",
+      "children" : [ {
+        "name" : "tc_车次详情.test_711_检查出发站与终点站",
+        "uid" : "f379bdadda8cbedd",
+        "parentUid" : "8829a89f7b5fcc9861475380f0cd3049",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573009636188,
+          "stop" : 1573009697346,
+          "duration" : 61158
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8829a89f7b5fcc9861475380f0cd3049"
+    }, {
+      "name" : "AssertionError: Lists differ: ['到达正点率', '站名', '到站', '停留', '出发', '状态', '到[50 chars]时提醒'] != [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\n\nFirst differing element 0:\n'到达正点率'\n0\n\n+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\n- ['到达正点率',\n-  '站名',\n-  '到站',\n-  '停留',\n-  '出发',\n-  '状态',\n-  '到站',\n-  '7个前序站',\n-  '7个后序站',\n-  '北京西 车次变更为K597',\n-  '添加行程，列车动态实时提醒']",
+      "children" : [ {
+        "name" : "tc_车次详情.test_716_文案检查",
+        "uid" : "3ac77da3f374b132",
+        "parentUid" : "413f7da1b482e78faa11ae784683bfc3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573009723729,
+          "stop" : 1573010105140,
+          "duration" : 381411
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "413f7da1b482e78faa11ae784683bfc3"
+    }, {
+      "name" : "AssertionError: '收起' != 0",
+      "children" : [ {
+        "name" : "tc_车次详情.test_717_点击展开",
+        "uid" : "3e9fa889668bcef0",
+        "parentUid" : "cba88aeb3ad7bc529fa3978cd5fd2ea0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573010105187,
+          "stop" : 1573010206728,
+          "duration" : 101541
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cba88aeb3ad7bc529fa3978cd5fd2ea0"
+    }, {
+      "name" : "AssertionError: '行李托运' != 0",
+      "children" : [ {
+        "name" : "tc_车次详情.test_718_点击确定添加",
+        "uid" : "c98a336cd2464abe",
+        "parentUid" : "d5fdd41afc94f2de9ebf8222bc067f98",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573010206733,
+          "stop" : 1573010411036,
+          "duration" : 204303
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d5fdd41afc94f2de9ebf8222bc067f98"
+    }, {
+      "name" : "AssertionError: 1 != 0",
+      "children" : [ {
+        "name" : "tc_我的资料.test_104_确认修改出生日期",
+        "uid" : "7c12d3e89d45c9bc",
+        "parentUid" : "d8d689cdcaf4abe246184e91861be50a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573010917229,
+          "stop" : 1573011080347,
+          "duration" : 163118
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8d689cdcaf4abe246184e91861be50a"
+    }, {
+      "name" : "TimeoutException: Message: \n",
+      "children" : [ {
+        "name" : "tc_首页.test_3_手动添加行程_站站查询_0__",
+        "uid" : "63fc6b82d4784032",
+        "parentUid" : "c7921bd1d96bb0c1cc7bf067141c7988",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573016243878,
+          "stop" : 1573016417407,
+          "duration" : 173529
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tc_首页.test_3_手动添加行程_站站查询_1__",
+        "uid" : "37c16750dcacf9d1",
+        "parentUid" : "c7921bd1d96bb0c1cc7bf067141c7988",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573016417426,
+          "stop" : 1573016585886,
+          "duration" : 168460
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tc_首页.test_3_手动添加行程_站站查询_2__",
+        "uid" : "a14b742700ec1ae",
+        "parentUid" : "c7921bd1d96bb0c1cc7bf067141c7988",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573016585901,
+          "stop" : 1573016757368,
+          "duration" : 171467
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tc_首页.test_3_手动添加行程_站站查询_3__",
+        "uid" : "796af6d98438f04b",
+        "parentUid" : "c7921bd1d96bb0c1cc7bf067141c7988",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573016757382,
+          "stop" : 1573016923111,
+          "duration" : 165729
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tc_首页.test_3_手动添加行程_站站查询_4__",
+        "uid" : "ec2ea180b1b3fee8",
+        "parentUid" : "c7921bd1d96bb0c1cc7bf067141c7988",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573016923127,
+          "stop" : 1573017091629,
+          "duration" : 168502
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7921bd1d96bb0c1cc7bf067141c7988"
+    }, {
+      "name" : "AssertionError: 0 != '分享 '",
+      "children" : [ {
+        "name" : "tc_行程详情与分享.test_40_行程列表页分享",
+        "uid" : "f2ef554b2427b3ab",
+        "parentUid" : "2c080ec493a969974735eee76d6040cc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573017521118,
+          "stop" : 1573017761044,
+          "duration" : 239926
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c080ec493a969974735eee76d6040cc"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

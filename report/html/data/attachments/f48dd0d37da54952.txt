@@ -1,0 +1,14 @@
+test_1_首页.py                27 INFO     =====前置条件=====
+common.py                  436 INFO     向下滑动屏幕
+common.py                  436 INFO     向下滑动屏幕
+common.py                  436 INFO     向下滑动屏幕
+test_1_首页.py               295 INFO     =====test_048_首页_候车切换=====
+common.py                  383 INFO     按住txt_时刻查询模块_标题移动到0.15位置移动到自定义位置!
+common.py                  383 INFO     按住btn_首页车站大屏_候车按钮移动到0.3位置移动到自定义位置!
+baseView.py                 64 INFO     点击btn_首页车站大屏_候车按钮!
+baseView.py                102 INFO     获取txt_首页车站大屏_终到站!
+myassert.py                 13 INFO     通过!
+baseView.py                246 ERROR    Message: An element could not be located on the page using the given search parameters.
+
+baseView.py                247 ERROR    new UiSelector().description("返回")judge_元素不存在!
+baseView.py                 64 INFO     点击btn_首页!

@@ -1,0 +1,253 @@
+{
+  "uid" : "a297a694fead9bed",
+  "name" : "tc_首页.test_038_站站查询_切换起始站点按钮",
+  "fullName" : "testCase.test_1_首页.tc_首页.test_038_站站查询_切换起始站点按钮",
+  "historyId" : "8e5f7a7f117c2661f41a1e7f9081f014",
+  "time" : {
+    "start" : 1573008329258,
+    "stop" : 1573008390648,
+    "duration" : 61390
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573008329261,
+        "stop" : 1573008345333,
+        "duration" : 16072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页_切换起始站点",
+      "time" : {
+        "start" : 1573008348392,
+        "stop" : 1573008362441,
+        "duration" : 14049
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击首页_站站查询",
+        "time" : {
+          "start" : 1573008348392,
+          "stop" : 1573008359424,
+          "duration" : 11032
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "向上滑动",
+      "time" : {
+        "start" : 1573008362441,
+        "stop" : 1573008368415,
+        "duration" : 5974
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页_时刻查询_查询",
+      "time" : {
+        "start" : 1573008368415,
+        "stop" : 1573008372797,
+        "duration" : 4382
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取toast提示",
+      "time" : {
+        "start" : 1573008372797,
+        "stop" : 1573008377942,
+        "duration" : 5145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8b750841bf9b15b3",
+        "name" : "获取toast提示北京-武汉",
+        "source" : "8b750841bf9b15b3.txt",
+        "type" : "text/plain",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573008378641,
+        "stop" : 1573008390647,
+        "duration" : 12006
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573008380682,
+          "stop" : 1573008380878,
+          "duration" : 196
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573008380878,
+          "stop" : 1573008384971,
+          "duration" : 4093
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573008384971,
+          "stop" : 1573008386811,
+          "duration" : 1840
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573008386811,
+          "stop" : 1573008390647,
+          "duration" : 3836
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c95402811fc8bf72",
+      "name" : "截图",
+      "source" : "c95402811fc8bf72.png",
+      "type" : "image/png",
+      "size" : 208334
+    }, {
+      "uid" : "1a3f45f2b3f94d65",
+      "name" : "Captured log call",
+      "source" : "1a3f45f2b3f94d65.txt",
+      "type" : "text/plain",
+      "size" : 1148
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_首页.test_038_站站查询_切换起始站点按钮"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a297a694fead9bed.json",
+  "parameterValues" : [ ]
+}

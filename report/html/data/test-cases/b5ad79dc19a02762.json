@@ -1,0 +1,238 @@
+{
+  "uid" : "b5ad79dc19a02762",
+  "name" : "tc_我的资料.test_102_是否有城市选择控件弹出",
+  "fullName" : "testCase.test_40_我的资料.tc_我的资料.test_102_是否有城市选择控件弹出",
+  "historyId" : "57f9924ccefa995e03e76e24644f2d4b",
+  "time" : {
+    "start" : 1573010825240,
+    "stop" : 1573010875568,
+    "duration" : 50328
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击我的",
+      "time" : {
+        "start" : 1573010827248,
+        "stop" : 1573010833412,
+        "duration" : 6164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_个人中心_我的资料",
+      "time" : {
+        "start" : 1573010833412,
+        "stop" : 1573010840530,
+        "duration" : 7118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击我的资料_所在城市",
+      "time" : {
+        "start" : 1573010840531,
+        "stop" : 1573010844397,
+        "duration" : 3866
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击取消",
+      "time" : {
+        "start" : 1573010844397,
+        "stop" : 1573010847500,
+        "duration" : 3103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页",
+      "time" : {
+        "start" : 1573010848184,
+        "stop" : 1573010866034,
+        "duration" : 17850
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到我的",
+      "time" : {
+        "start" : 1573010866034,
+        "stop" : 1573010875568,
+        "duration" : 9534
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573010868037,
+          "stop" : 1573010868520,
+          "duration" : 483
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573010868520,
+          "stop" : 1573010871872,
+          "duration" : 3352
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573010871872,
+          "stop" : 1573010872052,
+          "duration" : 180
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击我的",
+        "time" : {
+          "start" : 1573010872052,
+          "stop" : 1573010875568,
+          "duration" : 3516
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ee124a972c9c2249",
+      "name" : "截图",
+      "source" : "ee124a972c9c2249.png",
+      "type" : "image/png",
+      "size" : 239783
+    }, {
+      "uid" : "d53e43d97d274160",
+      "name" : "Captured log setup",
+      "source" : "d53e43d97d274160.txt",
+      "type" : "text/plain",
+      "size" : 115
+    }, {
+      "uid" : "c0453fc6044230d4",
+      "name" : "Captured log call",
+      "source" : "c0453fc6044230d4.txt",
+      "type" : "text/plain",
+      "size" : 1037
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_40_我的资料"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_40_我的资料"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_我的资料.test_102_是否有城市选择控件弹出"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_40_我的资料"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b5ad79dc19a02762.json",
+  "parameterValues" : [ ]
+}

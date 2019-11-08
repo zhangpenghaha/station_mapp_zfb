@@ -30,7 +30,7 @@ class page_余票查询(page_首页):
 
     # text_今天 = (By.XPATH, '//*[@text="今天"]')
 
-    btn_选择日期 = loc_contains_text("今天")
+    btn_选择日期 = loc_text("出发日期")
 
 
 

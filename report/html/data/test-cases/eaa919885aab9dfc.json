@@ -1,0 +1,372 @@
+{
+  "uid" : "eaa919885aab9dfc",
+  "name" : "tc_首页.test_068_进站前按钮切换",
+  "fullName" : "testCase.test_1_首页.tc_首页.test_068_进站前按钮切换",
+  "historyId" : "1deefaa4f312c383068c044f8e113b54",
+  "time" : {
+    "start" : 1573008756683,
+    "stop" : 1573008882155,
+    "duration" : 125472
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: '百货超市' != '便民超市'\n- 百货超市\n+ 便民超市\n",
+  "statusTrace" : "self = <testCase.test_1_首页.tc_首页 testMethod=test_068_进站前按钮切换>\n\n    def test_068_进站前按钮切换(self):\n        logging.info(\"=====test_068_进站前按钮切换=====\")\n        dr = page_首页(self.driver)\n        dr.act_滑动_byYourSelf(dr.txt_首页_时刻查询模块名, 0.5, 0.15, \"txt_首页_时刻查询模块名移动到0.15位置\")\n        dr.act_滑动_byYourSelf(dr.btn_首页车站大屏_候车按钮, 0.5, 0.3, \"btn_首页车站大屏_候车按钮移动到0.3位置\")\n        dr.act_滑动_byYourSelf(dr.txt_首页_车站商业模块名, 0.5, 0.3, \"txt_首页_车站商业模块名移动到0.3位置\")\n        dr.click_首页_车站商业进站前()\n        a = dr.get_首页_车站商业进站前1号位()\n>       self.myEq(a, \"便民超市\", \"进站后按钮切换,定位便民超市\")\n\ntestCase\\test_1_首页.py:344: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nfunction\\myassert.py:11: in myEq\n    return self.assertEqual(预期结果, 实际结果)\nE   AssertionError: '百货超市' != '便民超市'\nE   - 百货超市\nE   + 便民超市",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: '百货超市' != '便民超市'\n- 百货超市\n+ 便民超市\n",
+    "statusTrace" : "self = <testCase.test_1_首页.tc_首页 testMethod=test_068_进站前按钮切换>\n\n    def test_068_进站前按钮切换(self):\n        logging.info(\"=====test_068_进站前按钮切换=====\")\n        dr = page_首页(self.driver)\n        dr.act_滑动_byYourSelf(dr.txt_首页_时刻查询模块名, 0.5, 0.15, \"txt_首页_时刻查询模块名移动到0.15位置\")\n        dr.act_滑动_byYourSelf(dr.btn_首页车站大屏_候车按钮, 0.5, 0.3, \"btn_首页车站大屏_候车按钮移动到0.3位置\")\n        dr.act_滑动_byYourSelf(dr.txt_首页_车站商业模块名, 0.5, 0.3, \"txt_首页_车站商业模块名移动到0.3位置\")\n        dr.click_首页_车站商业进站前()\n        a = dr.get_首页_车站商业进站前1号位()\n>       self.myEq(a, \"便民超市\", \"进站后按钮切换,定位便民超市\")\n\ntestCase\\test_1_首页.py:344: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nfunction\\myassert.py:11: in myEq\n    return self.assertEqual(预期结果, 实际结果)\nE   AssertionError: '百货超市' != '便民超市'\nE   - 百货超市\nE   + 便民超市",
+    "steps" : [ {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573008756686,
+        "stop" : 1573008770988,
+        "duration" : 14302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "act_滑动_byYourSelf",
+      "time" : {
+        "start" : 1573008773988,
+        "stop" : 1573008781850,
+        "duration" : 7862
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "act_滑动_byYourSelf",
+      "time" : {
+        "start" : 1573008781850,
+        "stop" : 1573008789907,
+        "duration" : 8057
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "act_滑动_byYourSelf",
+      "time" : {
+        "start" : 1573008789907,
+        "stop" : 1573008798677,
+        "duration" : 8770
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页_车站商业_进站前",
+      "time" : {
+        "start" : 1573008798677,
+        "stop" : 1573008803270,
+        "duration" : 4593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取首页_车站商业进站前1号位文本",
+      "time" : {
+        "start" : 1573008803270,
+        "stop" : 1573008806342,
+        "duration" : 3072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573008807863,
+        "stop" : 1573008814480,
+        "duration" : 6617
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573008810167,
+          "stop" : 1573008810484,
+          "duration" : 317
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573008810485,
+          "stop" : 1573008814480,
+          "duration" : 3995
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573008814498,
+        "stop" : 1573008829820,
+        "duration" : 15322
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "act_滑动_byYourSelf",
+      "time" : {
+        "start" : 1573008832820,
+        "stop" : 1573008842003,
+        "duration" : 9183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "act_滑动_byYourSelf",
+      "time" : {
+        "start" : 1573008842003,
+        "stop" : 1573008851416,
+        "duration" : 9413
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "act_滑动_byYourSelf",
+      "time" : {
+        "start" : 1573008851416,
+        "stop" : 1573008860474,
+        "duration" : 9058
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页_车站商业_进站前",
+      "time" : {
+        "start" : 1573008860474,
+        "stop" : 1573008866304,
+        "duration" : 5830
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取首页_车站商业进站前1号位文本",
+      "time" : {
+        "start" : 1573008866304,
+        "stop" : 1573008872100,
+        "duration" : 5796
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573008873745,
+        "stop" : 1573008882130,
+        "duration" : 8385
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573008875834,
+          "stop" : 1573008876260,
+          "duration" : 426
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573008876260,
+          "stop" : 1573008882130,
+          "duration" : 5870
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "732226bb6a664fb3",
+      "name" : "截图",
+      "source" : "732226bb6a664fb3.png",
+      "type" : "image/png",
+      "size" : 305012
+    }, {
+      "uid" : "bee44edf5211876",
+      "name" : "Captured log call",
+      "source" : "bee44edf5211876.txt",
+      "type" : "text/plain",
+      "size" : 1294
+    }, {
+      "uid" : "305a5540f58ef377",
+      "name" : "截图",
+      "source" : "305a5540f58ef377.png",
+      "type" : "image/png",
+      "size" : 304445
+    }, {
+      "uid" : "b66417a1e59002c6",
+      "name" : "Captured log call",
+      "source" : "b66417a1e59002c6.txt",
+      "type" : "text/plain",
+      "size" : 1294
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_首页.test_068_进站前按钮切换"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "eaa919885aab9dfc.json",
+  "parameterValues" : [ ]
+}

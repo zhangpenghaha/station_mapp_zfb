@@ -1,0 +1,178 @@
+{
+  "uid" : "4932a14f8f48bed1",
+  "name" : "tc_行程详情与分享.test_02_跨天检查",
+  "fullName" : "testCase.test_80_行程详情与分享.tc_行程详情与分享.test_02_跨天检查",
+  "historyId" : "2069d067ce6ca31ec18f87263477f2ff",
+  "time" : {
+    "start" : 1573017290787,
+    "stop" : 1573017315956,
+    "duration" : 25169
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取toast提示",
+      "time" : {
+        "start" : 1573017293825,
+        "stop" : 1573017303159,
+        "duration" : 9334
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cede97496e2f932d",
+        "name" : "获取toast提示+3天",
+        "source" : "cede97496e2f932d.txt",
+        "type" : "text/plain",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573017303867,
+        "stop" : 1573017315955,
+        "duration" : 12088
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573017305593,
+          "stop" : 1573017306029,
+          "duration" : 436
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573017306029,
+          "stop" : 1573017311920,
+          "duration" : 5891
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573017311920,
+          "stop" : 1573017312240,
+          "duration" : 320
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573017312240,
+          "stop" : 1573017315955,
+          "duration" : 3715
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "be584858678b30f4",
+      "name" : "截图",
+      "source" : "be584858678b30f4.png",
+      "type" : "image/png",
+      "size" : 216119
+    }, {
+      "uid" : "7cc31323aae0b1fc",
+      "name" : "Captured log call",
+      "source" : "7cc31323aae0b1fc.txt",
+      "type" : "text/plain",
+      "size" : 584
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_80_行程详情与分享"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_80_行程详情与分享"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_行程详情与分享.test_02_跨天检查"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_80_行程详情与分享"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4932a14f8f48bed1.json",
+  "parameterValues" : [ ]
+}

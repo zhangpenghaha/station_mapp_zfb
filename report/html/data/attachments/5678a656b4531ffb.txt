@@ -1,0 +1,6 @@
+baseView.py                102 INFO     获取检查文案!
+baseView.py                107 ERROR    Message: 
+
+baseView.py                108 ERROR    检查文案元素找不到!
+baseView.py                264 INFO     截取 检查出发站与终点站 图片 
+myassert.py                 10 INFO     失败!

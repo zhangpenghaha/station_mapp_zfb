@@ -1,0 +1,326 @@
+{
+  "uid" : "a14b742700ec1ae",
+  "name" : "tc_首页.test_3_手动添加行程_站站查询_2__",
+  "fullName" : "testCase.test_70_余票查询.tc_首页.test_3_手动添加行程_站站查询_2__",
+  "historyId" : "903f476952a7f25e672ad61e22b67985",
+  "time" : {
+    "start" : 1573016585901,
+    "stop" : 1573016757368,
+    "duration" : 171467
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TimeoutException: Message: \n",
+  "statusTrace" : "a = (<testCase.test_70_余票查询.tc_首页 testMethod=test_3_手动添加行程_站站查询_2__>,)\n\n    @wraps(func)\n    def standalone_func(*a):\n>       return func(*(a + p.args), **p.kwargs)\n\nf:\\python_1\\lib\\site-packages\\parameterized-0.7.0-py3.6.egg\\parameterized\\parameterized.py:518: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntestCase\\test_70_余票查询.py:30: in test_3_手动添加行程_站站查询\n    dr.select_选择城市(test_出发地)\nf:\\python_1\\lib\\site-packages\\allure\\common.py:62: in impl\n    return func(*a, **kw)\nbusinessView\\page_选择城市.py:24: in select_选择城市\n    self.send_输入(self.btn_城市搜索, \"选择城市\", text)\nbaseView\\baseView.py:90: in send_输入\n    WebDriverWait(self.driver, 12).until(lambda x: x.find_element_by_android_uiautomator(loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"a33695a9-3ba9-4f49-9378-c3c0e8fd6440\")>\nmethod = <function baseView.send_输入.<locals>.<lambda> at 0x000001BA35DF5598>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n            return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nf:\\python_1\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutException: Message: \n",
+    "statusTrace" : "a = (<testCase.test_70_余票查询.tc_首页 testMethod=test_3_手动添加行程_站站查询_2__>,)\n\n    @wraps(func)\n    def standalone_func(*a):\n>       return func(*(a + p.args), **p.kwargs)\n\nf:\\python_1\\lib\\site-packages\\parameterized-0.7.0-py3.6.egg\\parameterized\\parameterized.py:518: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntestCase\\test_70_余票查询.py:30: in test_3_手动添加行程_站站查询\n    dr.select_选择城市(test_出发地)\nf:\\python_1\\lib\\site-packages\\allure\\common.py:62: in impl\n    return func(*a, **kw)\nbusinessView\\page_选择城市.py:24: in select_选择城市\n    self.send_输入(self.btn_城市搜索, \"选择城市\", text)\nbaseView\\baseView.py:90: in send_输入\n    WebDriverWait(self.driver, 12).until(lambda x: x.find_element_by_android_uiautomator(loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"a33695a9-3ba9-4f49-9378-c3c0e8fd6440\")>\nmethod = <function baseView.send_输入.<locals>.<lambda> at 0x000001BA35DF5598>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n            return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nf:\\python_1\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573016585904,
+        "stop" : 1573016599045,
+        "duration" : 13141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_余票查询",
+      "time" : {
+        "start" : 1573016599045,
+        "stop" : 1573016601929,
+        "duration" : 2884
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_出发地",
+      "time" : {
+        "start" : 1573016601929,
+        "stop" : 1573016618941,
+        "duration" : 17012
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择城市",
+      "time" : {
+        "start" : 1573016618941,
+        "stop" : 1573016661139,
+        "duration" : 42198
+      },
+      "status" : "failed",
+      "statusMessage" : "a = (<testCase.test_70_余票查询.tc_首页 testMethod=test_3_手动添加行程_站站查询_2__>,)\n\n    @wraps(func)\n    def standalone_func(*a):\n>       return func(*(a + p.args), **p.kwargs)\n\nf:\\python_1\\lib\\site-packages\\parameterized-0.7.0-py3.6.egg\\parameterized\\parameterized.py:518: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntestCase\\test_70_余票查询.py:30: in test_3_手动添加行程_站站查询\n    dr.select_选择城市(test_出发地)\nf:\\python_1\\lib\\site-packages\\allure\\common.py:62: in impl\n    return func(*a, **kw)\nbusinessView\\page_选择城市.py:24: in select_选择城市\n    self.send_输入(self.btn_城市搜索, \"选择城市\", text)\nbaseView\\baseView.py:90: in send_输入\n    WebDriverWait(self.driver, 12).until(lambda x: x.find_element_by_android_uiautomator(loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"a33695a9-3ba9-4f49-9378-c3c0e8fd6440\")>\nmethod = <function baseView.send_输入.<locals>.<lambda> at 0x000001BA35DF5598>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n            return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nf:\\python_1\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd583ef2a446353d",
+        "name" : "输入上海",
+        "source" : "fd583ef2a446353d.txt",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573016661813,
+        "stop" : 1573016669578,
+        "duration" : 7765
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573016663375,
+          "stop" : 1573016663742,
+          "duration" : 367
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573016663742,
+          "stop" : 1573016669578,
+          "duration" : 5836
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573016669626,
+        "stop" : 1573016685783,
+        "duration" : 16157
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_余票查询",
+      "time" : {
+        "start" : 1573016685783,
+        "stop" : 1573016690764,
+        "duration" : 4981
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_出发地",
+      "time" : {
+        "start" : 1573016690764,
+        "stop" : 1573016708146,
+        "duration" : 17382
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择城市",
+      "time" : {
+        "start" : 1573016708146,
+        "stop" : 1573016750967,
+        "duration" : 42821
+      },
+      "status" : "failed",
+      "statusMessage" : "a = (<testCase.test_70_余票查询.tc_首页 testMethod=test_3_手动添加行程_站站查询_2__>,)\n\n    @wraps(func)\n    def standalone_func(*a):\n>       return func(*(a + p.args), **p.kwargs)\n\nf:\\python_1\\lib\\site-packages\\parameterized-0.7.0-py3.6.egg\\parameterized\\parameterized.py:518: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntestCase\\test_70_余票查询.py:30: in test_3_手动添加行程_站站查询\n    dr.select_选择城市(test_出发地)\nf:\\python_1\\lib\\site-packages\\allure\\common.py:62: in impl\n    return func(*a, **kw)\nbusinessView\\page_选择城市.py:24: in select_选择城市\n    self.send_输入(self.btn_城市搜索, \"选择城市\", text)\nbaseView\\baseView.py:90: in send_输入\n    WebDriverWait(self.driver, 12).until(lambda x: x.find_element_by_android_uiautomator(loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"a33695a9-3ba9-4f49-9378-c3c0e8fd6440\")>\nmethod = <function baseView.send_输入.<locals>.<lambda> at 0x000001BA35DF5598>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n            return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nf:\\python_1\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "98bb17fba7ca2975",
+        "name" : "输入上海",
+        "source" : "98bb17fba7ca2975.txt",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573016751678,
+        "stop" : 1573016757322,
+        "duration" : 5644
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573016753248,
+          "stop" : 1573016753614,
+          "duration" : 366
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573016753614,
+          "stop" : 1573016757322,
+          "duration" : 3708
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a256f27d454899e2",
+      "name" : "截图",
+      "source" : "a256f27d454899e2.png",
+      "type" : "image/png",
+      "size" : 188803
+    }, {
+      "uid" : "5fe6285fa55c8652",
+      "name" : "Captured log call",
+      "source" : "5fe6285fa55c8652.txt",
+      "type" : "text/plain",
+      "size" : 1052
+    }, {
+      "uid" : "b65d8cf11b703df3",
+      "name" : "截图",
+      "source" : "b65d8cf11b703df3.png",
+      "type" : "image/png",
+      "size" : 188770
+    }, {
+      "uid" : "8296e1726a578b84",
+      "name" : "Captured log call",
+      "source" : "8296e1726a578b84.txt",
+      "type" : "text/plain",
+      "size" : 1052
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "hasContent" : true,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_70_余票查询"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_70_余票查询"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_首页.test_3_手动添加行程_站站查询_2__"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_70_余票查询"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a14b742700ec1ae.json",
+  "parameterValues" : [ ]
+}

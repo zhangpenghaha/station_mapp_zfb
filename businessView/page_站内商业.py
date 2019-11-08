@@ -26,7 +26,6 @@ class page_站内商业(page_首页):
     btn_站内商业_筛选展开_2 = loc_text("进站前")
 
     # btn_站内商业_筛选展开_3=loc_child_IDtoC_Number("screen","android.view.View",16)
-    btn_站内商业_进站前后 = loc_text("进站后")
 
     # btn_站内商业_筛选展开_4=loc_child_IDtoC_Number("screen","android.view.View",17)
     btn_站内商业_筛选展开_4 = loc_text("美食")

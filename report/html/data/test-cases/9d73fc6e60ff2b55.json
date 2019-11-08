@@ -1,0 +1,244 @@
+{
+  "uid" : "9d73fc6e60ff2b55",
+  "name" : "tc_车站大屏详情.test_012_勾选高铁动车",
+  "fullName" : "testCase.test_45_车站大屏2.tc_车站大屏详情.test_012_勾选高铁动车",
+  "historyId" : "e9f69484c34f1bc9bf11db27a62291b3",
+  "time" : {
+    "start" : 1573011719669,
+    "stop" : 1573011761952,
+    "duration" : 42283
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击首页",
+      "time" : {
+        "start" : 1573011719670,
+        "stop" : 1573011722655,
+        "duration" : 2985
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573011722655,
+        "stop" : 1573011729643,
+        "duration" : 6988
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取toast提示",
+      "time" : {
+        "start" : 1573011732644,
+        "stop" : 1573011736918,
+        "duration" : 4274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "944c297e1a6e03e2",
+        "name" : "获取toast提示浠水站",
+        "source" : "944c297e1a6e03e2.txt",
+        "type" : "text/plain",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_车站大屏_到达",
+      "time" : {
+        "start" : 1573011739688,
+        "stop" : 1573011750088,
+        "duration" : 10400
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573011746048,
+          "stop" : 1573011750088,
+          "duration" : 4040
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7853c9935aec186d",
+          "name" : "获取toast提示暂无相关数据",
+          "source" : "7853c9935aec186d.txt",
+          "type" : "text/plain",
+          "size" : 18
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573011750723,
+        "stop" : 1573011761952,
+        "duration" : 11229
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573011752566,
+          "stop" : 1573011753040,
+          "duration" : 474
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573011753040,
+          "stop" : 1573011756215,
+          "duration" : 3175
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573011756216,
+          "stop" : 1573011757129,
+          "duration" : 913
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573011757129,
+          "stop" : 1573011761952,
+          "duration" : 4823
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6763d685ac4c5202",
+      "name" : "截图",
+      "source" : "6763d685ac4c5202.png",
+      "type" : "image/png",
+      "size" : 113456
+    }, {
+      "uid" : "9778d98b8c167d16",
+      "name" : "Captured log call",
+      "source" : "9778d98b8c167d16.txt",
+      "type" : "text/plain",
+      "size" : 865
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_45_车站大屏2"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_45_车站大屏2"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_车站大屏详情.test_012_勾选高铁动车"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_45_车站大屏2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9d73fc6e60ff2b55.json",
+  "parameterValues" : [ ]
+}

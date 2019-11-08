@@ -1,0 +1,15 @@
+test_70_余票查询.py             17 INFO     =====前置条件=====
+common.py                  436 INFO     向下滑动屏幕
+common.py                  436 INFO     向下滑动屏幕
+common.py                  436 INFO     向下滑动屏幕
+baseView.py                 64 INFO     点击btn_余票查询!
+page_余票查询.py                42 INFO     点击出发地,进入出发地搜索列表!
+baseView.py                 64 INFO     点击点击出发地!
+baseView.py                 69 ERROR    点击出发地元素找不到!
+baseView.py                 64 INFO     点击点击城市搜索输入框!
+baseView.py                 69 ERROR    点击城市搜索输入框元素找不到!
+baseView.py                 87 INFO     选择城市输入上海!
+baseView.py                246 ERROR    Message: An element could not be located on the page using the given search parameters.
+
+baseView.py                247 ERROR    new UiSelector().description("返回")judge_元素不存在!
+baseView.py                 64 INFO     点击btn_首页!

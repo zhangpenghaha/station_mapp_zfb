@@ -1,0 +1,183 @@
+{
+  "uid" : "f379bdadda8cbedd",
+  "name" : "tc_车次详情.test_711_检查出发站与终点站",
+  "fullName" : "testCase.test_2_71_选择车次.tc_车次详情.test_711_检查出发站与终点站",
+  "historyId" : "b55e007b85b7a758e78c9be2b81c29cd",
+  "time" : {
+    "start" : 1573009636188,
+    "stop" : 1573009697346,
+    "duration" : 61158
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: '武汉-北京' != 0",
+  "statusTrace" : "self = <testCase.test_2_71_选择车次.tc_车次详情 testMethod=test_711_检查出发站与终点站>\n\n    def test_711_检查出发站与终点站(self):\n        dr = page_选择车次(self.driver)\n        a=dr.check_文案检查(\"武汉-北京\")\n>       self.myEq(\"武汉-北京\",a,\"检查出发站与终点站\")\n\ntestCase\\test_2_71_选择车次.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nfunction\\myassert.py:11: in myEq\n    return self.assertEqual(预期结果, 实际结果)\nE   AssertionError: '武汉-北京' != 0",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: '武汉-北京' != 0",
+    "statusTrace" : "self = <testCase.test_2_71_选择车次.tc_车次详情 testMethod=test_711_检查出发站与终点站>\n\n    def test_711_检查出发站与终点站(self):\n        dr = page_选择车次(self.driver)\n        a=dr.check_文案检查(\"武汉-北京\")\n>       self.myEq(\"武汉-北京\",a,\"检查出发站与终点站\")\n\ntestCase\\test_2_71_选择车次.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nfunction\\myassert.py:11: in myEq\n    return self.assertEqual(预期结果, 实际结果)\nE   AssertionError: '武汉-北京' != 0",
+    "steps" : [ {
+      "name" : "获取toast提示",
+      "time" : {
+        "start" : 1573009636191,
+        "stop" : 1573009641299,
+        "duration" : 5108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a9c2cb0ffae858b5",
+        "name" : "获取toast提示浠水站",
+        "source" : "a9c2cb0ffae858b5.txt",
+        "type" : "text/plain",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573009641299,
+        "stop" : 1573009655582,
+        "duration" : 14283
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "act_滑动_byYourSelf",
+      "time" : {
+        "start" : 1573009655582,
+        "stop" : 1573009663998,
+        "duration" : 8416
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页_站站查询",
+      "time" : {
+        "start" : 1573009663998,
+        "stop" : 1573009667185,
+        "duration" : 3187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页_时刻查询_查询",
+      "time" : {
+        "start" : 1573009667185,
+        "stop" : 1573009670204,
+        "duration" : 3019
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d09293e0240483ba",
+      "name" : "Captured log setup",
+      "source" : "d09293e0240483ba.txt",
+      "type" : "text/plain",
+      "size" : 504
+    }, {
+      "uid" : "5678a656b4531ffb",
+      "name" : "Captured log call",
+      "source" : "5678a656b4531ffb.txt",
+      "type" : "text/plain",
+      "size" : 310
+    }, {
+      "uid" : "ced56328db33d9ce",
+      "name" : "Captured log setup",
+      "source" : "ced56328db33d9ce.txt",
+      "type" : "text/plain",
+      "size" : 504
+    }, {
+      "uid" : "fc16a279c25d1baa",
+      "name" : "Captured log call",
+      "source" : "fc16a279c25d1baa.txt",
+      "type" : "text/plain",
+      "size" : 310
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_2_71_选择车次"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_2_71_选择车次"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_车次详情.test_711_检查出发站与终点站"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_2_71_选择车次"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f379bdadda8cbedd.json",
+  "parameterValues" : [ ]
+}

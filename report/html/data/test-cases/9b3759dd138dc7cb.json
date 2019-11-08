@@ -1,0 +1,298 @@
+{
+  "uid" : "9b3759dd138dc7cb",
+  "name" : "tc_车次详情.test_502_首页删除行程",
+  "fullName" : "testCase.test_50_车次详情.tc_车次详情.test_502_首页删除行程",
+  "historyId" : "a28f15461bf9c1aa72a47fc6a724d744",
+  "time" : {
+    "start" : 1573012824038,
+    "stop" : 1573012915054,
+    "duration" : 91016
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击首页",
+      "time" : {
+        "start" : 1573012824040,
+        "stop" : 1573012829204,
+        "duration" : 5164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取toast提示",
+      "time" : {
+        "start" : 1573012829204,
+        "stop" : 1573012833369,
+        "duration" : 4165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cebe9063c909bc68",
+        "name" : "获取toast提示浠水站",
+        "source" : "cebe9063c909bc68.txt",
+        "type" : "text/plain",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击行程",
+      "time" : {
+        "start" : 1573012833369,
+        "stop" : 1573012837246,
+        "duration" : 3877
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击行程_删除全部行程",
+      "time" : {
+        "start" : 1573012837246,
+        "stop" : 1573012890940,
+        "duration" : 53694
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击_行程_删除首个行程",
+        "time" : {
+          "start" : 1573012837246,
+          "stop" : 1573012846203,
+          "duration" : 8957
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "点击_行程_删除行程",
+          "time" : {
+            "start" : 1573012837246,
+            "stop" : 1573012843306,
+            "duration" : 6060
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "点击确定",
+          "time" : {
+            "start" : 1573012843306,
+            "stop" : 1573012846203,
+            "duration" : 2897
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击_行程_删除首个行程",
+        "time" : {
+          "start" : 1573012851380,
+          "stop" : 1573012872553,
+          "duration" : 21173
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "点击_行程_删除行程",
+          "time" : {
+            "start" : 1573012851381,
+            "stop" : 1573012868060,
+            "duration" : 16679
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "点击确定",
+          "time" : {
+            "start" : 1573012868060,
+            "stop" : 1573012872553,
+            "duration" : 4493
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_行程_删除行程",
+      "time" : {
+        "start" : 1573012890940,
+        "stop" : 1573012908333,
+        "duration" : 17393
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573012909190,
+        "stop" : 1573012915053,
+        "duration" : 5863
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573012910978,
+          "stop" : 1573012911591,
+          "duration" : 613
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573012911591,
+          "stop" : 1573012915053,
+          "duration" : 3462
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b8f81f7e358dbf27",
+      "name" : "截图",
+      "source" : "b8f81f7e358dbf27.png",
+      "type" : "image/png",
+      "size" : 155461
+    }, {
+      "uid" : "ca489cbe4a83a803",
+      "name" : "Captured log call",
+      "source" : "ca489cbe4a83a803.txt",
+      "type" : "text/plain",
+      "size" : 1200
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_50_车次详情"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_50_车次详情"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_车次详情.test_502_首页删除行程"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_50_车次详情"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b3759dd138dc7cb.json",
+  "parameterValues" : [ ]
+}

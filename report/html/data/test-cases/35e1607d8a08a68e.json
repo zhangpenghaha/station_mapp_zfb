@@ -1,0 +1,432 @@
+{
+  "uid" : "35e1607d8a08a68e",
+  "name" : "tc_首页.test_060_查看全部跳转站内商业",
+  "fullName" : "testCase.test_1_首页.tc_首页.test_060_查看全部跳转站内商业",
+  "historyId" : "95447199f3948b6ea6ce12c86b570ebf",
+  "time" : {
+    "start" : 1573008564552,
+    "stop" : 1573008697116,
+    "duration" : 132564
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: '' != '智能排序'\n+ 智能排序",
+  "statusTrace" : "self = <testCase.test_1_首页.tc_首页 testMethod=test_060_查看全部跳转站内商业>\n\n    def test_060_查看全部跳转站内商业(self):\n        logging.info(\"=====test_060_查看全部跳转站内商业=====\")\n        dr = page_首页(self.driver)\n        dr.act_滑动_byYourSelf(dr.txt_首页_时刻查询模块名, 0.5, 0.15, \"txt_首页_时刻查询模块名移动到0.15位置\")\n        dr.act_滑动_byYourSelf(dr.btn_首页车站大屏_候车按钮, 0.5, 0.3, \"btn_首页车站大屏_候车按钮移动到0.3位置\")\n        dr.act_滑动_byYourSelf(dr.txt_首页_车站商业模块名, 0.5, 0.3, \"txt_首页_车站商业模块名移动到0.3位置\")\n        dr.click_首页_车站商业查看全部()\n        dr = page_站内商业(self.driver)\n        a = dr.get_站内商业_智能排序()\n>       self.myEq(a, \"智能排序\", \"查看全部跳转站内商业\")\n\ntestCase\\test_1_首页.py:324: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nfunction\\myassert.py:11: in myEq\n    return self.assertEqual(预期结果, 实际结果)\nE   AssertionError: '' != '智能排序'\nE   + 智能排序",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: '' != '智能排序'\n+ 智能排序",
+    "statusTrace" : "self = <testCase.test_1_首页.tc_首页 testMethod=test_060_查看全部跳转站内商业>\n\n    def test_060_查看全部跳转站内商业(self):\n        logging.info(\"=====test_060_查看全部跳转站内商业=====\")\n        dr = page_首页(self.driver)\n        dr.act_滑动_byYourSelf(dr.txt_首页_时刻查询模块名, 0.5, 0.15, \"txt_首页_时刻查询模块名移动到0.15位置\")\n        dr.act_滑动_byYourSelf(dr.btn_首页车站大屏_候车按钮, 0.5, 0.3, \"btn_首页车站大屏_候车按钮移动到0.3位置\")\n        dr.act_滑动_byYourSelf(dr.txt_首页_车站商业模块名, 0.5, 0.3, \"txt_首页_车站商业模块名移动到0.3位置\")\n        dr.click_首页_车站商业查看全部()\n        dr = page_站内商业(self.driver)\n        a = dr.get_站内商业_智能排序()\n>       self.myEq(a, \"智能排序\", \"查看全部跳转站内商业\")\n\ntestCase\\test_1_首页.py:324: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nfunction\\myassert.py:11: in myEq\n    return self.assertEqual(预期结果, 实际结果)\nE   AssertionError: '' != '智能排序'\nE   + 智能排序",
+    "steps" : [ {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573008564554,
+        "stop" : 1573008579432,
+        "duration" : 14878
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "act_滑动_byYourSelf",
+      "time" : {
+        "start" : 1573008582433,
+        "stop" : 1573008590527,
+        "duration" : 8094
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "act_滑动_byYourSelf",
+      "time" : {
+        "start" : 1573008590527,
+        "stop" : 1573008598685,
+        "duration" : 8158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "act_滑动_byYourSelf",
+      "time" : {
+        "start" : 1573008598685,
+        "stop" : 1573008608708,
+        "duration" : 10023
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页_车站商业_查看全部",
+      "time" : {
+        "start" : 1573008608708,
+        "stop" : 1573008612207,
+        "duration" : 3499
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取站内商业_智能排序文本",
+      "time" : {
+        "start" : 1573008612207,
+        "stop" : 1573008616284,
+        "duration" : 4077
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573008618486,
+        "stop" : 1573008628375,
+        "duration" : 9889
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573008619755,
+          "stop" : 1573008620312,
+          "duration" : 557
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573008620312,
+          "stop" : 1573008623565,
+          "duration" : 3253
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573008623565,
+          "stop" : 1573008624337,
+          "duration" : 772
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573008624337,
+          "stop" : 1573008628375,
+          "duration" : 4038
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573008628438,
+        "stop" : 1573008643581,
+        "duration" : 15143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "act_滑动_byYourSelf",
+      "time" : {
+        "start" : 1573008646581,
+        "stop" : 1573008654259,
+        "duration" : 7678
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "act_滑动_byYourSelf",
+      "time" : {
+        "start" : 1573008654259,
+        "stop" : 1573008665192,
+        "duration" : 10933
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "act_滑动_byYourSelf",
+      "time" : {
+        "start" : 1573008665192,
+        "stop" : 1573008675301,
+        "duration" : 10109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页_车站商业_查看全部",
+      "time" : {
+        "start" : 1573008675301,
+        "stop" : 1573008680265,
+        "duration" : 4964
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取站内商业_智能排序文本",
+      "time" : {
+        "start" : 1573008680265,
+        "stop" : 1573008683225,
+        "duration" : 2960
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573008685112,
+        "stop" : 1573008697095,
+        "duration" : 11983
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573008686770,
+          "stop" : 1573008687149,
+          "duration" : 379
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573008687149,
+          "stop" : 1573008693073,
+          "duration" : 5924
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573008693073,
+          "stop" : 1573008693336,
+          "duration" : 263
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573008693336,
+          "stop" : 1573008697095,
+          "duration" : 3759
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8ab0675acdd14a3",
+      "name" : "截图",
+      "source" : "8ab0675acdd14a3.png",
+      "type" : "image/png",
+      "size" : 503265
+    }, {
+      "uid" : "b215100416244315",
+      "name" : "Captured log call",
+      "source" : "b215100416244315.txt",
+      "type" : "text/plain",
+      "size" : 1412
+    }, {
+      "uid" : "e9e63314ba27204a",
+      "name" : "截图",
+      "source" : "e9e63314ba27204a.png",
+      "type" : "image/png",
+      "size" : 503550
+    }, {
+      "uid" : "25b5721c460f3983",
+      "name" : "Captured log call",
+      "source" : "25b5721c460f3983.txt",
+      "type" : "text/plain",
+      "size" : 1412
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_首页.test_060_查看全部跳转站内商业"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "35e1607d8a08a68e.json",
+  "parameterValues" : [ ]
+}

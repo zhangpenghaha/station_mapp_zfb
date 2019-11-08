@@ -1,0 +1,15 @@
+test_40_我的资料.py              9 INFO     =====我的资料前置条件=====
+baseView.py                 64 INFO     点击btn_我的!
+baseView.py                 64 INFO     点击btn_个人中心_我的资料!
+test_40_我的资料.py             23 INFO     =====test_103_是否有日期选择控件弹出=====
+baseView.py                 64 INFO     点击btn_出生日期!
+baseView.py                 64 INFO     点击点击取消按钮!!
+myassert.py                 13 INFO     通过!
+baseView.py                 64 INFO     点击点击首页!
+baseView.py                 69 ERROR    点击首页元素找不到!
+baseView.py                 64 INFO     点击返回按钮!
+common.py                  148 INFO     返回到后置返回!
+baseView.py                246 ERROR    Message: An element could not be located on the page using the given search parameters.
+
+baseView.py                247 ERROR    new UiSelector().description("返回")judge_元素不存在!
+baseView.py                 64 INFO     点击btn_我的!

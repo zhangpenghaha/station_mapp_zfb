@@ -1,0 +1,343 @@
+{
+  "uid" : "7e2a473c1b08ca3a",
+  "name" : "tc_车站大屏详情.test_002_车站大屏到达字段检查",
+  "fullName" : "testCase.test_45_车站大屏2.tc_车站大屏详情.test_002_车站大屏到达字段检查",
+  "historyId" : "1dfea388df1041d56632194bd928281c",
+  "time" : {
+    "start" : 1573011229167,
+    "stop" : 1573011295999,
+    "duration" : 66832
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击首页",
+      "time" : {
+        "start" : 1573011229169,
+        "stop" : 1573011233315,
+        "duration" : 4146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573011233315,
+        "stop" : 1573011240878,
+        "duration" : 7563
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取toast提示",
+      "time" : {
+        "start" : 1573011243878,
+        "stop" : 1573011249855,
+        "duration" : 5977
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e3ab963d9035e39b",
+        "name" : "获取toast提示浠水站",
+        "source" : "e3ab963d9035e39b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "车站大屏_候车信息检查",
+      "time" : {
+        "start" : 1573011252530,
+        "stop" : 1573011283072,
+        "duration" : 30542
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击_车站大屏_到达",
+        "time" : {
+          "start" : 1573011252530,
+          "stop" : 1573011258867,
+          "duration" : 6337
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573011258867,
+          "stop" : 1573011262787,
+          "duration" : 3920
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "219f85a20c81c04a",
+          "name" : "获取toast提示车次",
+          "source" : "219f85a20c81c04a.txt",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573011262787,
+          "stop" : 1573011267924,
+          "duration" : 5137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "619466b498bd1d88",
+          "name" : "获取toast提示始发站",
+          "source" : "619466b498bd1d88.txt",
+          "type" : "text/plain",
+          "size" : 9
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573011267924,
+          "stop" : 1573011272918,
+          "duration" : 4994
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "aed934a30eeaa317",
+          "name" : "获取toast提示到本站",
+          "source" : "aed934a30eeaa317.txt",
+          "type" : "text/plain",
+          "size" : 9
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573011272918,
+          "stop" : 1573011277967,
+          "duration" : 5049
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b24cbd78f8254046",
+          "name" : "获取toast提示出站口",
+          "source" : "b24cbd78f8254046.txt",
+          "type" : "text/plain",
+          "size" : 9
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573011277967,
+          "stop" : 1573011283072,
+          "duration" : 5105
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "aad5842cc43b147c",
+          "name" : "获取toast提示状态",
+          "source" : "aad5842cc43b147c.txt",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "hasContent" : true,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573011283704,
+        "stop" : 1573011295999,
+        "duration" : 12295
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573011285807,
+          "stop" : 1573011286350,
+          "duration" : 543
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573011286350,
+          "stop" : 1573011290377,
+          "duration" : 4027
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573011290377,
+          "stop" : 1573011292381,
+          "duration" : 2004
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573011292381,
+          "stop" : 1573011295999,
+          "duration" : 3618
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "56546163f67a45b7",
+      "name" : "截图",
+      "source" : "56546163f67a45b7.png",
+      "type" : "image/png",
+      "size" : 168998
+    }, {
+      "uid" : "33cae3ac00f76601",
+      "name" : "Captured log call",
+      "source" : "33cae3ac00f76601.txt",
+      "type" : "text/plain",
+      "size" : 1124
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "hasContent" : true,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_45_车站大屏2"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_45_车站大屏2"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_车站大屏详情.test_002_车站大屏到达字段检查"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_45_车站大屏2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e2a473c1b08ca3a.json",
+  "parameterValues" : [ ]
+}

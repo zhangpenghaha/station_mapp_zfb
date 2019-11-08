@@ -60,10 +60,14 @@ class common(baseView):
 
     @allure.step(title='获取文本提示')
     def get_text(self, toast_tip):
+        self.get_重新加载()
+        self.get_加载中()
         return self.get_元素文本(loc_text(toast_tip), "获取 " + toast_tip + " 文本")
 
     @allure.step(title='获取toast提示')
     def get_toast(self,toast_tip):
+        self.get_重新加载()
+        self.get_加载中()
         allure.attach("获取toast提示" + toast_tip, toast_tip, allure.attach_type.TEXT)
         return self.get_元素文本(loc_text(toast_tip), "toast_提示:"+toast_tip)
 
@@ -160,6 +164,8 @@ class common(baseView):
 
     @allure.step(title='点击坐标轴')
     def click_点击坐标轴(self, x, y):
+        self.get_重新加载()
+        self.get_加载中()
         return TouchAction(self.driver).tap(x=x, y=y).perform()
 
     # @allure.step(title='关闭分享行程')
@@ -172,7 +178,8 @@ class common(baseView):
 
     @allure.step(title='返回到首页')
     def tc_后置回首页(self):
-        time.sleep(3)
+        self.get_重新加载()
+        self.get_加载中()
         for i in range(10):
             j = self.jde_返回按钮()
             if j == 1:
@@ -190,6 +197,8 @@ class common(baseView):
 
     @allure.step(title='返回到我的')
     def tc_后置回我的(self):
+        self.get_重新加载()
+        self.get_加载中()
         for i in range(10):
             j = self.jde_返回按钮()
             if j == 1:
@@ -208,7 +217,8 @@ class common(baseView):
 
     @allure.step(title='返回到个人中心')
     def tc_后置回个人中心(self):
-
+        self.get_重新加载()
+        self.get_加载中()
         for i in range(10):
             j = self.jde_返回按钮()
             if j == 1:
@@ -227,6 +237,8 @@ class common(baseView):
 
     @allure.step(title='返回到行程页')
     def tc_后置回行程( self ):
+        self.get_重新加载()
+        self.get_加载中()
         for i in range(10):
             j = self.jde_返回按钮()
             if j == 1:
@@ -322,6 +334,8 @@ class common(baseView):
         return x, y
 
     def touchTapP(self, percentX, percentY, pressTime):
+        self.get_重新加载()
+        self.get_加载中()
         logging.info("start touch...")
         l = self.get_screenSize()
         x = l[0] * percentX
@@ -331,18 +345,26 @@ class common(baseView):
         self.act_点击(list, pressTime)
 
     def touchTapN(self, list, pressTime):
+        self.get_重新加载()
+        self.get_加载中()
         logging.info("start touch...")
         self.act_点击(list, pressTime)
 
     def act_滑动_AtoB(self, 起点元素, 终点元素, infoS,infoE):
+        self.get_重新加载()
+        self.get_加载中()
         TouchAction(self.driver).press(self.find_元素(起点元素, infoS)).wait(1000).move_to(self.find_元素(终点元素, infoE)).wait(
             1000).release().perform()
 
     def act_滑动_AtoP(self, 起点元素, x, y, info):
+        self.get_重新加载()
+        self.get_加载中()
         TouchAction(self.driver).press(self.find_元素(起点元素, info)).wait(1000).move_to(x=x, y=y).wait(
             1000).release().perform()
 
     def act_滑动_AtoMiddle(self, 起点元素, info):
+        self.get_重新加载()
+        self.get_加载中()
 
         l = self.get_screenSize()
         x = int(l[0] * 0.5)
@@ -353,6 +375,8 @@ class common(baseView):
 
     @allure.step(title='act_滑动_byYourSelf')
     def act_滑动_byYourSelf(self, 起点元素, x_percent, y_percent, info):
+        self.get_重新加载()
+        self.get_加载中()
         l = self.get_screenSize()
         x = int(l[0] * x_percent)
         y = int(l[1] * y_percent)
@@ -362,6 +386,8 @@ class common(baseView):
 
     @allure.step(title='键盘输入')
     def act_键盘输入(self, number):
+        self.get_重新加载()
+        self.get_加载中()
         for i in number:
             info = self.click_点击(loc_text("{}".format(i)), "输入{}".format(i))
             if info == 0:
@@ -391,8 +417,8 @@ class common(baseView):
     # 向上滑动
     @allure.step(title='向上滑动')
     def act_上滑(self, times=1):
-        time.sleep(3)
-        self.wait_隐式等待(20)
+        self.get_重新加载()
+        self.get_加载中()
         for i in range(times):
             logging.info('向上滑动屏幕')
             l = self.get_screenSize()
@@ -404,7 +430,8 @@ class common(baseView):
     # 向上滑动
     @allure.step(title='向下滑动')
     def act_下滑(self, times=1):
-        time.sleep(2)
+        self.get_重新加载()
+        self.get_加载中()
         for i in range(times):
             logging.info('向下滑动屏幕')
             l = self.get_screenSize()
@@ -412,7 +439,7 @@ class common(baseView):
             y1 = int(l[1] * 0.2)
             y2 = int(l[1] * 0.8)
             self.act_滑动(x, y1, x, y2, 1)
-        time.sleep(4)
+        time.sleep(2)
 
 
     # 获取Excel数据方法封装

@@ -1,0 +1,674 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1573026675520" stop="1573027069416">
+  <name>testCase.test_5_站内商业</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1573026675520" status="passed" stop="1573026751993">
+      <name>tc_站内商业.test_301_所有楼层展开</name>
+      <attachments>
+        <attachment source="703acfb8-e664-4cb0-a1eb-b776316dd11f-attachment.png" title="截图" type="image/png"/>
+        <attachment source="1062db0e-172b-4317-881f-34e5285e9a42-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="e961abe4-f7d7-4315-bcbc-d28686ee4870-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13088-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1573026675526" status="passed" stop="1573026681398">
+          <name>点击首页</name>
+          <title>点击首页</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026681398" status="passed" stop="1573026695576">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments>
+            <attachment source="42507b84-f3ea-438a-997f-59471e9d7cad-attachment.txt" title="获取toast提示浠水站" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1573026695576" status="passed" stop="1573026714150">
+          <name>向上滑动</name>
+          <title>向上滑动</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026714151" status="passed" stop="1573026717716">
+          <name>点击首页_车站商业_查看全部</name>
+          <title>点击首页_车站商业_查看全部</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026717716" status="passed" stop="1573026724709">
+          <name>点击站内商业_所有楼层</name>
+          <title>点击站内商业_所有楼层</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026724709" status="passed" stop="1573026730914">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments>
+            <attachment source="f80b8e9e-b043-43e9-98d3-404e80cb5e40-attachment.txt" title="获取toast提示F1" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1573026730914" status="passed" stop="1573026737109">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments>
+            <attachment source="ecfbe8bd-bfba-4d3d-a0ba-5c8b887db80f-attachment.txt" title="获取toast提示B1" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1573026737931" status="passed" stop="1573026751993">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1573026740606" status="passed" stop="1573026740955">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026740955" status="passed" stop="1573026745981">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026745981" status="passed" stop="1573026746577">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026746577" status="passed" stop="1573026751993">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1573026752007" status="passed" stop="1573026786613">
+      <name>tc_站内商业.test_303_全部分类展开</name>
+      <attachments>
+        <attachment source="87688a48-8fe8-4d38-a37d-77a1833fef9d-attachment.png" title="截图" type="image/png"/>
+        <attachment source="870fcee4-966f-4989-bd8e-df55caa547bf-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13088-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1573026752008" status="passed" stop="1573026757159">
+          <name>点击首页_车站商业_查看全部</name>
+          <title>点击首页_车站商业_查看全部</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026757159" status="passed" stop="1573026763366">
+          <name>点击站内商业_全部分类</name>
+          <title>点击站内商业_全部分类</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026763366" status="passed" stop="1573026766589">
+          <name>获取站内商业_筛选展开4文本</name>
+          <title>获取站内商业_筛选展开4文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026766589" status="passed" stop="1573026770514">
+          <name>获取站内商业_筛选展开5文本</name>
+          <title>获取站内商业_筛选展开5文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026771201" status="passed" stop="1573026786613">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1573026774920" status="passed" stop="1573026775340">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026775340" status="passed" stop="1573026779636">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026779636" status="passed" stop="1573026780539">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026780539" status="passed" stop="1573026786613">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1573026786618" status="passed" stop="1573026827080">
+      <name>tc_站内商业.test_305_全部分类展开</name>
+      <attachments>
+        <attachment source="c7697416-24f3-4468-9ae6-1a6bf0e8e661-attachment.png" title="截图" type="image/png"/>
+        <attachment source="876dd8b1-690f-4a9a-a819-1aadf3bd5858-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13088-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1573026786620" status="passed" stop="1573026791631">
+          <name>点击首页_车站商业_查看全部</name>
+          <title>点击首页_车站商业_查看全部</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026791631" status="passed" stop="1573026798726">
+          <name>点击_站内商业_智能排序</name>
+          <title>点击_站内商业_智能排序</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026798726" status="passed" stop="1573026805760">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments>
+            <attachment source="12d986c8-a1e2-4f15-b1d7-745b7fb6b781-attachment.txt" title="获取toast提示人均最低" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1573026805760" status="passed" stop="1573026812073">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments>
+            <attachment source="d8e83d55-6af2-4f64-9e2b-87c8f82f2478-attachment.txt" title="获取toast提示评分最高" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1573026812841" status="passed" stop="1573026827080">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1573026815534" status="passed" stop="1573026815953">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026815953" status="passed" stop="1573026821221">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026821221" status="passed" stop="1573026821981">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026821981" status="passed" stop="1573026827080">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1573026827090" status="passed" stop="1573026868117">
+      <name>tc_站内商业.test_309_跳转店铺详情</name>
+      <attachments>
+        <attachment source="8ce9e961-621c-418b-ac47-d139ed0d836d-attachment.png" title="截图" type="image/png"/>
+        <attachment source="952cf59b-52c8-45b7-ab75-a6617c6cae16-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13088-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1573026827093" status="passed" stop="1573026835537">
+          <name>点击首页_车站商业_查看全部</name>
+          <title>点击首页_车站商业_查看全部</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026835537" status="passed" stop="1573026841442">
+          <name>点击站内商业_店铺列表_便民超市</name>
+          <title>点击站内商业_店铺列表_便民超市</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026841442" status="passed" stop="1573026845729">
+          <name>获取_填写评论_商家评论文本</name>
+          <title>获取_填写评论_商家评论文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026846660" status="passed" stop="1573026868117">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1573026849091" status="passed" stop="1573026849411">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026849411" status="passed" stop="1573026853577">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026853577" status="passed" stop="1573026854506">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026854506" status="passed" stop="1573026862603">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026862603" status="passed" stop="1573026862872">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026862872" status="passed" stop="1573026868117">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1573026868124" status="passed" stop="1573026926504">
+      <name>tc_站内商业.test_310_单条件筛选_所有楼层_一层</name>
+      <attachments>
+        <attachment source="3de918d1-2444-4ee3-b039-fc142310f0b3-attachment.png" title="截图" type="image/png"/>
+        <attachment source="9ec91e42-bf9b-4cb4-a094-ca66de851746-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13088-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1573026868127" status="passed" stop="1573026873707">
+          <name>点击首页_车站商业_查看全部</name>
+          <title>点击首页_车站商业_查看全部</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026873707" status="passed" stop="1573026881258">
+          <name>点击站内商业_所有楼层</name>
+          <title>点击站内商业_所有楼层</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026881258" status="passed" stop="1573026899788">
+          <name>点击站内商业_筛选展开2</name>
+          <title>点击站内商业_筛选展开2</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026899788" status="passed" stop="1573026906412">
+          <name>获取站内商业_店铺列表_便民超市文本</name>
+          <title>获取站内商业_店铺列表_便民超市文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026906412" status="passed" stop="1573026911801">
+          <name>获取站内商业_店铺列表_平价自选超市</name>
+          <title>获取站内商业_店铺列表_平价自选超市</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026912484" status="passed" stop="1573026926503">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1573026915330" status="passed" stop="1573026915428">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026915428" status="passed" stop="1573026919809">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026919809" status="passed" stop="1573026920528">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026920528" status="passed" stop="1573026926503">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1573026926510" status="passed" stop="1573026962974">
+      <name>tc_站内商业.test_311_单条件筛选_所有楼层_负一层_无结果</name>
+      <attachments>
+        <attachment source="c562591e-c73f-47cc-b249-7c644e7eb3e9-attachment.png" title="截图" type="image/png"/>
+        <attachment source="b303586c-4dd7-4e06-8d1e-7e74a93cfe76-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13088-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1573026926512" status="passed" stop="1573026932870">
+          <name>点击首页_车站商业_查看全部</name>
+          <title>点击首页_车站商业_查看全部</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026932871" status="passed" stop="1573026939944">
+          <name>点击站内商业_所有楼层</name>
+          <title>点击站内商业_所有楼层</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026939944" status="passed" stop="1573026945182">
+          <name>btn_站内商业_所有楼层_B1</name>
+          <title>btn_站内商业_所有楼层_B1</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026945182" status="passed" stop="1573026948223">
+          <name>获取站内商业_无搜索结果提示</name>
+          <title>获取站内商业_无搜索结果提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026949190" status="passed" stop="1573026962974">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1573026952426" status="passed" stop="1573026953075">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026953075" status="passed" stop="1573026957253">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026957253" status="passed" stop="1573026958143">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026958143" status="passed" stop="1573026962974">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1573026962980" status="passed" stop="1573026998433">
+      <name>tc_站内商业.test_312_单条件筛选_所有分类_美食_无结果</name>
+      <attachments>
+        <attachment source="062acd68-65ff-4827-801d-2b6a79b3e418-attachment.png" title="截图" type="image/png"/>
+        <attachment source="84b34b03-7d94-4e0f-9e6c-4416a4c15692-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13088-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1573026962982" status="passed" stop="1573026971303">
+          <name>点击首页_车站商业_查看全部</name>
+          <title>点击首页_车站商业_查看全部</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026971304" status="passed" stop="1573026975237">
+          <name>点击站内商业_全部分类</name>
+          <title>点击站内商业_全部分类</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026975237" status="passed" stop="1573026980223">
+          <name>点击站内商业_筛选展开_美食</name>
+          <title>点击站内商业_筛选展开_美食</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026980223" status="passed" stop="1573026983547">
+          <name>获取站内商业_无搜索结果提示</name>
+          <title>获取站内商业_无搜索结果提示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573026984435" status="passed" stop="1573026998433">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1573026986998" status="passed" stop="1573026987399">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026987399" status="passed" stop="1573026992628">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026992628" status="passed" stop="1573026993433">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573026993433" status="passed" stop="1573026998433">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1573026998440" status="passed" stop="1573027044026">
+      <name>tc_站内商业.test_313_单条件筛选_所有分类_超市</name>
+      <attachments>
+        <attachment source="fb7c8fa7-bd90-4ab8-b1a2-da7d771608ea-attachment.png" title="截图" type="image/png"/>
+        <attachment source="383153d2-9fc9-4b20-8c49-5730233921d2-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13088-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1573026998443" status="passed" stop="1573027006788">
+          <name>点击首页_车站商业_查看全部</name>
+          <title>点击首页_车站商业_查看全部</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573027006789" status="passed" stop="1573027010728">
+          <name>点击站内商业_全部分类</name>
+          <title>点击站内商业_全部分类</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573027010728" status="passed" stop="1573027015629">
+          <name>点击站内商业_筛选展开_百货超市</name>
+          <title>点击站内商业_筛选展开_百货超市</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573027015629" status="passed" stop="1573027018924">
+          <name>获取站内商业_店铺列表_便民超市文本</name>
+          <title>获取站内商业_店铺列表_便民超市文本</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573027018925" status="passed" stop="1573027022051">
+          <name>获取站内商业_店铺列表_平价自选超市</name>
+          <title>获取站内商业_店铺列表_平价自选超市</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573027023140" status="passed" stop="1573027044026">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1573027030604" status="passed" stop="1573027031034">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573027031035" status="passed" stop="1573027037216">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573027037216" status="passed" stop="1573027038091">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573027038091" status="passed" stop="1573027044026">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1573027044033" status="passed" stop="1573027069416">
+      <name>tc_站内商业.test_399_标记归零</name>
+      <attachments>
+        <attachment source="c6557f73-5844-4948-9b65-fde52ad4451c-attachment.png" title="截图" type="image/png"/>
+        <attachment source="9dd1f0f6-c4c4-4099-a6e7-c17ecb39722d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13088-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1573027044035" status="passed" stop="1573027052234">
+          <name>点击首页_车站商业_查看全部</name>
+          <title>点击首页_车站商业_查看全部</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573027053115" status="passed" stop="1573027069415">
+          <name>返回到首页</name>
+          <title>返回到首页</title>
+          <attachments/>
+          <steps>
+            <step start="1573027057215" status="passed" stop="1573027057310">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573027057310" status="passed" stop="1573027063416">
+              <name>点击返回按钮</name>
+              <title>点击返回按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573027063416" status="passed" stop="1573027064298">
+              <name>获取返回按钮元素</name>
+              <title>获取返回按钮元素</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1573027064298" status="passed" stop="1573027069415">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

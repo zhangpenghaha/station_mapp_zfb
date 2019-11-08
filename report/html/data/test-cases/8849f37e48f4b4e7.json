@@ -1,0 +1,187 @@
+{
+  "uid" : "8849f37e48f4b4e7",
+  "name" : "tc_行程详情与分享.test_06_行程天气",
+  "fullName" : "testCase.test_80_行程详情与分享.tc_行程详情与分享.test_06_行程天气",
+  "historyId" : "cd349ad59652babab713090715e6d8ce",
+  "time" : {
+    "start" : 1573017423157,
+    "stop" : 1573017473687,
+    "duration" : 50530
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "向上滑动",
+      "time" : {
+        "start" : 1573017426191,
+        "stop" : 1573017456032,
+        "duration" : 29841
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取行程天气文本",
+      "time" : {
+        "start" : 1573017456032,
+        "stop" : 1573017458885,
+        "duration" : 2853
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573017460254,
+        "stop" : 1573017473686,
+        "duration" : 13432
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573017462193,
+          "stop" : 1573017462751,
+          "duration" : 558
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573017462751,
+          "stop" : 1573017467876,
+          "duration" : 5125
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573017467876,
+          "stop" : 1573017469147,
+          "duration" : 1271
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573017469147,
+          "stop" : 1573017473686,
+          "duration" : 4539
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f709db009b797937",
+      "name" : "截图",
+      "source" : "f709db009b797937.png",
+      "type" : "image/png",
+      "size" : 216152
+    }, {
+      "uid" : "6bf51b9f5adbc405",
+      "name" : "Captured log call",
+      "source" : "6bf51b9f5adbc405.txt",
+      "type" : "text/plain",
+      "size" : 900
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_80_行程详情与分享"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_80_行程详情与分享"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_行程详情与分享.test_06_行程天气"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_80_行程详情与分享"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8849f37e48f4b4e7.json",
+  "parameterValues" : [ ]
+}

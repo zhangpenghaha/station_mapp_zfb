@@ -1,0 +1,265 @@
+{
+  "uid" : "39d44ddf1ef30914",
+  "name" : "tc_意见反馈.test_意见反馈_1__test_203__",
+  "fullName" : "testCase.test_35_意见反馈.tc_意见反馈.test_意见反馈_1__test_203__",
+  "historyId" : "f9f891cfa4e77fb59b290d5bc0819309",
+  "time" : {
+    "start" : 1573010669720,
+    "stop" : 1573010719372,
+    "duration" : 49652
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击我的",
+      "time" : {
+        "start" : 1573010669722,
+        "stop" : 1573010672735,
+        "duration" : 3013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_个人中心_意见反馈",
+      "time" : {
+        "start" : 1573010672735,
+        "stop" : 1573010677915,
+        "duration" : 5180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入_意见反馈_详细描述",
+      "time" : {
+        "start" : 1573010677925,
+        "stop" : 1573010689159,
+        "duration" : 11234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "72af189d89d21c99",
+        "name" : "输入",
+        "source" : "72af189d89d21c99.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入_意见反馈_联系方式",
+      "time" : {
+        "start" : 1573010689159,
+        "stop" : 1573010700652,
+        "duration" : 11493
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2419608b3a05323",
+        "name" : "输入17702731522",
+        "source" : "2419608b3a05323.txt",
+        "type" : "text/plain",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_意见反馈_提交反馈",
+      "time" : {
+        "start" : 1573010700652,
+        "stop" : 1573010704538,
+        "duration" : 3886
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取toast提示",
+      "time" : {
+        "start" : 1573010704538,
+        "stop" : 1573010708483,
+        "duration" : 3945
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f5b177ea72572c20",
+        "name" : "获取toast提示提交反馈",
+        "source" : "f5b177ea72572c20.txt",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到我的",
+      "time" : {
+        "start" : 1573010709075,
+        "stop" : 1573010719372,
+        "duration" : 10297
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573010710980,
+          "stop" : 1573010711473,
+          "duration" : 493
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573010711473,
+          "stop" : 1573010715690,
+          "duration" : 4217
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573010715690,
+          "stop" : 1573010715947,
+          "duration" : 257
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击我的",
+        "time" : {
+          "start" : 1573010715947,
+          "stop" : 1573010719372,
+          "duration" : 3425
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "51bf1df41e81e572",
+      "name" : "截图",
+      "source" : "51bf1df41e81e572.png",
+      "type" : "image/png",
+      "size" : 76603
+    }, {
+      "uid" : "d0fe0209fa32b550",
+      "name" : "Captured log call",
+      "source" : "d0fe0209fa32b550.txt",
+      "type" : "text/plain",
+      "size" : 1226
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_35_意见反馈"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_35_意见反馈"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_意见反馈.test_意见反馈_1__test_203__"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_35_意见反馈"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39d44ddf1ef30914.json",
+  "parameterValues" : [ ]
+}

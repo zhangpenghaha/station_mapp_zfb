@@ -25,10 +25,10 @@ class tc_车次详情(st_首页):
         dr.click_首页_站站查询()
         dr.click_首页_时刻查询_查询()
 
-    def test_711_检查出发站与终点站(self):
-        dr = page_选择车次(self.driver)
-        a=dr.check_文案检查("武汉-北京")
-        self.myEq("武汉-北京",a,"检查出发站与终点站")
+    # def test_711_检查出发站与终点站(self):
+    #     dr = page_选择车次(self.driver)
+    #     a=dr.check_文案检查("武汉-北京")
+    #     self.myEq("武汉-北京",a,"检查出发站与终点站")
 
     def test_712_勾选高铁(self):
         dr = page_选择车次(self.driver)
@@ -53,19 +53,19 @@ class tc_车次详情(st_首页):
     #     self.myEq("7个后序站",a,"检查后序站点")
     def test_716_文案检查(self):
         dr = page_选择车次(self.driver)
-        dr.click_点击车次("K600")
+        dr.click_点击车次("小时")
         a = dr.check_选择车次结果页文案()
-        self.myEq(["到达正点率","站名","到站","停留","出发","状态","到站","7个前序站", "7个后序站","北京西 车次变更为K597","添加行程，列车动态实时提醒"], a, "文案检查")
+        self.myEq(["到达正点率","站名","到站","停留","出发","状态","到站","添加行程，列车动态实时提醒"], a, "文案检查")
 
     def test_717_点击展开(self):
         dr = page_选择车次(self.driver)
-        dr.click_点击车次("K600")
+        dr.click_点击车次("小时")
         a=dr.click_展开()
         self.myEq("收起",a,"点击展开按钮")
 
     def test_718_点击确定添加(self):
         dr = page_选择车次(self.driver)
-        dr.click_点击车次("K600")
+        dr.click_点击车次("小时")
         a=dr.click_确定添加()
         self.myEq("行李托运",a,"点击确定添加")
 

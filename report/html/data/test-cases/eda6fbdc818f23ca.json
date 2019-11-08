@@ -1,0 +1,348 @@
+{
+  "uid" : "eda6fbdc818f23ca",
+  "name" : "tc_首页.test_115_首页关于我们跳转",
+  "fullName" : "testCase.test_1_首页.tc_首页.test_115_首页关于我们跳转",
+  "historyId" : "73800284f1606156461c01f08290d1a0",
+  "time" : {
+    "start" : 1573009437505,
+    "stop" : 1573009578344,
+    "duration" : 140839
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 0 != '威泰科技'",
+  "statusTrace" : "self = <testCase.test_1_首页.tc_首页 testMethod=test_115_首页关于我们跳转>\n\n    def test_115_首页关于我们跳转(self):\n        logging.info(\"=====test_115_首页关于我们跳转=====\")\n        dr = page_首页(self.driver)\n        dr.act_上滑(4)\n        dr.click_首页关于我们()\n        dr = page_首页底部服务页面(self.driver)\n        a = dr.get_关于我们_文章标题()\n>       self.myEq(a, \"威泰科技\", \"test_105_首页常见问题跳转\")\n\ntestCase\\test_1_首页.py:399: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nfunction\\myassert.py:11: in myEq\n    return self.assertEqual(预期结果, 实际结果)\nE   AssertionError: 0 != '威泰科技'",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 0 != '威泰科技'",
+    "statusTrace" : "self = <testCase.test_1_首页.tc_首页 testMethod=test_115_首页关于我们跳转>\n\n    def test_115_首页关于我们跳转(self):\n        logging.info(\"=====test_115_首页关于我们跳转=====\")\n        dr = page_首页(self.driver)\n        dr.act_上滑(4)\n        dr.click_首页关于我们()\n        dr = page_首页底部服务页面(self.driver)\n        a = dr.get_关于我们_文章标题()\n>       self.myEq(a, \"威泰科技\", \"test_105_首页常见问题跳转\")\n\ntestCase\\test_1_首页.py:399: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nfunction\\myassert.py:11: in myEq\n    return self.assertEqual(预期结果, 实际结果)\nE   AssertionError: 0 != '威泰科技'",
+    "steps" : [ {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573009437508,
+        "stop" : 1573009451611,
+        "duration" : 14103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "向上滑动",
+      "time" : {
+        "start" : 1573009454611,
+        "stop" : 1573009474343,
+        "duration" : 19732
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页_关于我们",
+      "time" : {
+        "start" : 1573009474343,
+        "stop" : 1573009481066,
+        "duration" : 6723
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573009498503,
+        "stop" : 1573009509507,
+        "duration" : 11004
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573009499877,
+          "stop" : 1573009500529,
+          "duration" : 652
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573009500529,
+          "stop" : 1573009504535,
+          "duration" : 4006
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573009504535,
+          "stop" : 1573009505812,
+          "duration" : 1277
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573009505813,
+          "stop" : 1573009509507,
+          "duration" : 3694
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573009511536,
+        "stop" : 1573009525732,
+        "duration" : 14196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "向上滑动",
+      "time" : {
+        "start" : 1573009528732,
+        "stop" : 1573009546833,
+        "duration" : 18101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页_关于我们",
+      "time" : {
+        "start" : 1573009546833,
+        "stop" : 1573009553925,
+        "duration" : 7092
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573009568401,
+        "stop" : 1573009578289,
+        "duration" : 9888
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573009569757,
+          "stop" : 1573009570257,
+          "duration" : 500
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573009570258,
+          "stop" : 1573009573387,
+          "duration" : 3129
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573009573387,
+          "stop" : 1573009574177,
+          "duration" : 790
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573009574177,
+          "stop" : 1573009578289,
+          "duration" : 4112
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a63bbda97fb49323",
+      "name" : "截图",
+      "source" : "a63bbda97fb49323.png",
+      "type" : "image/png",
+      "size" : 734228
+    }, {
+      "uid" : "2e5d4ffb01e85327",
+      "name" : "Captured log call",
+      "source" : "2e5d4ffb01e85327.txt",
+      "type" : "text/plain",
+      "size" : 1391
+    }, {
+      "uid" : "f0b2b48ee3de7762",
+      "name" : "截图",
+      "source" : "f0b2b48ee3de7762.png",
+      "type" : "image/png",
+      "size" : 734393
+    }, {
+      "uid" : "eb95d043ebe4ff1a",
+      "name" : "Captured log call",
+      "source" : "eb95d043ebe4ff1a.txt",
+      "type" : "text/plain",
+      "size" : 1391
+    }, {
+      "uid" : "a0dbe1edad9406d5",
+      "name" : "Captured log setup",
+      "source" : "a0dbe1edad9406d5.txt",
+      "type" : "text/plain",
+      "size" : 115
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_首页.test_115_首页关于我们跳转"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "eda6fbdc818f23ca.json",
+  "parameterValues" : [ ]
+}

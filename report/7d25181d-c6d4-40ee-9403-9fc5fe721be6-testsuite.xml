@@ -1,0 +1,69 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1573025650251" stop="1573025735896">
+  <name>testCase.test_2_71_选择车次</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1573025650251" status="passed" stop="1573025735896">
+      <name>tc_车次详情.test_712_勾选高铁</name>
+      <attachments>
+        <attachment source="932deb8b-492c-41ca-a578-ed2a0913a03c-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="ac2c1cc2-98c2-4280-9a59-16c319581b8b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4904-MainThread"/>
+        <label name="host" value="WIN-NPMSMCDMRF4"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1573025650275" status="passed" stop="1573025663150">
+          <name>获取toast提示</name>
+          <title>获取toast提示</title>
+          <attachments>
+            <attachment source="8b183638-2b67-469d-b863-d60efe01711f-attachment.txt" title="获取toast提示浠水站" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1573025663150" status="passed" stop="1573025684702">
+          <name>向下滑动</name>
+          <title>向下滑动</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573025684702" status="passed" stop="1573025693112">
+          <name>act_滑动_byYourSelf</name>
+          <title>act_滑动_byYourSelf</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573025693112" status="passed" stop="1573025701836">
+          <name>点击首页_站站查询</name>
+          <title>点击首页_站站查询</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573025701836" status="passed" stop="1573025707537">
+          <name>点击首页_时刻查询_查询</name>
+          <title>点击首页_时刻查询_查询</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1573025707538" status="passed" stop="1573025735894">
+          <name>勾选高铁动车按钮</name>
+          <title>勾选高铁动车按钮</title>
+          <attachments/>
+          <steps>
+            <step start="1573025712980" status="passed" stop="1573025730012">
+              <name>获取toast提示</name>
+              <title>获取toast提示</title>
+              <attachments>
+                <attachment source="ae3617eb-30ba-4198-83c1-26eff165d1ec-attachment.txt" title="获取toast提示new UiSelector().text(&quot;K968&quot;)" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

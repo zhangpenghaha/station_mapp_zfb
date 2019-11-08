@@ -1,0 +1,112 @@
+{
+  "uid" : "6c5fdd2480fc4554",
+  "name" : "tc_车次详情.test_712_勾选高铁",
+  "fullName" : "testCase.test_2_71_选择车次.tc_车次详情.test_712_勾选高铁",
+  "historyId" : "a4e863701a490cc750976c723d8bf8fd",
+  "time" : {
+    "start" : 1573009697356,
+    "stop" : 1573009723724,
+    "duration" : 26368
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "勾选高铁动车按钮",
+      "time" : {
+        "start" : 1573009697358,
+        "stop" : 1573009723723,
+        "duration" : 26365
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009701832,
+          "stop" : 1573009718930,
+          "duration" : 17098
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "392e5a2b43ac6074",
+          "name" : "获取toast提示new UiSelector().text(\"K968\")",
+          "source" : "392e5a2b43ac6074.txt",
+          "type" : "text/plain",
+          "size" : 29
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "47dd3483eb5a375f",
+      "name" : "Captured log call",
+      "source" : "47dd3483eb5a375f.txt",
+      "type" : "text/plain",
+      "size" : 415
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_2_71_选择车次"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_2_71_选择车次"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_车次详情.test_712_勾选高铁"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_2_71_选择车次"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c5fdd2480fc4554.json",
+  "parameterValues" : [ ]
+}

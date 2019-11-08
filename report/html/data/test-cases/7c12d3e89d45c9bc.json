@@ -1,0 +1,582 @@
+{
+  "uid" : "7c12d3e89d45c9bc",
+  "name" : "tc_我的资料.test_104_确认修改出生日期",
+  "fullName" : "testCase.test_40_我的资料.tc_我的资料.test_104_确认修改出生日期",
+  "historyId" : "91fadb110be9baa7e52ff4c683e3102e",
+  "time" : {
+    "start" : 1573010917229,
+    "stop" : 1573011080347,
+    "duration" : 163118
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 1 != 0",
+  "statusTrace" : "self = <testCase.test_40_我的资料.tc_我的资料 testMethod=test_104_确认修改出生日期>\n\n    def test_104_确认修改出生日期(self):\n        logging.info(\"=====test_104_确认修改出生日期=====\")\n        dr=page_我的资料(self.driver)\n        a=dr.bus_修改日期(\"确定\")\n>       self.myEq(1,a,\"确认修改出生日期\")\n\ntestCase\\test_40_我的资料.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nfunction\\myassert.py:11: in myEq\n    return self.assertEqual(预期结果, 实际结果)\nE   AssertionError: 1 != 0",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 1 != 0",
+    "statusTrace" : "self = <testCase.test_40_我的资料.tc_我的资料 testMethod=test_104_确认修改出生日期>\n\n    def test_104_确认修改出生日期(self):\n        logging.info(\"=====test_104_确认修改出生日期=====\")\n        dr=page_我的资料(self.driver)\n        a=dr.bus_修改日期(\"确定\")\n>       self.myEq(1,a,\"确认修改出生日期\")\n\ntestCase\\test_40_我的资料.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nfunction\\myassert.py:11: in myEq\n    return self.assertEqual(预期结果, 实际结果)\nE   AssertionError: 1 != 0",
+    "steps" : [ {
+      "name" : "点击我的",
+      "time" : {
+        "start" : 1573010917231,
+        "stop" : 1573010920248,
+        "duration" : 3017
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_个人中心_我的资料",
+      "time" : {
+        "start" : 1573010920248,
+        "stop" : 1573010924384,
+        "duration" : 4136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "修改日期",
+      "time" : {
+        "start" : 1573010924385,
+        "stop" : 1573010968366,
+        "duration" : 43981
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取出生日期文本",
+        "time" : {
+          "start" : 1573010924385,
+          "stop" : 1573010928643,
+          "duration" : 4258
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击_我的资料_出生日期",
+        "time" : {
+          "start" : 1573010928644,
+          "stop" : 1573010931558,
+          "duration" : 2914
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取选择后_向上点年份",
+        "time" : {
+          "start" : 1573010931558,
+          "stop" : 1573010941679,
+          "duration" : 10121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "向上选择月份",
+        "time" : {
+          "start" : 1573010941680,
+          "stop" : 1573010952864,
+          "duration" : 11184
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "向上选择日期",
+        "time" : {
+          "start" : 1573010952864,
+          "stop" : 1573010963196,
+          "duration" : 10332
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击确定",
+        "time" : {
+          "start" : 1573010963197,
+          "stop" : 1573010966087,
+          "duration" : 2890
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取出生日期文本",
+        "time" : {
+          "start" : 1573010966087,
+          "stop" : 1573010968365,
+          "duration" : 2278
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页",
+      "time" : {
+        "start" : 1573010969950,
+        "stop" : 1573010987009,
+        "duration" : 17059
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到我的",
+      "time" : {
+        "start" : 1573010987009,
+        "stop" : 1573010996515,
+        "duration" : 9506
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573010989060,
+          "stop" : 1573010989545,
+          "duration" : 485
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573010989545,
+          "stop" : 1573010992886,
+          "duration" : 3341
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573010992886,
+          "stop" : 1573010993053,
+          "duration" : 167
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击我的",
+        "time" : {
+          "start" : 1573010993053,
+          "stop" : 1573010996515,
+          "duration" : 3462
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击我的",
+      "time" : {
+        "start" : 1573010996525,
+        "stop" : 1573010999524,
+        "duration" : 2999
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_个人中心_我的资料",
+      "time" : {
+        "start" : 1573010999524,
+        "stop" : 1573011003757,
+        "duration" : 4233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "修改日期",
+      "time" : {
+        "start" : 1573011003757,
+        "stop" : 1573011046461,
+        "duration" : 42704
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取出生日期文本",
+        "time" : {
+          "start" : 1573011003758,
+          "stop" : 1573011007832,
+          "duration" : 4074
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击_我的资料_出生日期",
+        "time" : {
+          "start" : 1573011007832,
+          "stop" : 1573011010704,
+          "duration" : 2872
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取选择后_向上点年份",
+        "time" : {
+          "start" : 1573011010704,
+          "stop" : 1573011020904,
+          "duration" : 10200
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "向上选择月份",
+        "time" : {
+          "start" : 1573011020905,
+          "stop" : 1573011031048,
+          "duration" : 10143
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "向上选择日期",
+        "time" : {
+          "start" : 1573011031049,
+          "stop" : 1573011041330,
+          "duration" : 10281
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击确定",
+        "time" : {
+          "start" : 1573011041331,
+          "stop" : 1573011044204,
+          "duration" : 2873
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取出生日期文本",
+        "time" : {
+          "start" : 1573011044204,
+          "stop" : 1573011046461,
+          "duration" : 2257
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页",
+      "time" : {
+        "start" : 1573011047880,
+        "stop" : 1573011065183,
+        "duration" : 17303
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到我的",
+      "time" : {
+        "start" : 1573011065183,
+        "stop" : 1573011080336,
+        "duration" : 15153
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573011067195,
+          "stop" : 1573011067694,
+          "duration" : 499
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573011067694,
+          "stop" : 1573011075216,
+          "duration" : 7522
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573011075216,
+          "stop" : 1573011075386,
+          "duration" : 170
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击我的",
+        "time" : {
+          "start" : 1573011075386,
+          "stop" : 1573011080336,
+          "duration" : 4950
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "957387d2123661d4",
+      "name" : "截图",
+      "source" : "957387d2123661d4.png",
+      "type" : "image/png",
+      "size" : 239906
+    }, {
+      "uid" : "15efc05ccf077da9",
+      "name" : "Captured log call",
+      "source" : "15efc05ccf077da9.txt",
+      "type" : "text/plain",
+      "size" : 2032
+    }, {
+      "uid" : "fe6820bec918f4a7",
+      "name" : "截图",
+      "source" : "fe6820bec918f4a7.png",
+      "type" : "image/png",
+      "size" : 239008
+    }, {
+      "uid" : "5d24ea93c08970a4",
+      "name" : "Captured log call",
+      "source" : "5d24ea93c08970a4.txt",
+      "type" : "text/plain",
+      "size" : 2032
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 32,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_40_我的资料"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_40_我的资料"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_我的资料.test_104_确认修改出生日期"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_40_我的资料"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7c12d3e89d45c9bc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,10 @@
+baseView.py                 64 INFO     点击text_车次!
+baseView.py                 69 ERROR    text_车次元素找不到!
+baseView.py                 64 INFO     点击text_确定添加!
+baseView.py                 69 ERROR    text_确定添加元素找不到!
+baseView.py                102 INFO     获取toast_提示:行李托运!
+baseView.py                107 ERROR    Message: 
+
+baseView.py                108 ERROR    toast_提示:行李托运元素找不到!
+baseView.py                264 INFO     截取 点击确定添加 图片 
+myassert.py                 10 INFO     失败!

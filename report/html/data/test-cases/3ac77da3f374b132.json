@@ -1,0 +1,612 @@
+{
+  "uid" : "3ac77da3f374b132",
+  "name" : "tc_车次详情.test_716_文案检查",
+  "fullName" : "testCase.test_2_71_选择车次.tc_车次详情.test_716_文案检查",
+  "historyId" : "4f0f6eea3cb706e90889b9055119fe1e",
+  "time" : {
+    "start" : 1573009723729,
+    "stop" : 1573010105140,
+    "duration" : 381411
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Lists differ: ['到达正点率', '站名', '到站', '停留', '出发', '状态', '到[50 chars]时提醒'] != [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\n\nFirst differing element 0:\n'到达正点率'\n0\n\n+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\n- ['到达正点率',\n-  '站名',\n-  '到站',\n-  '停留',\n-  '出发',\n-  '状态',\n-  '到站',\n-  '7个前序站',\n-  '7个后序站',\n-  '北京西 车次变更为K597',\n-  '添加行程，列车动态实时提醒']",
+  "statusTrace" : "self = <testCase.test_2_71_选择车次.tc_车次详情 testMethod=test_716_文案检查>\n\n    def test_716_文案检查(self):\n        dr = page_选择车次(self.driver)\n        dr.click_点击车次(\"K600\")\n        a = dr.check_选择车次结果页文案()\n>       self.myEq([\"到达正点率\",\"站名\",\"到站\",\"停留\",\"出发\",\"状态\",\"到站\",\"7个前序站\", \"7个后序站\",\"北京西 车次变更为K597\",\"添加行程，列车动态实时提醒\"], a, \"文案检查\")\n\ntestCase\\test_2_71_选择车次.py:58: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nfunction\\myassert.py:11: in myEq\n    return self.assertEqual(预期结果, 实际结果)\nE   AssertionError: Lists differ: ['到达正点率', '站名', '到站', '停留', '出发', '状态', '到[50 chars]时提醒'] != [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\nE   \nE   First differing element 0:\nE   '到达正点率'\nE   0\nE   \nE   + [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\nE   - ['到达正点率',\nE   -  '站名',\nE   -  '到站',\nE   -  '停留',\nE   -  '出发',\nE   -  '状态',\nE   -  '到站',\nE   -  '7个前序站',\nE   -  '7个后序站',\nE   -  '北京西 车次变更为K597',\nE   -  '添加行程，列车动态实时提醒']",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Lists differ: ['到达正点率', '站名', '到站', '停留', '出发', '状态', '到[50 chars]时提醒'] != [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\n\nFirst differing element 0:\n'到达正点率'\n0\n\n+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\n- ['到达正点率',\n-  '站名',\n-  '到站',\n-  '停留',\n-  '出发',\n-  '状态',\n-  '到站',\n-  '7个前序站',\n-  '7个后序站',\n-  '北京西 车次变更为K597',\n-  '添加行程，列车动态实时提醒']",
+    "statusTrace" : "self = <testCase.test_2_71_选择车次.tc_车次详情 testMethod=test_716_文案检查>\n\n    def test_716_文案检查(self):\n        dr = page_选择车次(self.driver)\n        dr.click_点击车次(\"K600\")\n        a = dr.check_选择车次结果页文案()\n>       self.myEq([\"到达正点率\",\"站名\",\"到站\",\"停留\",\"出发\",\"状态\",\"到站\",\"7个前序站\", \"7个后序站\",\"北京西 车次变更为K597\",\"添加行程，列车动态实时提醒\"], a, \"文案检查\")\n\ntestCase\\test_2_71_选择车次.py:58: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nfunction\\myassert.py:11: in myEq\n    return self.assertEqual(预期结果, 实际结果)\nE   AssertionError: Lists differ: ['到达正点率', '站名', '到站', '停留', '出发', '状态', '到[50 chars]时提醒'] != [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\nE   \nE   First differing element 0:\nE   '到达正点率'\nE   0\nE   \nE   + [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\nE   - ['到达正点率',\nE   -  '站名',\nE   -  '到站',\nE   -  '停留',\nE   -  '出发',\nE   -  '状态',\nE   -  '到站',\nE   -  '7个前序站',\nE   -  '7个后序站',\nE   -  '北京西 车次变更为K597',\nE   -  '添加行程，列车动态实时提醒']",
+    "steps" : [ {
+      "name" : "点击_车次",
+      "time" : {
+        "start" : 1573009723730,
+        "stop" : 1573009742344,
+        "duration" : 18614
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "检查选择车次结果页文案",
+      "time" : {
+        "start" : 1573009742345,
+        "stop" : 1573009909331,
+        "duration" : 166986
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009742345,
+          "stop" : 1573009758034,
+          "duration" : 15689
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f13695e2e02da890",
+          "name" : "获取toast提示到达正点率",
+          "source" : "f13695e2e02da890.txt",
+          "type" : "text/plain",
+          "size" : 15
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009758034,
+          "stop" : 1573009773586,
+          "duration" : 15552
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "eecbd633539d0588",
+          "name" : "获取toast提示站名",
+          "source" : "eecbd633539d0588.txt",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009773586,
+          "stop" : 1573009788456,
+          "duration" : 14870
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "797c96c40de885e2",
+          "name" : "获取toast提示到站",
+          "source" : "797c96c40de885e2.txt",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009788456,
+          "stop" : 1573009803713,
+          "duration" : 15257
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b3c69f489c608a47",
+          "name" : "获取toast提示停留",
+          "source" : "b3c69f489c608a47.txt",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009803713,
+          "stop" : 1573009818641,
+          "duration" : 14928
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3996dd03b396385",
+          "name" : "获取toast提示出发",
+          "source" : "3996dd03b396385.txt",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009818641,
+          "stop" : 1573009833842,
+          "duration" : 15201
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cef9d37e0e1f132",
+          "name" : "获取toast提示状态",
+          "source" : "cef9d37e0e1f132.txt",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009833842,
+          "stop" : 1573009848934,
+          "duration" : 15092
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ded747f79cce654a",
+          "name" : "获取toast提示到站",
+          "source" : "ded747f79cce654a.txt",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009848934,
+          "stop" : 1573009863822,
+          "duration" : 14888
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e4433304ce757a80",
+          "name" : "获取toast提示7个前序站",
+          "source" : "e4433304ce757a80.txt",
+          "type" : "text/plain",
+          "size" : 13
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009863822,
+          "stop" : 1573009878875,
+          "duration" : 15053
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a70094e70c387665",
+          "name" : "获取toast提示7个后序站",
+          "source" : "a70094e70c387665.txt",
+          "type" : "text/plain",
+          "size" : 13
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009878876,
+          "stop" : 1573009894195,
+          "duration" : 15319
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ebd7295039a9de38",
+          "name" : "获取toast提示北京西 车次变更为K597",
+          "source" : "ebd7295039a9de38.txt",
+          "type" : "text/plain",
+          "size" : 29
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009894195,
+          "stop" : 1573009909331,
+          "duration" : 15136
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ebf35e365fd77792",
+          "name" : "获取toast提示添加行程，列车动态实时提醒",
+          "source" : "ebf35e365fd77792.txt",
+          "type" : "text/plain",
+          "size" : 39
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 11,
+      "hasContent" : true,
+      "attachmentsCount" : 11,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击_车次",
+      "time" : {
+        "start" : 1573009910145,
+        "stop" : 1573009927507,
+        "duration" : 17362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "检查选择车次结果页文案",
+      "time" : {
+        "start" : 1573009927507,
+        "stop" : 1573010104249,
+        "duration" : 176742
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009927507,
+          "stop" : 1573009942482,
+          "duration" : 14975
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "835b9d5c98929e20",
+          "name" : "获取toast提示到达正点率",
+          "source" : "835b9d5c98929e20.txt",
+          "type" : "text/plain",
+          "size" : 15
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009942482,
+          "stop" : 1573009958821,
+          "duration" : 16339
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4c2efa8ee2a6088a",
+          "name" : "获取toast提示站名",
+          "source" : "4c2efa8ee2a6088a.txt",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009958821,
+          "stop" : 1573009977120,
+          "duration" : 18299
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1530c0fdc12be7b1",
+          "name" : "获取toast提示到站",
+          "source" : "1530c0fdc12be7b1.txt",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009977120,
+          "stop" : 1573009995193,
+          "duration" : 18073
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ced56cef226e91da",
+          "name" : "获取toast提示停留",
+          "source" : "ced56cef226e91da.txt",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573009995193,
+          "stop" : 1573010011338,
+          "duration" : 16145
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "37d906a4fdf23638",
+          "name" : "获取toast提示出发",
+          "source" : "37d906a4fdf23638.txt",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573010011338,
+          "stop" : 1573010026430,
+          "duration" : 15092
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cfc5f8a39ce612f0",
+          "name" : "获取toast提示状态",
+          "source" : "cfc5f8a39ce612f0.txt",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573010026430,
+          "stop" : 1573010041537,
+          "duration" : 15107
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fc514d76cbe0812f",
+          "name" : "获取toast提示到站",
+          "source" : "fc514d76cbe0812f.txt",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573010041537,
+          "stop" : 1573010056875,
+          "duration" : 15338
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "93c57179fd74172b",
+          "name" : "获取toast提示7个前序站",
+          "source" : "93c57179fd74172b.txt",
+          "type" : "text/plain",
+          "size" : 13
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573010056875,
+          "stop" : 1573010072991,
+          "duration" : 16116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a09d26ce1c57fc96",
+          "name" : "获取toast提示7个后序站",
+          "source" : "a09d26ce1c57fc96.txt",
+          "type" : "text/plain",
+          "size" : 13
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573010072991,
+          "stop" : 1573010089174,
+          "duration" : 16183
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3b0fe41d4e0b0693",
+          "name" : "获取toast提示北京西 车次变更为K597",
+          "source" : "3b0fe41d4e0b0693.txt",
+          "type" : "text/plain",
+          "size" : 29
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取toast提示",
+        "time" : {
+          "start" : 1573010089174,
+          "stop" : 1573010104249,
+          "duration" : 15075
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1fdc813826aeebb2",
+          "name" : "获取toast提示添加行程，列车动态实时提醒",
+          "source" : "1fdc813826aeebb2.txt",
+          "type" : "text/plain",
+          "size" : 39
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 11,
+      "hasContent" : true,
+      "attachmentsCount" : 11,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "97f0e06d48b0090d",
+      "name" : "Captured log call",
+      "source" : "97f0e06d48b0090d.txt",
+      "type" : "text/plain",
+      "size" : 2534
+    }, {
+      "uid" : "5473059326438827",
+      "name" : "Captured log call",
+      "source" : "5473059326438827.txt",
+      "type" : "text/plain",
+      "size" : 2534
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 26,
+    "hasContent" : true,
+    "attachmentsCount" : 24,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_2_71_选择车次"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_2_71_选择车次"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_车次详情.test_716_文案检查"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_2_71_选择车次"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3ac77da3f374b132.json",
+  "parameterValues" : [ ]
+}

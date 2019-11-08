@@ -10,25 +10,23 @@ from function.function import *
 
 
 class tc_站内商业(st_首页):
-    def setUp(self):
+
+
+    @classmethod
+    def setUpClass( cls ):
+        dr = page_站内商业(cls.driver)
+        dr.click_首页()
+
+        dr = page_切换站点(cls.driver)
+        a = dr.get_toast("浠水站")
+        if a != "浠水站":
+            dr.click_首页_切换站点按钮()
+            dr.bus_切换站点_切换到指定站点("浠水")
+        dr.act_上滑(3)
+
+    def setUp( self ):
         dr = page_站内商业(self.driver)
-        flag = get_flag()
-        if flag == 0:
-            dr.click_首页()
-            a = dr.get_toast("浠水站")
-            if a != "浠水站":
-                dr.click_首页_切换站点按钮()
-                dr = page_切换站点(self.driver)
-                dr.bus_切换站点_切换到指定站点("浠水")
-                dr.act_上滑(3)
-                dr.click_首页_车站商业查看全部()
-                update_flag(1)
-            else:
-                dr.act_上滑(3)
-                dr.click_首页_车站商业查看全部()
-                update_flag(1)
-        else:
-            dr.click_首页_车站商业查看全部()
+        dr.click_首页_车站商业查看全部()
 
     def test_301_所有楼层展开(self):
         logging.info("====test_301_所有楼层展开=====")

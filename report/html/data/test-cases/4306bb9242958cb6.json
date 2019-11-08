@@ -1,0 +1,292 @@
+{
+  "uid" : "4306bb9242958cb6",
+  "name" : "tc_行程详情与分享.test_05_列车信息",
+  "fullName" : "testCase.test_80_行程详情与分享.tc_行程详情与分享.test_05_列车信息",
+  "historyId" : "a7a6c1edc773fc811a955272f71ae16b",
+  "time" : {
+    "start" : 1573017355352,
+    "stop" : 1573017423150,
+    "duration" : 67798
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "向上滑动",
+      "time" : {
+        "start" : 1573017361489,
+        "stop" : 1573017380203,
+        "duration" : 18714
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取列车信息文本",
+      "time" : {
+        "start" : 1573017380203,
+        "stop" : 1573017411437,
+        "duration" : 31234
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取文本提示",
+        "time" : {
+          "start" : 1573017380203,
+          "stop" : 1573017384977,
+          "duration" : 4774
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取文本提示",
+        "time" : {
+          "start" : 1573017384977,
+          "stop" : 1573017389167,
+          "duration" : 4190
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取文本提示",
+        "time" : {
+          "start" : 1573017389167,
+          "stop" : 1573017394176,
+          "duration" : 5009
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取文本提示",
+        "time" : {
+          "start" : 1573017394176,
+          "stop" : 1573017399286,
+          "duration" : 5110
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取文本提示",
+        "time" : {
+          "start" : 1573017399286,
+          "stop" : 1573017403378,
+          "duration" : 4092
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取文本提示",
+        "time" : {
+          "start" : 1573017403378,
+          "stop" : 1573017407365,
+          "duration" : 3987
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取文本提示",
+        "time" : {
+          "start" : 1573017407365,
+          "stop" : 1573017411437,
+          "duration" : 4072
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573017412147,
+        "stop" : 1573017423150,
+        "duration" : 11003
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573017413787,
+          "stop" : 1573017414221,
+          "duration" : 434
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573017414221,
+          "stop" : 1573017418243,
+          "duration" : 4022
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573017418243,
+          "stop" : 1573017418710,
+          "duration" : 467
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573017418710,
+          "stop" : 1573017423150,
+          "duration" : 4440
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "71227996a2401803",
+      "name" : "截图",
+      "source" : "71227996a2401803.png",
+      "type" : "image/png",
+      "size" : 219731
+    }, {
+      "uid" : "b94140db28560591",
+      "name" : "Captured log call",
+      "source" : "b94140db28560591.txt",
+      "type" : "text/plain",
+      "size" : 1134
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_80_行程详情与分享"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_80_行程详情与分享"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_行程详情与分享.test_05_列车信息"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_80_行程详情与分享"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4306bb9242958cb6.json",
+  "parameterValues" : [ ]
+}

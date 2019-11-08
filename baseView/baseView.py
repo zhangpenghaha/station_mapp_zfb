@@ -2,6 +2,7 @@
 import logging
 import time
 import os
+from common.loc import *
 import allure
 from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import NoSuchElementException
@@ -33,10 +34,34 @@ class baseView(object):
         else:
             return self.driver.find_element_by_android_uiautomator(loc)
 
+    def get_加载中(self):
+        i = 0
+        while True:
+            if i == 60:
+                return
+            try:
+                i += 1
+                WebDriverWait(self.driver, 1).until(lambda x: x.find_element_by_android_uiautomator(loc_text("加载中")))
+            except TimeoutException:
+                return
+
+    def get_重新加载(self):
+        i = 0
+        while True:
+            if i == 60:
+                return
+            try:
+                i += 1
+                WebDriverWait(self.driver, 1).until(lambda x: x.find_element_by_android_uiautomator(loc_text("重新加载 ")))
+                self.driver.find_element_by_android_uiautomator(loc_text("重新加载 ")).click()
+            except TimeoutException:
+                return
+
     def click_点击(self, loc, info):
-        time.sleep(5)
+        self.get_重新加载()
+        self.get_加载中()
         # allure.attach("点击" + info, info, allure.attach_type.TEXT)
-        logging.info("点击" + info + "!")
+        # logging.info("点击" + info + "!")
         try:
             WebDriverWait(self.driver, 15).until(lambda x: x.find_element_by_android_uiautomator(loc))
             self.driver.find_element_by_android_uiautomator(loc).click()
@@ -56,8 +81,10 @@ class baseView(object):
         return self.driver.switch_to.context('NATIVE_APP')
 
     def send_输入(self, loc, info, mes):
+        self.get_重新加载()
+        self.get_加载中()
         allure.attach("输入" + mes, mes, allure.attach_type.TEXT)
-        logging.info(info + "输入" + mes + "!")
+        # logging.info(info + "输入" + mes + "!")
         # allure.attach( mes, allure.attach_type.TEXT)
         try:
             WebDriverWait(self.driver, 12).until(lambda x: x.find_element_by_android_uiautomator(loc))
@@ -70,7 +97,9 @@ class baseView(object):
             return 1
 
     def get_元素文本(self, loc, info,timeout=10):
-        logging.info("获取" + info + "!")
+        self.get_重新加载()
+        self.get_加载中()
+        # logging.info("获取" + info + "!")
         try:
             WebDriverWait(self.driver, timeout).until(lambda x: x.find_element_by_android_uiautomator(loc))
             ele = self.driver.find_element_by_android_uiautomator(loc).text
@@ -82,8 +111,10 @@ class baseView(object):
             return ele
 
     def clear_清除(self, loc, info):
+        self.get_重新加载()
+        self.get_加载中()
 
-        logging.info("清除" + info + "!")
+        # logging.info("清除" + info + "!")
         try:
             WebDriverWait(self.driver, 8).until(lambda x: x.find_element_by_android_uiautomator(loc))
             self.driver.find_element_by_android_uiautomator(loc).clear()
@@ -176,6 +207,8 @@ class baseView(object):
 
     # 滑动操作，传入起始坐标点，和滑动持续时间（单位秒）
     def act_滑动(self, start_x, start_y, end_x, end_y, duration):
+        self.get_重新加载()
+        self.get_加载中()
         x1 = int(start_x)
         x2 = int(end_x)
         y1 = int(start_y)

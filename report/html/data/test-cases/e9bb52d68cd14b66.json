@@ -1,0 +1,342 @@
+{
+  "uid" : "e9bb52d68cd14b66",
+  "name" : "tc_首页.test_110_首页服务评价跳转",
+  "fullName" : "testCase.test_1_首页.tc_首页.test_110_首页服务评价跳转",
+  "historyId" : "b604b496822d0dd2a837b3276028eec2",
+  "time" : {
+    "start" : 1573009300135,
+    "stop" : 1573009437493,
+    "duration" : 137358
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 0 != '【服务评价】欢迎您对铁路出行服务进行评价！'",
+  "statusTrace" : "self = <testCase.test_1_首页.tc_首页 testMethod=test_110_首页服务评价跳转>\n\n    def test_110_首页服务评价跳转(self):\n        logging.info(\"=====test_110_首页服务评价跳转=====\")\n        dr = page_首页(self.driver)\n        dr.act_上滑(4)\n        dr.click_首页服务评价()\n        dr = page_首页底部服务页面(self.driver)\n        a = dr.get_服务评价_文章标题()\n>       self.myEq(a, \"【服务评价】欢迎您对铁路出行服务进行评价！\", \"test_105_首页常见问题跳转\")\n\ntestCase\\test_1_首页.py:389: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nfunction\\myassert.py:11: in myEq\n    return self.assertEqual(预期结果, 实际结果)\nE   AssertionError: 0 != '【服务评价】欢迎您对铁路出行服务进行评价！'",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 0 != '【服务评价】欢迎您对铁路出行服务进行评价！'",
+    "statusTrace" : "self = <testCase.test_1_首页.tc_首页 testMethod=test_110_首页服务评价跳转>\n\n    def test_110_首页服务评价跳转(self):\n        logging.info(\"=====test_110_首页服务评价跳转=====\")\n        dr = page_首页(self.driver)\n        dr.act_上滑(4)\n        dr.click_首页服务评价()\n        dr = page_首页底部服务页面(self.driver)\n        a = dr.get_服务评价_文章标题()\n>       self.myEq(a, \"【服务评价】欢迎您对铁路出行服务进行评价！\", \"test_105_首页常见问题跳转\")\n\ntestCase\\test_1_首页.py:389: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nfunction\\myassert.py:11: in myEq\n    return self.assertEqual(预期结果, 实际结果)\nE   AssertionError: 0 != '【服务评价】欢迎您对铁路出行服务进行评价！'",
+    "steps" : [ {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573009300138,
+        "stop" : 1573009315136,
+        "duration" : 14998
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "向上滑动",
+      "time" : {
+        "start" : 1573009318136,
+        "stop" : 1573009337108,
+        "duration" : 18972
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页_服务评价",
+      "time" : {
+        "start" : 1573009337108,
+        "stop" : 1573009345603,
+        "duration" : 8495
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573009360032,
+        "stop" : 1573009370900,
+        "duration" : 10868
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573009361448,
+          "stop" : 1573009361826,
+          "duration" : 378
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573009361826,
+          "stop" : 1573009365130,
+          "duration" : 3304
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573009365130,
+          "stop" : 1573009365906,
+          "duration" : 776
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573009365906,
+          "stop" : 1573009370900,
+          "duration" : 4994
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1573009370923,
+        "stop" : 1573009386405,
+        "duration" : 15482
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "向上滑动",
+      "time" : {
+        "start" : 1573009389405,
+        "stop" : 1573009407021,
+        "duration" : 17616
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页_服务评价",
+      "time" : {
+        "start" : 1573009407021,
+        "stop" : 1573009413230,
+        "duration" : 6209
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "返回到首页",
+      "time" : {
+        "start" : 1573009426430,
+        "stop" : 1573009437471,
+        "duration" : 11041
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573009427930,
+          "stop" : 1573009428546,
+          "duration" : 616
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击返回按钮",
+        "time" : {
+          "start" : 1573009428546,
+          "stop" : 1573009432433,
+          "duration" : 3887
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "获取返回按钮元素",
+        "time" : {
+          "start" : 1573009432433,
+          "stop" : 1573009433749,
+          "duration" : 1316
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击首页",
+        "time" : {
+          "start" : 1573009433749,
+          "stop" : 1573009437471,
+          "duration" : 3722
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8865e5d68f11053d",
+      "name" : "截图",
+      "source" : "8865e5d68f11053d.png",
+      "type" : "image/png",
+      "size" : 279872
+    }, {
+      "uid" : "5c6555be53ab7a85",
+      "name" : "Captured log call",
+      "source" : "5c6555be53ab7a85.txt",
+      "type" : "text/plain",
+      "size" : 1399
+    }, {
+      "uid" : "d329a5016acd6374",
+      "name" : "截图",
+      "source" : "d329a5016acd6374.png",
+      "type" : "image/png",
+      "size" : 279782
+    }, {
+      "uid" : "7c427481cc60de76",
+      "name" : "Captured log call",
+      "source" : "7c427481cc60de76.txt",
+      "type" : "text/plain",
+      "size" : 1399
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-NPMSMCDMRF4"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_首页.test_110_首页服务评价跳转"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_1_首页"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e9bb52d68cd14b66.json",
+  "parameterValues" : [ ]
+}

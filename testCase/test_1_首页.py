@@ -351,9 +351,9 @@ class tc_首页(st_首页):
         logging.info("=====test_075_功能待完善提示=====")
         dr = page_首页(self.driver)
         dr.act_上滑(3)
-        dr.click_首页更多服务_服务项("饮水机")
-        a = dr.get_toast("饮水处")
-        self.myEq(a, "饮水处", "功能待完善提示")
+        dr.click_首页更多服务_服务项("饮水处")
+        a = dr.get_toast("注意事项")
+        self.myEq(a, "注意事项", "功能待完善提示")
 
 
     "首页底部服务页面"
